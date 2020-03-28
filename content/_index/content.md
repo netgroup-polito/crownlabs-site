@@ -1,10 +1,14 @@
 +++
-url = "/"
-title = "CrownLabs"
-date = "2017-09-07"
-description = ""
-+++
+fragment = "content"
+#disabled = true
+date = "2017-10-05"
+weight = 110
+#background = "secondary"
 
+#title = "Content without sidebar"
+#subtitle = "Full width content fragment"
+#title_align = "left" # Default is center, can be left, right or center
++++
 
 CrownLabs is a set of services that enable to deliver of **remote computing labs** through **per-user virtual machines**.
 
@@ -16,3 +20,4 @@ Optionally, a student can share his remote desktop with his groupmates, enabling
 Also professors can connect to the remote desktop of the student and interact with his virtual machines, e.g., in case some help is required.
 
 Students have full control of the lifecycle of their VMs (e.g., start, stop, reboot). Access is secured and protected through encrypted sessions.
+

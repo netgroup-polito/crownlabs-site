@@ -6,12 +6,12 @@ weight = 0
 #background = ""
 
 [repo_button]
-  url = "https://github.com/okkur/syna"
+  url = "https://github.com/netgroup-polito/crownlabs"
   text = "Star" # default: "Star"
   icon = "fab fa-github" # defaults: "fab fa-github"
 
 # Branding options
 [asset]
-  image = "logo.svg"
-  text = "Syna"
+#  image = "logo.svg"
+#  text = "Syna"
 +++
