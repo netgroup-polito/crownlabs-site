@@ -3,17 +3,17 @@ fragment = "hero"
 #disabled = true
 date = "2016-09-07"
 weight = 50
-background = "light" # can influence the text color
+background = "dark" # can influence the text color
 particles = true
 
 title = "CrownLabs"
-subtitle = "Crownlabs 4 ever!"
+subtitle = "CrownLabs"
 
 [header]
-  image = "header.jpg"
+  image = "polito.jpg"
 
 [asset]
-#  image = "logo.svg"
+  image = "logo.png"
   width = "500px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
@@ -25,7 +25,7 @@ subtitle = "Crownlabs 4 ever!"
 [[buttons]]
   text = "Github"
   url = "https://github.com/netgroup-polito/CrownLabs"
-  color = "primary"
+  color = "info"
 
 #[[buttons]]
 #  text = "Button"
