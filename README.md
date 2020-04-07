@@ -3,20 +3,10 @@
 The website is created with Hugo, using the [Syna](https://themes.gohugo.io/theme/syna/) theme.
 
 ## Prerequisites
-- [Install Git](https://git-scm.com/downloads).
 - [Install Go](https://golang.org/doc/install).
-- [Install Hugo](https://gohugo.io/getting-started/installing/). Depending on your system, this might require Scoop, Choclatey, or other software.
+- [Install Hugo](https://gohugo.io/getting-started/installing/).
 
-
-## Installation
-
-To start using this starter you need to clone or download this repository and update it's git submodules (Syna theme is added as a submodule).
-
-```
-git clone https://git.okkur.org/syna-start project-name && cd project-name
-git submodule init
-git submodule update
-```
+You may have to define some environment variables to allow Hugo to work (e.g., `source ./profile` in case those variables have been added to the `.profile` file).
 
 ## Usage
 
@@ -24,7 +14,8 @@ To start your website run the following commands:
 
 **Development**:
 ```
-$ hugo server -D # This command starts the Hugo server and watches the site directory for changes.
+# This command starts the Hugo server and watches the site directory for changes.
+$ hugo server -D 
 ```
 
 To see your website, simply connect to [http://localhost:1313/](http://localhost:1313/).
@@ -32,5 +23,7 @@ To see your website, simply connect to [http://localhost:1313/](http://localhost
 
 **Production**:
 ```
-$ hugo # This command generates the static website in the public/ directory. If you do not have a site, then it gives errors about missing layout files.
+# This command generates the static website in the public/ directory.
+# If you do not have a site, then it gives errors about missing layout files.
+$ hugo 
 ```
