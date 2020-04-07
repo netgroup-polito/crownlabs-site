@@ -1,11 +1,11 @@
 +++
 fragment = "footer"
 #disabled = true
-date = "2016-09-07"
+date = "2020-04-07"
 weight = 1200
 #background = ""
 #
-#menu_title = "Link Title"
+menu_title = "Contacts"
 #
 #[asset]
 #  title = "Logo Title"
@@ -14,6 +14,6 @@ weight = 1200
 #  url = "#"
 +++
 
-#### CrownLabs
+#### Credits
 
-This project is proudly provided by Politecnico di Torino
+This project is proudly provided by [Politecnico di Torino](http://www.polito.it).

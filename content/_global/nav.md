@@ -1,17 +1,17 @@
 +++
 fragment = "nav"
 #disabled = true
-date = "2018-05-17"
+date = "2020-04-07"
 weight = 0
 #background = ""
 
 [repo_button]
   url = "https://github.com/netgroup-polito/crownlabs"
-  text = "Star" # default: "Star"
+  text = "Join!" # default: "Star"
   icon = "fab fa-github" # defaults: "fab fa-github"
 
 # Branding options
-[asset]
+#[asset]
 #  image = "logo.svg"
 #  text = "Syna"
 +++

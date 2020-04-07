@@ -23,7 +23,7 @@ lastmod = ["lastmod", ":git", "date"]
 
 [params]
   name = "CrownLabs"
-  description = "Remote Laboratories for everyone"
+  description = "Remote laboratories for everyone"
 
   [params.style]
     #background = "secondary"
@@ -70,38 +70,38 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.main]]
   url = "/about"
-  name = "About Us"
+  name = "About"
   weight = 20
 
 [[menu.main]]
-  url = "#contact"
+  url = "/contact"
   name = "Contact"
   weight = 30
 
-[[menu.footer]]
-  url = "#"
-  name = "Link"
-  weight = 10
+#[[menu.footer]]
+#  url = "https://github.com/netgroup-polito/crownlabs/"
+#  name = "GitHub"
+#  weight = 10
 
 [[menu.footer]]
-  url = "#"
-  name = "Long Link"
+  url = "/contact"
+  name = "Web"
   weight = 30
 
 [[menu.footer]]
-  url = "#"
-  name = "Tiny Link"
+  url = "https://crown-team-group.slack.com"
+  name = "Slack"
   weight = 30
 
-[[menu.copyright_footer]]
-  url = "/about"
-  name = "About Us"
-  weight = 10
+#[[menu.copyright_footer]]
+#  url = "/about"
+#  name = "About"
+#  weight = 10
 
-[[menu.copyright_footer]]
-  url = "#"
-  name = "Another Link"
-  weight = 30
+#[[menu.copyright_footer]]
+#  url = "#"
+#  name = "Another Link"
+#  weight = 30
 
 [[menu.footer_social]]
   weight = 20
@@ -114,3 +114,9 @@ lastmod = ["lastmod", ":git", "date"]
   name = "linkedin"
   pre = "fab fa-linkedin-in"
   url = "#"
+
+[[menu.footer_social]]
+  weight = 30
+  name = "github"
+  pre = "fab fa-github"
+  url = "https://github.com/netgroup-polito/crownlabs/"
