@@ -17,9 +17,8 @@ sticky = true
   text = "Login @Polito"
   icon = "fas fa-sign-in-alt"
 
-
 # Branding options
-#[asset]
-#  image = "logo.svg"
-#  text = "Syna"
+[asset]
+  image = "logo.svg"
+  text = "CrownLabs"
 +++
