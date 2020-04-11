@@ -51,14 +51,24 @@ lastmod = ["lastmod", ":git", "date"]
     pro = false
 
   [params.colors]
-    primary = "#00838F"
-    secondary = "#868e96"
-    success = "#008f54"
-    info = "#00c9dc"
+#0 54 118
+    primary = "#003676"
+#    primary = "#00838F"
+    secondary = "#ffffff"
+#    secondary = "#868e96"
+    success = "#ffffff"
+#    success = "#008f54"
+    info = "#ffffff"
+#    info = "#00c9dc"
+#    warning = "#ffffff"
     warning = "#fdf314"
+#    danger = "#ffffff"
     danger = "#dc1200"
-    light = "#f8f9fa"
-    dark = "#343a40"
+    light = "#ffffff"
+#    light = "#f8f9fa"
+#    dark = "#343a40"
+#0 54 118
+    dark = "#003676"
 
 # main/prepend/postpend menus are displayed in nav fragment.
 # Keep an eye out for updates. These will be moved out to make navbar more

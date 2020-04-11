@@ -3,7 +3,7 @@ fragment = "nav"
 #disabled = true
 date = "2020-04-07"
 weight = 0
-background = "dark"
+background = "primary"
 search = true
 sticky = true
 

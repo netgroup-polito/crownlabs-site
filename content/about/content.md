@@ -1,7 +1,7 @@
 +++
 fragment = "content"
 #disabled = true
-date = "2020-04-06"
+date = "2020-04-11"
 weight = 100
 #background = ""
 
@@ -11,41 +11,58 @@ weight = 100
 
 ## About CrownLabs
 
-CrownLabs is currently **developed**, **maintained** and **operated** by a group of volunteers, mainly MSc students in Computer Engineering, enrolled at [Politecnico di Torino](http://www.polito.it), Italy.
+CrownLabs is currently **developed**, **maintained** and **operated** by a group of volunteers, mainly MSc students in [Computer Engineering](http://www.dauin.polito.it/) at [Politecnico di Torino](http://www.polito.it), Italy.
 
 All the work is done for **fun** and for **learning**. It is a nice surprise to see to which extent the university lectures are really useful in the real work, but also how much additional work is needed to apply the learnt theory to practice.
 
-**New volunteers are always welcome**, especially because students (sooner or leader) graduate and slowly decrease their involvement here!
+**New volunteers are always welcome**, especially because students (sooner or later) graduate and slowly decrease their involvement in this project!
 
 
 
 ## History
-This service was set up in about three weeks by a group of students enrolled in the MSc of Computing Engineering at Politecnico di Torino (Italy), under the pressure of the Coronavirus, in March 2020.
+This service was set up in about three weeks by a group of students enrolled in the MSc of [Computer Engineering](http://www.dauin.polito.it/) at [Politecnico di Torino](http://www.polito.it) (Italy), under the pressure of the [Coronavirus](https://en.wikipedia.org/wiki/Coronavirus), in March 2020.
 
-This virus hit hard the entire country; all students were sent home, the University set up private video conferencing servers in a few days, and classes were transformed into remote lectures.
+This virus [hit hard the entire country](https://www.worldometers.info/coronavirus/country/italy/); all students were sent home, the University set up on-premise video conferencing services in a few days, and traditional classes were moved into remote lectures.
 
 However, there was no answer for labs, in particular computing labs. How can students practice with their coding labs, simulations, cloud, networking?
 
-The CrownLabs project was set up to answer to this question: a group of volunteering students decided to put their theorethical knowledge into practice.
+The CrownLabs project was set up to answer to this question: a group of volunteering students decided to put their theoretical knowledge into practice.
 
-It was a wonderful ride: creating the team, sharing the knowledge of different people, defining the objectives, assigning the tasks, a lot of collaboration, a lot of day and night work.
+It was a wonderful ride: creating the team, leveraging the knowledge of different people, defining the objectives, assigning the tasks, a lot of collaboration, a lot of day and night work.
 
-The result was a nice playground for everybody: we demonstrated that with the proper knowledge, team spirit, and a great extent of sacrifice, we can achieve great results.
-And, we gave birth to this project, which may be useful also outside our University.
+The result was a nice playground for everybody: we demonstrated that with the proper knowledge, team spirit, and a great extent of sacrifice, we can achieve great results in, really, a few weeks.
+In fact, the first lab was delivered **three weeks** after the beginning of this project: students of the Local Area Networks subject were the first to play with CrownLabs, practicing with (virtualized) network switches running in the [GNS3](https://www.gns3.com/) network emulator.
+
+And, more important, we gave birth to this project, which may be useful also outside our University.
 
 
-## Why CrownLabs?
+## Why "CrownLabs"?
 In Italian, *Corona* means *Crown*.
 The name *CrownLabs* is the logical consequence: a project born under the pressure of the (nasty) Coronavirus!
 
 
-## Current team
+## The Team
 
-TODO
+| | | | |
+|:-:|:-:|:-:|:-:|
+![Aldo Lacuku](/images/aldo.jpg "Aldo Lacuku") | ![Alex Palesandro](/images/alex.jpg "Alex Palesandro") | ![Andrea Cossio](/images/andrea.jpg "Andrea Cossio") | ![Francesco Borgogni](/images/francesco.jpg "Francesco Borgogni")
+**Aldo Lacuku** | **Alex Palesandro** | **Andrea Cossio** | **Francesco Borgogni**
+Security | The Boss | NoVNC | Kubernetes CRD
+![Fulvio Risso](/images/fulvio.jpg "Fulvio Risso") | ![Gabriele Filaferro](/images/gabriele.jpg "Gabriele Filaferro") | ![Giuseppe Ognibene](/images/giuseppe.jpg "Giuseppe Ognibene") | ![Hamza Rhaouati](/images/hamza.jpg "Hamza Rhaouati")
+**Fulvio Risso** | **Gabriele Filaferro** | **Giuseppe Ognibene** | **Hamza Rhaouati**
+Project coordinator | GUI | Monitoring | Load balancing
+![Marco Iorio](/images/marco.jpg "Marco Iorio") | ![Michele Greco](/images/michele.jpg "Michele Greco") | ![Mattia Lavacca](/images/mattia.jpg "Mattia Lavacca") | ![Serena Flocco](/images/serena.jpg "Serena Flocco")
+**Marco Iorio** | **Michele Greco** | **Mattia Lavacca** | **Serena Flocco**
+Scripting | GUI | Automation | GUI 
+| | ![Simone Magnani](/images/simone.jpg "Simone Magnani") | ![Stefano Galantino](/images/stefano.jpg "Stefano Galantino") 
+| | **Simone Magnani** | **Stefano Galantino**
+| | API server | Ingress controller
 
 
-## Original team
-Given the way this project was set up at the beginning, it is worth mentioning all the people who spend their nights on it.
+
+
+## Starting team
+Given the way this project was born, it is worth remembering all the people who spend their nights on the first few weeks of the project!
 
 
 [comment]: <> (The two lines belows are just needed to avoid printing the table header)
