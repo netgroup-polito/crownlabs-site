@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: website-prod
+  name: website
+spec:
+  selector:
+    app: website-prod

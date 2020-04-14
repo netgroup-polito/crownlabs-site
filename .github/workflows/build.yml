@@ -27,3 +27,39 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: "latest,${{ github.sha }}"
       if: github.ref != 'refs/heads/master'
+    - name: createKubeConfig
+      run:  echo ${{ secrets.KUBECONFIG }} | base64 -d > ${{ github.workspace }}/kubeconfig
+    - name: Deploy Production Website
+      run: |
+        docker run --rm --name kubectl \
+                -v ${{ github.workspace }}/kubeconfig:/.kube/config \
+                -v ${{ github.workspace }}/deployment:/deployment \
+                crownlabs/builder \
+                apply -k /deployment/inventory/prod && \
+        kubectl rollout restart -n website \
+        website-prod
+      if: github.ref == 'refs/heads/master'
+    - name: Deploy Test Website
+      run: |
+        docker run --rm --name kubectl \
+                -v ${{ github.workspace }}/kubeconfig:/.kube/config \
+                -v ${{ github.workspace }}/deployment:/deployment \
+                crownlabs/builder \
+                apply -k /deployment/inventory/test
+      if: github.ref != 'refs/heads/master'
+    - name: Deploy Production Website
+      run: |
+        docker run --rm --name kubectl \
+                -v ${{ github.workspace }}/kubeconfig:/.kube/config \
+                -v ${{ github.workspace }}/deployment:/deployment \
+                crownlabs/builder \
+                rollout restart -n website deployment website-prod
+      if: github.ref == 'refs/heads/master'
+    - name: Deploy Test Website
+      run: |
+        docker run --rm --name kubectl \
+                -v ${{ github.workspace }}/kubeconfig:/.kube/config \
+                -v ${{ github.workspace }}/deployment:/deployment \
+                crownlabs/builder \
+                rollout restart -n website-test deployment website-test
+      if: github.ref != 'refs/heads/master'
