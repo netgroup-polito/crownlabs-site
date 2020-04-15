@@ -40,4 +40,4 @@ If you look at all the features of CrownLabs, you can easily spot the difference
 - support for multiple environment, each one targeting a given lab (e.g., programming is different from networking);
 - can restore a *clean* environment whenever needed.
 
-If you are just curious, ask for an evaluation account and try yourself!
+If you are just curious, ask for an [evaluation account](/contact) and try yourself!
