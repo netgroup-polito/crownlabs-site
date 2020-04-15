@@ -13,7 +13,7 @@ sticky = true
 #  icon = "fab fa-github" # defaults: "fab fa-github"
 
 [repo_button]
-  url = "login/"
+  url = "/login"
   text = "Login @Polito"
   icon = "fas fa-sign-in-alt"
 
