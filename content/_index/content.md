@@ -13,7 +13,7 @@ weight = 110
 
 CrownLabs provides immediate access to your **remote computing labs**, without any special requirements: just a **browser**!
 
-You do no longer pollute your laptop with all the tools required by the subjects you are enrolled in: connect to your remote environment, with everything **ready to go**, already set up.
+Do not pollute your laptop with all the tools required by your subjects: connect to your remote environment, with everything **ready to go**, already set up.
 
 You can also cooperate with your **groupmates**, sharing the same working environment and allowing both to operate at the same time.
 

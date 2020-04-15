@@ -18,14 +18,31 @@ subtitle = "CrownLabs"
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
-  text = "Users"
-  url = "/users"
+  text = "Discover"
+  url = "/discover"
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
   color = "primary" 
 
 [[buttons]]
-  text = "Developers"
-  url = "/devops"
+  text = "Customize"
+  url = "/customize"
+# primary, secondary, success, danger, warning, info, light, dark, link - default: primary
+  color = "primary" 
+
+[[buttons]]
+  text = "Login @Polito"
+  url = "/login"
+  color = "success"
+
+[[buttons]]
+  text = "Deploy"
+  url = "/deploy"
+# primary, secondary, success, danger, warning, info, light, dark, link - default: primary
+  color = "primary" 
+
+[[buttons]]
+  text = "Extend"
+  url = "/extend"
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
   color = "primary" 
 
@@ -33,11 +50,6 @@ subtitle = "CrownLabs"
 #  text = "Github"
 #  url = "https://github.com/netgroup-polito/CrownLabs"
 #  color = "info"
-
-[[buttons]]
-  text = "Info"
-  url = "/about"
-  color = "primary"
 
 #[[buttons]]
 #  text = "About"
