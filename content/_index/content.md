@@ -8,6 +8,8 @@ align = "left"
 
 title = "Remote Labs, with just a browser!"
 #subtitle = "Any special requirements"
+[asset]
+  image = "/home/browser.png"
 +++
 
 CrownLabs provides immediate access to your **remote computing labs**, without any special requirements: just a **browser**!

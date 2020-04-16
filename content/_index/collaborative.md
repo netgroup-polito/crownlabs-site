@@ -12,6 +12,8 @@ subtitle= "cooperate with your **groupmates**, sharing the same working environm
 # Subtitle pre and post item
 #pre = "Awesome screenshot"
 #post = "Showcasing Syna"
+[asset]
+  image = "/home/collaborative.png"
 +++
 
 And, when you are lost, you can ask your **instructor** for help: he can operate in your working environment as well, instantly.
