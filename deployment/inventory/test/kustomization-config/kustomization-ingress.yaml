@@ -8,7 +8,7 @@ spec:
       http:
         paths:
           - backend:
-              serviceName: website-test
+              serviceName: website
               servicePort: 80
             path: /
   tls:
