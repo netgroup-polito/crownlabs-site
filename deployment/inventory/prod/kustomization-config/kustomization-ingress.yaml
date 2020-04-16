@@ -8,7 +8,7 @@ spec:
       http:
         paths:
           - backend:
-              serviceName: website-prod
+              serviceName: website
               servicePort: 80
             path: /
   tls:

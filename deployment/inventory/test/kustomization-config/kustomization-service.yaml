@@ -1,9 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  labels:
-    app: website-test
   name: website
 spec:
   selector:
-    app: website-test
+    app: website

@@ -34,32 +34,39 @@ jobs:
         docker run --rm --name kubectl \
                 -v ${{ github.workspace }}/kubeconfig:/.kube/config \
                 -v ${{ github.workspace }}/deployment:/deployment \
-                crownlabs/builder \
-                apply -k /deployment/inventory/prod && \
-        kubectl rollout restart -n website \
-        website-prod
+                crownlabs/builder:1.18 \
+                apply -k /deployment/inventory/prod
       if: github.ref == 'refs/heads/master'
     - name: Deploy Test Website
       run: |
         docker run --rm --name kubectl \
                 -v ${{ github.workspace }}/kubeconfig:/.kube/config \
                 -v ${{ github.workspace }}/deployment:/deployment \
-                crownlabs/builder \
+                crownlabs/builder:1.18 \
                 apply -k /deployment/inventory/test
       if: github.ref != 'refs/heads/master'
-    - name: Deploy Production Website
+    - name: Deploy Production Website (DRY-RUN)
       run: |
         docker run --rm --name kubectl \
                 -v ${{ github.workspace }}/kubeconfig:/.kube/config \
                 -v ${{ github.workspace }}/deployment:/deployment \
-                crownlabs/builder \
-                rollout restart -n website deployment website-prod
+                crownlabs/builder:1.18 \
+                apply -k /deployment/inventory/prod \
+                --dry-run=server 
+      if: github.ref != 'refs/heads/master'
+    - name: Deploy Production Website - Rollout containers
+      run: |
+        docker run --rm --name kubectl \
+                -v ${{ github.workspace }}/kubeconfig:/.kube/config \
+                -v ${{ github.workspace }}/deployment:/deployment \
+                crownlabs/builder:1.18 \
+                rollout restart -n website deployment website
       if: github.ref == 'refs/heads/master'
-    - name: Deploy Test Website
+    - name: Deploy Test Website - Rollout Containers
       run: |
         docker run --rm --name kubectl \
                 -v ${{ github.workspace }}/kubeconfig:/.kube/config \
                 -v ${{ github.workspace }}/deployment:/deployment \
-                crownlabs/builder \
-                rollout restart -n website-test deployment website-test
+                crownlabs/builder:1.18 \
+                rollout restart -n website-test deployment website
       if: github.ref != 'refs/heads/master'
