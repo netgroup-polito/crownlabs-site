@@ -13,7 +13,7 @@ subtitle = "CrownLabs"
   image = "polito.jpg"
 
 [asset]
-  image = "logo.png"
+  image = "logo.svg"
   width = "500px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
@@ -57,4 +57,3 @@ subtitle = "CrownLabs"
 #  color = "primary"
 
 +++
-
