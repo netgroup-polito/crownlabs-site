@@ -137,3 +137,9 @@ lastmod = ["lastmod", ":git", "date"]
   name = "github"
   pre = "fab fa-github"
   url = "https://github.com/netgroup-polito/crownlabs/"
+
+[[menu.footer_social]]
+  weight = 30
+  name = "youtube"
+  pre = "fab fa-youtube"
+  url = "https://youtu.be/i7fqga7xQv0"
