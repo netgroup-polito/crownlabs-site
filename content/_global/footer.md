@@ -1,7 +1,7 @@
 +++
 fragment = "footer"
 #disabled = true
-date = "2020-04-07"
+date = "2020-04-18"
 weight = 1200
 #background = ""
 #
@@ -16,4 +16,4 @@ menu_title = "Contacts"
 
 #### Credits
 
-This project is proudly provided by [Politecnico di Torino](http://www.polito.it).
+This project is proudly provided by people at [Politecnico di Torino](http://www.polito.it).
