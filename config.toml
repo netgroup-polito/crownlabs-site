@@ -31,10 +31,10 @@ lastmod = ["lastmod", ":git", "date"]
   # Theme customizations
   # Assets relative to 'static/'
   [params.custom]
-    favicon = "logo.ico"
+    favicon = "logobkg.ico"
     favicon_ico_sizes = "16x16 32x32"
-    favicon_png = "images/logo.png"
-    favicon_svg = "images/logo.svg"
+    favicon_png = "logobkg.png"
+    favicon_svg = "logobkg.svg"
 
   # Piwik tracking
   [params.analytics.piwik]
