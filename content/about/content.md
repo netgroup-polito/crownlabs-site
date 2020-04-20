@@ -47,7 +47,7 @@ The name *CrownLabs* is the logical consequence: a project born under the pressu
 |:-:|:-:|:-:|:-:|
 ![Aldo Lacuku](/images/aldo.jpg "Aldo Lacuku") | ![Alex Palesandro](/images/alex.jpg "Alex Palesandro") | ![Andrea Cossio](/images/andrea.jpg "Andrea Cossio") | ![Francesco Borgogni](/images/francesco.jpg "Francesco Borgogni")
 **Aldo Lacuku** | **Alex Palesandro** | **Andrea Cossio** | **Francesco Borgogni**
-Security | The Boss | NoVNC | Kubernetes CRD
+Security | Architect | NoVNC | Kubernetes CRD
 ![Fulvio Risso](/images/fulvio.jpg "Fulvio Risso") | ![Gabriele Filaferro](/images/gabriele.jpg "Gabriele Filaferro") | ![Giuseppe Ognibene](/images/giuseppe.jpg "Giuseppe Ognibene") | ![Hamza Rhaouati](/images/hamza.jpg "Hamza Rhaouati")
 **Fulvio Risso** | **Gabriele Filaferro** | **Giuseppe Ognibene** | **Hamza Rhaouati**
 Project coordinator | GUI | Monitoring | Load balancing
@@ -70,7 +70,7 @@ Given the way this project was born, it is worth remembering all the people who 
 | | | |
 |-|-|-|
 ![Aldo Lacuku](/images/aldo.jpg "Aldo Lacuku")                    | **Aldo Lacuku**, "To authenticate, you have to come to me". He really knows about security.
-![Alex Palesandro](/images/alex.jpg "Alex Palesandro")            | **Alex Palesandro**, The true leader, manager, developer, tester. Nothing can be done without him.
+![Alex Palesandro](/images/alex.jpg "Alex Palesandro")            | **Alex Palesandro**, Architect, developer, tester. He really likes Kubernetes.
 ![Andrea Cossio](/images/andrea.jpg "Andrea Cossio")              | **Andrea Cossio**, "I know how to connect to the VM". He knows VNC more than the actual developers.
 ![Francesco Borgogni](/images/francesco.jpg "Francesco Borgogni") | **Francesco Borgogni**, "Kubernetes CRDs are my future". Give him to a CRD to create, code will come in minutes.
 ![Fulvio Risso](/images/fulvio.jpg "Fulvio Risso")                | **Fulvio Risso**, project leader, tester. Nobody knows what he does. Always in some calls.
@@ -84,4 +84,4 @@ Given the way this project was born, it is worth remembering all the people who 
 
 [comment]: <> (Removed from Aldo: He also knows the boss of the hosting room, which was very helpful indeed.)
 [comment]: <> (Removed from Serena: But ladies are a must in a good looking project: they have always a better taste than (male) engineers.)
-
+[comment]: <> (Removed from Alex: The true leader, manager, developer, tester. Nothing can be done without him.)
