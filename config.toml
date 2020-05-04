@@ -88,6 +88,11 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Contact"
   weight = 30
 
+  [[menu.main]]
+  url = "/contributors"
+  name = "Contribute"
+  weight = 30
+
 #[[menu.main]]
 #  url = "https://crownlabs.polito.it"
 #  name = "Login @Polito"
