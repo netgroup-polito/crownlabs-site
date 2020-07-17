@@ -8,7 +8,7 @@ metadata:
   namespace: website
 spec:
   rules:
-    - host: crownsite.crown-labs.ipv6.polito.it
+    - host: crownlabs.polito.it
       http:
         paths:
           - backend:
@@ -17,4 +17,4 @@ spec:
             path: /
   tls:
     - hosts:
-        - crownsite.crown-labs.ipv6.polito.it
+        - crownlabs.polito.it

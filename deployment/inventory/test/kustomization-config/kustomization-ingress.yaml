@@ -4,7 +4,7 @@ metadata:
   name: website
 spec:
   rules:
-    - host: test.crown-labs.ipv6.polito.it
+    - host: preprod.crownlabs.polito.it
       http:
         paths:
           - backend:
@@ -13,5 +13,5 @@ spec:
             path: /
   tls:
     - hosts:
-        - test.crown-labs.ipv6.polito.it
+        - preprod.crownlabs.polito.it
       secretName: website-cert
