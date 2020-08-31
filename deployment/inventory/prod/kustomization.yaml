@@ -1,7 +1,0 @@
-bases:
-  - ../../bases
-namespace: website
-patchesStrategicMerge:
-  - kustomization-config/kustomization-deployment.yaml
-  - kustomization-config/kustomization-service.yaml
-  - kustomization-config/kustomization-ingress.yaml
