@@ -9,6 +9,11 @@ Note: the theme is imported as a git submodule, in order to simplify its update 
 
 You may have to define some environment variables to allow Hugo to work (e.g., `source ./profile` in case those variables have been added to the `.profile` file).
 
+## Setting up the repository
+The setup of this website on your local hard-disk requires the following steps:
+- clone the current repository: `git clone https://github.com/netgroup-polito/crownlabs-site/`
+- update the Syna submodule: `git submodule update --init --recursive`
+
 ## Usage
 
 To start your website run the following commands:
