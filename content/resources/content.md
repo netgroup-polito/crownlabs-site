@@ -16,7 +16,7 @@ This page collects a set of pointers to external resources related to the CrownL
 
 * [**Introduction to CrownLabs**](https://youtu.be/i7fqga7xQv0): an introductory video that presents the main characteristics of CrownLabs, plus a live demonstration of its main features. Available at https://youtu.be/i7fqga7xQv0.
 
-* [**Getting started with CrownLabs**](https://youtu.be/05h2ImELQtI): a short _hands on_ video, oriented to students, showing how to use CrownLabs. Available at https://youtu.be/05h2ImELQtI.
+* [**Getting started with CrownLabs**](https://youtu.be/zvRy1hGJpMY): a short _hands on_ video, oriented to students, showing how to use CrownLabs. Available at https://youtu.be/zvRy1hGJpMY.
 
 
 ### Scientific Papers
