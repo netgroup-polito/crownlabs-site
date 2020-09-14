@@ -28,7 +28,9 @@ In addition, a **persistent disk** is dynamically mounted which allows student t
 
 Access is **secured** and communication is protected through **encrypted sessions**.
 
-For more information, you can watch our [introductory video](https://youtu.be/i7fqga7xQv0) on Youtube.
+For more information, you can watch our videos, available on Youtube:
+* [**Introduction to CrownLabs**](https://youtu.be/i7fqga7xQv0): short video to present the motivations behind CrownLabs and the main characteristics of the system.
+* [**Getting Started with CrownLabs**](https://youtu.be/05h2ImELQtI): hands-on video oriented to students, showing how to use CrownLabs.
 
 
 ### Is CrownLabs just a Remote Desktop?
