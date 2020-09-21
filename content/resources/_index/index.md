@@ -1,16 +1,18 @@
 +++
+headless = true
 fragment = "content"
-#disabled = true
-date = "2020-09-14"
+date = "2020-09-20"
 weight = 100
-#background = ""
-#title = "Resources"
-#subtitle = ""
+#title = "Resource Section"
 +++
+
 
 ## Resources
 
 This page collects a set of pointers to external resources related to the CrownLabs project.
+
+### Useful documentation
+If you are interested in contributing to the project, take a look at [this documentation](./documentation) (still in progress).
 
 ### Videos
 
@@ -30,4 +32,3 @@ This page collects a set of pointers to external resources related to the CrownL
 * [Creating Courses, Labs and User accounts](https://github.com/netgroup-polito/CrownLabs/tree/master/provisioning/courses): procedure (not yet fully automated) to set-up new courses (including multiple labs), and user (students, professors) accounts in CrownLabs.
 
 * [Guide for creating and uploading VMs in CrownLabs](https://github.com/netgroup-polito/CrownLabs/tree/master/provisioning/virtual-machines): procedure (not yet fully automated) to create new Virtual Machine images for CrownLabs.
-

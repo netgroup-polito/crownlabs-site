@@ -138,7 +138,7 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.footer_social]]
   weight = 30
-  name = "linkedin"
+  name = "slack"
   pre = "fab fa-slack"
   url = "https://crown-team-group.slack.com"
 
