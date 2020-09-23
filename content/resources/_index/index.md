@@ -11,9 +11,6 @@ weight = 100
 
 This page collects a set of pointers to external resources related to the CrownLabs project.
 
-### Useful documentation
-If you are interested in contributing to the project, take a look at [this documentation](./documentation) (still in progress).
-
 ### Videos
 
 * [**Introduction to CrownLabs**](https://youtu.be/i7fqga7xQv0): an introductory video that presents the main characteristics of CrownLabs, plus a live demonstration of its main features. Available at https://youtu.be/i7fqga7xQv0.
@@ -28,7 +25,12 @@ If you are interested in contributing to the project, take a look at [this docum
 
 ### Other documentation
 
-
 * [Creating Courses, Labs and User accounts](https://github.com/netgroup-polito/CrownLabs/tree/master/provisioning/courses): procedure (not yet fully automated) to set-up new courses (including multiple labs), and user (students, professors) accounts in CrownLabs.
 
 * [Guide for creating and uploading VMs in CrownLabs](https://github.com/netgroup-polito/CrownLabs/tree/master/provisioning/virtual-machines): procedure (not yet fully automated) to create new Virtual Machine images for CrownLabs.
+
+
+### Learning path
+* A gentle [introduction to Git/GitHub for CrownLabs](./git) (still in progress)
+
+
