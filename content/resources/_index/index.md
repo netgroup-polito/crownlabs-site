@@ -1,12 +1,11 @@
 +++
+headless = true
 fragment = "content"
-#disabled = true
-date = "2020-09-14"
+date = "2020-09-25"
 weight = 100
-#background = ""
-#title = "Resources"
-#subtitle = ""
+#title = "Resource Section"
 +++
+
 
 ## Resources
 
@@ -26,8 +25,16 @@ This page collects a set of pointers to external resources related to the CrownL
 
 ### Other documentation
 
-
 * [Creating Courses, Labs and User accounts](https://github.com/netgroup-polito/CrownLabs/tree/master/provisioning/courses): procedure (not yet fully automated) to set-up new courses (including multiple labs), and user (students, professors) accounts in CrownLabs.
 
 * [Guide for creating and uploading VMs in CrownLabs](https://github.com/netgroup-polito/CrownLabs/tree/master/provisioning/virtual-machines): procedure (not yet fully automated) to create new Virtual Machine images for CrownLabs.
+
+
+### Learning path
+Often, university courses focus on high-level topics and fail to give students the proper practical background about the tools required for collaborative open-source development and the best practices for software development and testing.
+
+This section contains some guides and suggestions to fill this gap and it is oriented to all the people who would like to collaborate with an open-source project such as CrownLabs.
+
+* [Introduction to Git/GitHub for CrownLabs](./git)
+
 
