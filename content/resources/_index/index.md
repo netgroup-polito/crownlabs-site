@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2020-09-20"
+date = "2020-09-25"
 weight = 100
 #title = "Resource Section"
 +++
@@ -31,6 +31,10 @@ This page collects a set of pointers to external resources related to the CrownL
 
 
 ### Learning path
-* A gentle [introduction to Git/GitHub for CrownLabs](./git) (still in progress)
+Often, university courses focus on high-level topics and fail to give students the proper practical background about the tools required for collaborative open-source development and the best practices for software development and testing.
+
+This section contains some guides and suggestions to fill this gap and it is oriented to all the people who would like to collaborate with an open-source project such as CrownLabs.
+
+* [Introduction to Git/GitHub for CrownLabs](./git)
 
 
