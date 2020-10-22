@@ -98,6 +98,11 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Resources"
   weight = 30
 
+[[menu.main]]
+  url = "/calendar"
+  name = "Calendar"
+  weight = 30
+
 #[[menu.main]]
 #  url = "https://crownlabs.polito.it"
 #  name = "Login @Polito"
