@@ -4,7 +4,7 @@ fragment = "nav"
 date = "2020-04-07"
 weight = 0
 background = "primary"
-search = true
+search = false
 sticky = true
 
 #[repo_button]
@@ -12,10 +12,10 @@ sticky = true
 #  text = "Github" # default: "Star"
 #  icon = "fab fa-github" # defaults: "fab fa-github"
 
-[repo_button]
-  url = "/login"
-  text = "Login @Polito"
-  icon = "fas fa-sign-in-alt"
+#[repo_button]
+#  url = "/login"
+#  text = "Login @Polito"
+#  icon = "fas fa-sign-in-alt"
 
 # Branding options
 [asset]
