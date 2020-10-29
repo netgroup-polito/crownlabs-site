@@ -1,21 +1,18 @@
 +++
 fragment = "nav"
 #disabled = true
-date = "2020-04-07"
+date = "2020-10-23"
 weight = 0
 background = "primary"
-search = true
+# Enable the 'search' box in the top header bar
+search = false
 sticky = true
 
+# Add a new button in the top header bar
 #[repo_button]
-#  url = "https://github.com/netgroup-polito/crownlabs"
-#  text = "Github" # default: "Star"
-#  icon = "fab fa-github" # defaults: "fab fa-github"
-
-[repo_button]
-  url = "/login"
-  text = "Login @Polito"
-  icon = "fas fa-sign-in-alt"
+#  url = "/login"
+#  text = "Login @Polito"
+#  icon = "fas fa-sign-in-alt"
 
 # Branding options
 [asset]
