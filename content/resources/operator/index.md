@@ -1,5 +1,5 @@
 +++
-title = "Creating and modifying an operator in Kubernets"
+title = "Creating and modifying an operator in Kubernetes"
 fragment = "content"
 weight = 100
 date = "2020-12-07"
