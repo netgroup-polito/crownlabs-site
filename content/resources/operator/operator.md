@@ -10,24 +10,28 @@ weight = 100
 
 ## Introduction
 
-CrownLabs uses the kubernetes [operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/ "operator pattern") to automate complex tasks such as the configuration and provisioning of virtual environments. As a result usually adding new features to CrownLabs implies dealing with operators either modifying an existing one or creating a new one.
+CrownLabs uses the Kubernetes [operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/ "operator pattern") to automate complex tasks such as the configuration and provisioning of virtual environments.
+With this paradigm we can create both new _custom resources_, a set of objects that model a specific part of system (e.g., the _student_ with its own set of _attributes_), and the associated _software logic_ (e.g., the code required to _create_ a new student, _update_ or _delete_ this object, and more).
+As a consequence, the implementation of additional features in CrownLabs implies dealing with operators, either modifying an existing one or creating a new one.
 
-Our project uses the [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) framework to simplify the task of generating [CRDs](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/ "CRDs"), Controllers (where the operator\'s logic resides) and the various kubernetes manifests needed.
+In CrownLabs, most operators use the [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) framework to simplify the task of generating [CRDs](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/ "CRDs"), Controllers (where the operator\'s logic resides) and the various Kubernetes manifests needed.
 
-This page aims at providing a set of useful tips and references to tackle the task without too much headache.
+This page aims at providing a set of useful tips and references to start learning and practicing with operators.
 
-## Creating and modifying operators
+This page is split in two sections, depending whether you want to create a _new_ operator from scratch or you want to modify an _existing_ one; for instance, it is very common that a new feature in CrownLabs may require modifications to existing operators instead of asking for a brand new operator.
 
-Sometimes it\'s not needed to create from scratch a new operator, in fact most of the new features we would like to add require modifications to pre-existing operators. Therefore this part is split in two sections, although both sections are important in understanding the workflow.
 
-### Prerequisites
+## Prerequisites
+Regardless you want to create a _new_ operator or modify an _existing_ one,  here there are the software prerequisites.
+
 1. go version v1.13+
 2. docker version 17.03+
 3. kubectl version v1.11.3+
 4. Access to a Kubernetes v1.11.3+ cluster ([kind](https://kind.sigs.k8s.io/ "kind") or [minikube](https://minikube.sigs.k8s.io/docs/ "minikube") are good enough)
 5. kubebuilder ([installation](https://book.kubebuilder.io/quick-start.html#installation "installation"))
 
-### Creating an operator
+
+## Creating an operator
 
 Useful information to get the kubebuilder project started:
 - Use `polito.it` as domain when doing `kubebuilder init` (or just `example.com`  if you\'re just testing stuff)
@@ -39,20 +43,23 @@ Useful links:
 1. The [official documentation](https://book.kubebuilder.io/quick-start.html) is rather good but the example might appear far from what you want to realize.
 2. This [step-by-step tutorial](https://www.youtube.com/watch?v=KBTXBUVNF2I) on how to build an operator from scratch, after a first watch to get an overview, it might be useful to come back to it while you build the operator to look for specific parts.
 
-Sometimes you might want to create an operator that manages different kind of resources that have already been defined or simply you don\'t need to create a new CRD. Kubebuilder will generate the controller code only after generating CRDs, so even if you don\'t really need to define a CRD just do it and you can easily get rid of it later while you have the rest of the code correctly generated.
+Sometimes you might want to create an operator that manages different kind of resources that have already been defined or simply you don\'t need to create a new CRD.
+Kubebuilder will generate the controller code only after generating CRDs, so even if you don\'t really need to define a CRD just do it and you can easily get rid of it later while you have the rest of the code correctly generated.
 
 
-### Writing the controller or modifying an existing operator
+## Writing the controller or modifying an existing operator
 
-The kubebuilder framework uses the controller-runtime library to communicate with the kubernetes API. The documentation of the library is sparse across different packages, here are some useful ones:
+The kubebuilder framework uses the controller-runtime library to communicate with the Kubernetes API. The documentation of the library is sparse across different packages, here are some useful ones:
 1. [controller-runtime](https://godoc.org/sigs.k8s.io/controller-runtime "controller-runtime") general godoc page
 2. controller-runtime\'s [client](https://godoc.org/sigs.k8s.io/controller-runtime/pkg/client "client") used to interact with the k8s API
 3. the [buider](https://godoc.org/sigs.k8s.io/controller-runtime/pkg/builder "buider") used in the `SetupWithManager` function to select which resources to watch
 4. the [request](https://godoc.org/sigs.k8s.io/controller-runtime/pkg/reconcile#Request "request") received in the reconciler function
 5. k8s [corev1](https://godoc.org/k8s.io/api/core/v1 "corev1") in case you need to interact with core k8s kind (pods, deployments, configmaps etc)
 
+
 ## Notes
-You might notice that the structure in the crownlabs repository is different from the one generated by kubebuilder but it's not a big deal:
+
+You might notice that the structure in the CrownLabs repository is different from the one generated by kubebuilder. However, this is not a big deal:
 - `main.go` goes inside its own folder inside `operators/cmd/<operator-name>`
 - `<kind>_controller.go` goes in `operators/pkg/controllers/<kind>_controller.go`
 - CRD manifests go inside `operators/deploy/crds/`
