@@ -3,7 +3,7 @@ fragment = "content"
 #disabled = true
 date = "2020-12-07"
 weight = 100
-# title = "Creating and modifying an operator in Kubernets"
+# title = "Creating and modifying an operator in Kubernetes"
 +++
 
 
@@ -33,18 +33,18 @@ Regardless you want to create a _new_ operator or modify an _existing_ one,  her
 
 ## Creating an operator
 
-Useful information to get the kubebuilder project started:
-- Use `polito.it` as domain when doing `kubebuilder init` (or just `example.com`  if you\'re just testing stuff)
-- The api group should be set to `crownlabs`
-- At the moment of writing CrownLabs is focused on developing the API version `v1alpha2`. Check out the repository to make sure you create your project with the right parameters.
-- the `kind` option is going to be the CRD name, the generated controller will be named `<kind_name>_controller`
-
 Useful links:
 1. The [official documentation](https://book.kubebuilder.io/quick-start.html) is rather good but the example might appear far from what you want to realize.
 2. This [step-by-step tutorial](https://www.youtube.com/watch?v=KBTXBUVNF2I) on how to build an operator from scratch, after a first watch to get an overview, it might be useful to come back to it while you build the operator to look for specific parts.
 
-Sometimes you might want to create an operator that manages different kind of resources that have already been defined or simply you don\'t need to create a new CRD.
-Kubebuilder will generate the controller code only after generating CRDs, so even if you don\'t really need to define a CRD just do it and you can easily get rid of it later while you have the rest of the code correctly generated.
+Useful information to get the kubebuilder project started:
+- Use `polito.it` as domain when doing `kubebuilder init` (or `example.com`  if you are just testing stuff)
+- The api group should be set to `crownlabs`
+- At the moment of writing CrownLabs is focused on developing the API version `v1alpha2`. Check out the repository to make sure you create your project with the right parameters.
+- the `kind` option is going to be the CRD name, the generated controller will be named `<kind_name>_controller`
+
+Sometimes you might want to create an operator that manages different kind of resources that have already been defined or simply you do not need to create a new CRD.
+Kubebuilder will generate the controller code only after generating CRDs, so even if you do not really need to define a CRD just do it and you can easily get rid of it later while you have the rest of the code correctly generated.
 
 
 ## Writing the controller or modifying an existing operator

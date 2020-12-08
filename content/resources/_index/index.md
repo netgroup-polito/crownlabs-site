@@ -37,5 +37,5 @@ This section contains some guides and suggestions to fill this gap and it is ori
 
 * [Introduction to Git/GitHub for CrownLabs](./git)
 
-* [Creating and modifying an operator in Kubernets](./git)
+* [Creating and modifying an operator in Kubernetes](./operator)
 
