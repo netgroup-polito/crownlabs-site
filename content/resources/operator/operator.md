@@ -40,8 +40,21 @@ Useful links:
 Useful information to get the kubebuilder project started:
 - Use `polito.it` as domain when doing `kubebuilder init` (or `example.com`  if you are just testing stuff)
 - The api group should be set to `crownlabs`
-- At the moment of writing CrownLabs is focused on developing the API version `v1alpha2`. Check out the repository to make sure you create your project with the right parameters.
+- At the moment of writing CrownLabs is focused on developing the API version `v1alpha1` and `v1alpha2`. Check out the repository to make sure you create your project with the right parameters.
 - the `kind` option is going to be the CRD name, the generated controller will be named `<kind_name>_controller`
+
+Example:
+
+```
+kubebuilder init --domain polito.it
+```
+
+```
+$ kubebuilder create api \
+  --group crownlabs \
+  --kind YourCustomKind \
+  --version v1alpha2
+```
 
 Sometimes you might want to create an operator that manages different kind of resources that have already been defined or simply you do not need to create a new CRD.
 Kubebuilder will generate the controller code only after generating CRDs, so even if you do not really need to define a CRD just do it and you can easily get rid of it later while you have the rest of the code correctly generated.
