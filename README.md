@@ -14,10 +14,10 @@ $ sudo apt update
 $ sudo apt install git golang hugo
 ```
 
-On other platforms, you may have to follow the above instructions
+On other platforms, you may have to follow the above instructions:
 - Install Git (this is usually included in your package manager)
-- [Install Go](https://golang.org/doc/install).
-- [Install Hugo](https://gohugo.io/getting-started/installing/).
+- [Install Go](https://golang.org/doc/install)
+- [Install Hugo](https://gohugo.io/getting-started/installing/)
 
 You may have to define some environment variables to allow Hugo to work (e.g., `source ./profile` in case those variables have been added to the `.profile` file).
 
