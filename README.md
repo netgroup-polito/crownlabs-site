@@ -4,15 +4,35 @@ The website is created with Hugo, using the [Syna](https://themes.gohugo.io/them
 Note: the theme is imported as a git submodule, in order to simplify its update when new versions are released.
 
 ## Prerequisites
-- [Install Go](https://golang.org/doc/install).
-- [Install Hugo](https://gohugo.io/getting-started/installing/).
+You need to install **Git**, **Go**, and **Hugo**.
+On Ubuntu 20.04 LTS all the above packages can be installed with:
+```
+# Update the package list, so we're sure to install the latest version of our packages
+$ sudo apt update
+
+# Install the required packages
+$ sudo apt install git golang hugo
+```
+
+On other platforms, you may have to follow the above instructions:
+- Install Git (this is usually included in your package manager)
+- [Install Go](https://golang.org/doc/install)
+- [Install Hugo](https://gohugo.io/getting-started/installing/)
 
 You may have to define some environment variables to allow Hugo to work (e.g., `source ./profile` in case those variables have been added to the `.profile` file).
 
 ## Setting up the repository
-The setup of this website on your local hard-disk requires the following steps:
-- clone the current repository: `git clone https://github.com/netgroup-polito/crownlabs-site/`
-- update the Syna submodule: `git submodule update --init --recursive`
+The setup of this website on your local hard-disk (e.g., for testing) requires the following steps:
+```
+# Clone the current repository
+$ git clone https://github.com/netgroup-polito/crownlabs-site/
+
+# Move to the cloned folder
+$ cd crownlabs-site
+
+# Update the Syna submodule
+$ git submodule update --init --recursive
+```
 
 ## Usage
 
@@ -20,7 +40,7 @@ To start your website run the following commands:
 
 **Development**:
 ```
-# This command starts the Hugo server and watches the site directory for changes.
+# Start the Hugo server; this command will also watch the site directory for changes
 $ hugo server -D
 ```
 
