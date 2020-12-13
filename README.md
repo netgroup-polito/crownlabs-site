@@ -7,7 +7,7 @@ Note: the theme is imported as a git submodule, in order to simplify its update 
 You need to install **Git**, **Go**, and **Hugo**.
 On Ubuntu 20.04 LTS all the above packages can be installed with:
 ```
-# Update the package list, so we're sure to install the latest version
+# Update the package list, so we're sure to install the latest version of our packages
 $ sudo apt update
 
 # Install the required packages
