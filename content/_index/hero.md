@@ -1,7 +1,7 @@
 +++
 fragment = "hero"
 #disabled = true
-date = "2020-04-06"
+date = "2020-12-13"
 weight = 50
 background = "dark" # can influence the text color
 particles = true
@@ -33,6 +33,11 @@ subtitle = "CrownLabs"
   text = "Login @Polito"
   url = "/login"
   color = "success"
+
+[[buttons]]
+  text = "Beta @Polito"
+  url = "https://beta.crownlabs.polito.it/login"
+  color = "danger"
 
 [[buttons]]
   text = "Deploy"
