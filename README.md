@@ -4,7 +4,7 @@ The website is created with Hugo, using the [Syna](https://themes.gohugo.io/them
 Note: the theme is imported as a git submodule, in order to simplify its update when new versions are released.
 
 ## Prerequisites
-You need to install Git, Go, and Hugo.
+You need to install **Git**, **Go**, and **Hugo**.
 On Ubuntu 20.04 LTS all the above packages can be installed with:
 ```
 # Update the package list, so we're sure to install the latest version
