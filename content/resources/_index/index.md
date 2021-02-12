@@ -39,3 +39,5 @@ This section contains some guides and suggestions to fill this gap and it is ori
 
 * [Creating and modifying an operator in Kubernetes](./operator)
 
+* [Introduction to Golang language](./golang)
+
