@@ -8,7 +8,8 @@ weight = 100
 
 ## Introduction
 
-Crownlabs backend is written in Golang (a.k.a. Go), an open source, procedural programming language created by Google. To simplify it can be compared with C and C++ but without some of their most tricky issues (e.g. memory management). This guide will do a general excursus on this very raising language introducing its most relevant features, giving a roadmap to follow to learn it.
+Crownlabs backend is written in Golang (a.k.a. Go), an open source, procedural programming language created by Google.
+In brief, it looks similar to C and C++ but without some of their most tricky issues (e.g. memory management). This guide will do a general excursus on this fast raising programming language, introducing its most relevant features and giving a roadmap for a possible learning path.
 
 ## Useful links
 
@@ -18,7 +19,7 @@ The first step is to install Go and it can be done easly [here](https://golang.o
 
 ### Ides and editor plugins
 
-To write code in Go there are some ides like [Visual Studio Code](https://code.visualstudio.com/) or [Goland](https://www.jetbrains.com/go/) and text editor plugins like [vim-go](https://github.com/fatih/vim-go).
+To write code in Go, we suggest some IDEs such as [Visual Studio Code](https://code.visualstudio.com/) or [Goland](https://www.jetbrains.com/go/) and text editor plugins like [vim-go](https://github.com/fatih/vim-go).
 For newbie students of Go the best is *Goland* which also has some mini tutorials of editing with code examples.
 
 ## Start learning Go
@@ -31,4 +32,4 @@ Very useful to the process of learning is [Tour of Go](https://tour.golang.org/l
 
 ## Meet authors
 
-If you are interested in this lenguage you can better understand it and the idea behind it watching this [video](https://youtu.be/3yghHvvZQmA) where you can listen Go creators speaking at a Google Cloud conference. 
+If you are interested in this language, you can better understand it and the idea behind it watching this video [(Meet the Authors – Go Language)](https://youtu.be/3yghHvvZQmA) where you can listen Go creators speaking at a Google Cloud Next 2019 conference. 
