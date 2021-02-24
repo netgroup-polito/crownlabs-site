@@ -73,10 +73,10 @@ lastmod = ["lastmod", ":git", "date"]
 # main/prepend/postpend menus are displayed in nav fragment.
 # Keep an eye out for updates. These will be moved out to make navbar more
 # configurable.
-[[menu.main]]
-  url = "/"
-  name = "Home"
-  weight = 10
+#[[menu.main]]
+#  url = "/"
+#  name = "Home"
+#  weight = 10
 
 [[menu.main]]
   url = "/about"
@@ -91,17 +91,27 @@ lastmod = ["lastmod", ":git", "date"]
 [[menu.main]]
   url = "/contributors"
   name = "Contribute"
-  weight = 30
-
-[[menu.main]]
-  url = "/resources"
-  name = "Resources"
-  weight = 30
+  weight = 40
 
 [[menu.main]]
   url = "/calendar"
   name = "Calendar"
-  weight = 30
+  weight = 50
+
+[[menu.main]]
+  url = "/resources"
+  name = "Resources"
+  weight = 50
+
+[[menu.main]]
+  url = "/learning"
+  name = "Learning"
+  weight = 60
+
+[[menu.main]]
+  url = "/seminars"
+  name = "Seminars"
+  weight = 70
 
 #[[menu.main]]
 #  url = "https://crownlabs.polito.it"
