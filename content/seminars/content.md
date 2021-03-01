@@ -16,6 +16,7 @@ This page lists the events and seminars organized by the CrownLabs community.
 ### Multicloud Infrastructure as Code on Tencent China: Issues and best practice
 - Speaker: Pasquale Lepera, Criticalcase
 - When: Monday, February 22, 2021, 17.00 - 18.30am
+- [Recorded video](https://youtu.be/HRlWgnlBCGQ)
 
 
 #### Abstract
