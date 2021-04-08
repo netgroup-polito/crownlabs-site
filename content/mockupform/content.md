@@ -51,18 +51,23 @@ Video -->
 
 
 <html lang="en">
-
+<script>
+var video = document.querySelector('video');       
+video.addEventListener('ended', function() {
+  video.load();     
+});
+</script>
 <body>
   <div class="container m-0 bg-secondary ">
     <div class="row">
       <div class="col-lg-4 p-1">
         <div class="embed-responsive embed-responsive-16by9">
-          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
+          <video controls="true" class="embed-responsive-item" poster="thumbnails/1.png"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
         </div>
       </div>
       <div class="col-lg-4 p-1">
         <div class="embed-responsive embed-responsive-16by9">
-          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
+          <video controls="true" class="embed-responsive-item" poster="thumbnails/2.png"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
         </div>
       </div>
       <div class="col-lg-4 p-1">
