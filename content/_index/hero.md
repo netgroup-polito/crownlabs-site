@@ -35,11 +35,6 @@ subtitle = "CrownLabs"
   color = "success"
 
 [[buttons]]
-text = "Vote the new Dashboard concept"
-url = "/mokupform"
-color = "danger"
-
-[[buttons]]
   text = "Deploy"
   url = "/deploy"
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
@@ -48,6 +43,11 @@ color = "danger"
 [[buttons]]
   text = "Extend"
   url = "/extend"
+
+[[buttons]]
+  text = "Vote the new Dashboard concept"
+  url = "/mockupform"
+  
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
   color = "primary" 
 
