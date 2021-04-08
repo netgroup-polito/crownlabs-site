@@ -10,21 +10,24 @@ weight = 100
 
 # Vote the new Dashboard concept
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
 
-### Option 1
+<!-- ### Option 1
 Video
 ### Option 2
 Video
 ### Option 3
 Video
 ### Option 4
-Video
+Video -->
 
-<form>
+<!-- <form>
   
   ## Vote here
 
@@ -44,28 +47,72 @@ Video
   <textarea rows="6" cols="40" placeholder="Write here your opinion"></textarea>  
   
   <input type="submit" value="Send" />
-</form>
+</form> -->
 
 
 <html lang="en">
-  <body>
-        <div class="col-5">
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+
+<body>
+  <div class="container m-0 bg-secondary ">
+    <div class="row">
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
         </div>
-  </body>
+      </div>
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-8 mx-auto p-4 ">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
+
+<!-- <iframe src="https://drive.google.com/file/d/1uIYEALUo4Pc-BZc7tWepHVUF4F3YWUjs/preview" width="640"
+  height="480"></iframe> -->
