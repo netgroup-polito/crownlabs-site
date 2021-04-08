@@ -35,6 +35,11 @@ subtitle = "CrownLabs"
   color = "success"
 
 [[buttons]]
+text = "Vote the new Dashboard concept"
+url = "/contest"
+color="danger"
+
+[[buttons]]
   text = "Deploy"
   url = "/deploy"
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
@@ -43,6 +48,7 @@ subtitle = "CrownLabs"
 [[buttons]]
   text = "Extend"
   url = "/extend"
+  
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
   color = "primary" 
 
@@ -57,3 +63,4 @@ subtitle = "CrownLabs"
 #  color = "primary"
 
 +++
+
