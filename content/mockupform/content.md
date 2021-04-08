@@ -57,41 +57,41 @@ Video -->
     <div class="row">
       <div class="col-lg-4 p-1">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
         </div>
       </div>
       <div class="col-lg-4 p-1">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
         </div>
       </div>
       <div class="col-lg-4 p-1">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 p-1">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-lg-4 p-1">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-lg-4 p-1">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-4 p-1">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="./videos/videoprova.mp4" allowfullscreen></iframe>
+          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
+        </div>
+      </div>
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
+        </div>
+      </div>
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 p-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video controls="true" class="embed-responsive-item"><source src="./videos/videoprova.mp4" type="video/mp4"></video>
         </div>
       </div>
       <div class="col-lg-8 mx-auto p-4 ">
