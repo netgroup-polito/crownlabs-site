@@ -101,29 +101,29 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
         </div>
         <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
+          <div class="card text-center  p-3">
+            <div class="form-group">
+              <h5><label for="comment">Insert a comment</label></h5>
+              <textarea class="form-control" name="" id="" rows="3"></textarea>
+            </div>
+            <button type="submit" id="vote" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
           <form class="col-lg-8 offset-lg-2 rounded px-3 pt-3 border bg-white">
             <div class="row mb-3">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-10">
-                <input type="email" class="form-control form-control flex-fill" id="email" required>
+              <div class="form-group">
+                <label for="">Comments</label>
+                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                <small id="helpId" class="form-text text-muted">Help text</small>
               </div>
             </div>
-            <div class="row mb-3">
-              <div class="col-sm-10 offset-sm-2">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="terms" required>
-                  <label class="form-check-label" for="gridCheck1">
-                    Terms checkbox
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="row mb-3">
-              <div class="col-sm-2 offset-sm-5 text-center">
+            <div class="row mb-3 justify-content ">
                 <button id="vote" type="button" class="btn btn-primary">Vote</button>
-              </div>
-            </div>
-            <div id="result" class="row mt-3 px-3 collapse">
             </div>
           </form>
         </div>
