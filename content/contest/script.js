@@ -80,7 +80,11 @@ vote.addEventListener('click', event => {
         `
         result.classList.add('show');
     }else{
-        //INSERT HERE CALL TO ACTION GOOGLE FORM
+        /** INSERT HERE CALL TO ACTION GOOGLE FORM
+         * @parameter to send
+         * activeSelection.value    [NUMBER]
+         * emaile.value             [EMAIL]
+         */
         result.innerHTML = `
         <div class="col-12 alert alert-success" role="alert">
             Well Done! Thank you for your vote
