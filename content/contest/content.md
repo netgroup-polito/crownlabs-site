@@ -19,98 +19,113 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
 <script defer src="./script.js"></script>
 <html lang="en">
   <body>
-    <div id="video">
-      <div  class="row my-4">
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center">
+    <div class="row my-4">
+      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+        <div class="card text-center">
+          <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
-              <source src="./videos/videoprova.mp4" type="video/mp4">
+              <source src="https://drive.google.com/uc?export=download&id=1xrV-_KO04MILXq9_n3LyimfI1TiNdg6g" type="video/mp4">
             </video>
-            <div class="card-body">
-              <h5 class="card-title">Concept 1</h5>
-              <button id="concept_1" class="btn btn-primary" value="1">Select</a>
-            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center">
-            <video controls="true" class="embed-responsive-item card-img-top">
-              <source src="./videos/videoprova.mp4" type="video/mp4">
-            </video>
-            <div class="card-body">
-              <h5 class="card-title">Concept 2</h5>
-              <button id="concept_2" class="btn btn-primary" value="2">Select</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center">
-            <video controls="true" class="embed-responsive-item card-img-top">
-              <source src="./videos/videoprova.mp4" type="video/mp4">
-            </video>
-            <div class="card-body">
-              <h5 class="card-title">Concept 3</h5>
-              <button id="concept_3" class="btn btn-primary" value="3">Select</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center">
-            <video controls="true" class="embed-responsive-item card-img-top">
-              <source src="./videos/videoprova.mp4" type="video/mp4">
-            </video>
-            <div class="card-body">
-              <h5 class="card-title">Concept 4</h5>
-              <button id="concept_4" class="btn btn-primary" value="4">Select</a>
-            </div>
+          <div class="card-body">
+            <h5 class="card-title">Concept 1</h5>
+            <button id="concept_1" class="btn btn-primary" value="1">Select</a>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center">
+      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+        <div class="card text-center">
+          <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
-              <source src="./videos/videoprova.mp4" type="video/mp4">
+              <source src="https://drive.google.com/uc?export=download&id=1-uJbvf9E0eRDtXVeZ-iY8aD7NUFGx2HI" type="video/mp4">
             </video>
-            <div class="card-body">
-              <h5 class="card-title">Concept 5</h5>
-              <button id="concept_5" class="btn btn-primary" value="5">Select</a>
-            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Concept 2</h5>
+            <button id="concept_2" class="btn btn-primary" value="2">Select</a>
           </div>
         </div>
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center">
+      </div>
+      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+        <div class="card text-center">
+          <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
-              <source src="./videos/videoprova.mp4" type="video/mp4">
+              <source src="https://drive.google.com/uc?export=download&id=1nrjA-zfjn-tp2_50PdletpASQI96Kamg" type="video/mp4">
             </video>
-            <div class="card-body">
-              <h5 class="card-title">Concept 6</h5>
-              <button id="concept_6" class="btn btn-primary" value="6">Select</a>
-            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Concept 3</h5>
+            <button id="concept_3" class="btn btn-primary" value="3">Select</a>
           </div>
         </div>
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center">
+      </div>
+      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+        <div class="card text-center">
+          <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
-              <source src="./videos/videoprova.mp4" type="video/mp4">
+              <source src="https://drive.google.com/uc?export=download&id=1_Aihtb5rQPDn4fge4ptKmjYvfpEpANrk" type="video/mp4">
             </video>
-            <div class="card-body">
-              <h5 class="card-title">Concept 7</h5>
-              <button id="concept_7" class="btn btn-primary" value="7">Select</a>
-            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Concept 4</h5>
+            <button id="concept_4" class="btn btn-primary" value="4">Select</a>
           </div>
         </div>
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center h-100">
-            <div class="card-body ">
-              <div class="form-group ">
-                <h5><label for="comment">Insert a comment</label></h5>
-                <textarea class="form-control " style="height: 124px;" name="" id="comment" rows="3"></textarea>
+      </div>
+      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+        <div class="card text-center">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video controls="true" class="embed-responsive-item card-img-top">
+              <source src="https://drive.google.com/uc?export=download&id=1FHPj6XUentGvgwH_tiyLeil2vcT91ei3" type="video/mp4">
+            </video>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Concept 5</h5>
+            <button id="concept_5" class="btn btn-primary" value="5">Select</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-xs-12 col-md-6 p-2">
+        <div class="card text-center h-100">
+          <div class="card-body">
+            <div class="form-group ">
+              <h5><label for="comment">Insert a comment</label></h5>
+              <textarea class="form-control " style="height: 75px;" name="" id="comment" rows="3"></textarea>
+            </div>
+            <div class="row mb-3">
+              <div class="col text-center">
+                <button id="vote" type="button" class="btn btn-primary">Vote</button>
               </div>
-              <button type="submit" id="vote" class="btn btn-primary">Submit</button>
             </div>
+            <div id="result" class="row mt-3 px-3 collapse">
+          </div>
           </div>
         </div>
+        <!--form class="col-lg-12 rounded px-3 pt-3 border bg-white" style="min-height:100% !important">
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-10">
+              <input type="email" class="form-control form-control flex-fill" id="email" required>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="terms" required>
+                <label class="form-check-label" for="gridCheck1">
+                  Terms checkbox
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col text-center">
+              <button id="vote" type="button" class="btn btn-primary">Vote</button>
+            </div>
+          </div>
+          <div id="result" class="row mt-3 px-3 collapse">
+          </div>
+        </form-->
       </div>
     </div>
   </body>
