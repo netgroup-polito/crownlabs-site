@@ -36,7 +36,7 @@ subtitle = "CrownLabs"
 
 [[buttons]]
 text = "Vote the new Dashboard concept"
-url = "/mockupform"
+url = "/contest"
 color="danger"
 
 [[buttons]]
