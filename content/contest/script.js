@@ -6,55 +6,19 @@ let terms = document.getElementById('terms');
 let email = document.getElementById('email');
 
 video.addEventListener('click', event => {
-    switch(event.target.id){
-        case 'concept_1':
-            if(ActiveSelection){
-                ActiveSelection.classList.remove('btn-success');
-                ActiveSelection.classList.add('btn-primary');
-                ActiveSelection.innerHTML = "Select";
+            if(event.target!=vote){
+                if(ActiveSelection){
+                    ActiveSelection.classList.remove('btn-success');
+                    ActiveSelection.classList.add('btn-primary');
+                    ActiveSelection.innerHTML = "Select";
+                }
+                event.target.classList.remove('btn-primary');
+                event.target.classList.add('btn-success');
+                event.target.innerHTML = "Selected";
+                ActiveSelection = event.target;
             }
-            event.target.classList.remove('btn-primary');
-            event.target.classList.add('btn-success');
-            event.target.innerHTML = "Selected";
-            ActiveSelection = event.target;
-            break;
-        case 'concept_2':
-            if(ActiveSelection){
-                ActiveSelection.classList.remove('btn-success');
-                ActiveSelection.classList.add('btn-primary');
-                ActiveSelection.innerHTML = "Select";
-            }
-            event.target.classList.remove('btn-primary');
-            event.target.classList.add('btn-success');
-            event.target.innerHTML = "Selected";
-            ActiveSelection = event.target;
-            break;
-        case 'concept_3':
-            if(ActiveSelection){
-                ActiveSelection.classList.remove('btn-success');
-                ActiveSelection.classList.add('btn-primary');
-                ActiveSelection.innerHTML = "Select";
-            }
-            event.target.classList.remove('btn-primary');
-            event.target.classList.add('btn-success');
-            event.target.innerHTML = "Selected";
-            ActiveSelection = event.target;
-            break;
-        case 'concept_4':
-            if(ActiveSelection){
-                ActiveSelection.classList.remove('btn-success');
-                ActiveSelection.classList.add('btn-primary');
-                ActiveSelection.innerHTML = "Select";
-            }
-            event.target.classList.remove('btn-primary');
-            event.target.classList.add('btn-success');
-            event.target.innerHTML = "Selected";
-            ActiveSelection = event.target;
-            break;
-        default:
-            break;
     }
-})
+)
 
 vote.addEventListener('click', event => {
     let errorMessage = "Ops! Something went wrong:<br>";
