@@ -15,53 +15,6 @@ aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
 aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<html lang="en">
-  <body>
-    <div class="row my-4">
-      <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-        <div class="card text-center">
-          <img src="#" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Concept 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">View Video</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-        <div class="card text-center">
-          <img src="#" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Concept 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">View Video</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-        <div class="card text-center">
-          <img src="#" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Concept 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">View Video</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-        <div class="card text-center">
-          <img src="#" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Concept 4</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">View Video</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
-
 
 <!-- ### Option 1
 Video
