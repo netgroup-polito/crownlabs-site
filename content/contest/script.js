@@ -5,8 +5,9 @@ let vote = document.getElementById('vote');
 let terms = document.getElementById('terms');
 let email = document.getElementById('email');
 
+
 video.addEventListener('click', event => {
-            if(event.target!=vote){
+            if(event.target!=vote && event.target.id.split('_')[0]==='concept'){
                 if(ActiveSelection){
                     ActiveSelection.classList.remove('btn-success');
                     ActiveSelection.classList.add('btn-primary');
