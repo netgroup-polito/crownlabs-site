@@ -66,7 +66,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
         </div>
       </div>
-      <div class="row px-2">
+      <div class="row">
         <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
           <div class="card text-center">
             <video controls="true" class="embed-responsive-item card-img-top">
@@ -101,31 +101,15 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
         </div>
         <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center  p-3">
-            <div class="form-group">
-              <h5><label for="comment">Insert a comment</label></h5>
-              <textarea class="form-control" name="" id="" rows="3"></textarea>
-            </div>
-            <button type="submit" id="vote" class="btn btn-primary">Submit</button>
-          </div>
-        </div>
-
-
-
-
-        <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <form class="col-lg-8 offset-lg-2 rounded px-3 pt-3 border bg-white">
-            <div class="row mb-3">
-              <div class="form-group">
-                <label for="">Comments</label>
-                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                <small id="helpId" class="form-text text-muted">Help text</small>
+          <div class="card text-center">
+            <div class="card-body ">
+              <div class="form-group ">
+                <h5><label for="comment">Insert a comment</label></h5>
+                <textarea class="form-control " style="height: 124px;" name="" id="" rows="3"></textarea>
               </div>
+              <button type="submit" id="vote" class="btn btn-primary">Submit</button>
             </div>
-            <div class="row mb-3 justify-content ">
-                <button id="vote" type="button" class="btn btn-primary">Vote</button>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
