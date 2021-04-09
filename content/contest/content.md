@@ -101,11 +101,11 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
         </div>
         <div class="col-lg-3 col-xs-12 col-sm-6 p-2">
-          <div class="card text-center">
+          <div class="card text-center h-100">
             <div class="card-body ">
               <div class="form-group ">
                 <h5><label for="comment">Insert a comment</label></h5>
-                <textarea class="form-control " style="height: 124px;" name="" id="" rows="3"></textarea>
+                <textarea class="form-control " style="height: 124px;" name="" id="comment" rows="3"></textarea>
               </div>
               <button type="submit" id="vote" class="btn btn-primary">Submit</button>
             </div>
