@@ -1,24 +1,23 @@
 let ActiveSelection="";
-let video = document.getElementById('video');
+let videos = document.getElementsByName('video');
 let result = document.getElementById('result');
 let vote = document.getElementById('vote');
 let terms = document.getElementById('terms');
 let email = document.getElementById('email');
 
-video.addEventListener('click', event => {
-            if(event.target!=vote){
-                if(ActiveSelection){
-                    ActiveSelection.classList.remove('btn-success');
-                    ActiveSelection.classList.add('btn-primary');
-                    ActiveSelection.innerHTML = "Select";
-                }
-                event.target.classList.remove('btn-primary');
-                event.target.classList.add('btn-success');
-                event.target.innerHTML = "Selected";
-                ActiveSelection = event.target;
-            }
-    }
-)
+videos.forEach(video => {
+    video.addEventListener('click', event => {
+        if(ActiveSelection){
+            ActiveSelection.classList.remove('btn-success');
+            ActiveSelection.classList.add('btn-primary');
+            ActiveSelection.innerHTML = "Select";
+        }
+        event.target.classList.remove('btn-primary');
+        event.target.classList.add('btn-success');
+        event.target.innerHTML = "Selected";
+        ActiveSelection = event.target;
+    })
+})
 
 vote.addEventListener('click', event => {
     let errorMessage = "Ops! Something went wrong:<br>";
