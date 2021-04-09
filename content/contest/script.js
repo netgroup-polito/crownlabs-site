@@ -5,6 +5,7 @@ let vote = document.getElementById('vote');
 let terms = document.getElementById('terms');
 let email = document.getElementById('email');
 
+<<<<<<< HEAD
 videos.forEach(video => {
     video.addEventListener('click', event => {
         if(ActiveSelection){
@@ -18,6 +19,23 @@ videos.forEach(video => {
         ActiveSelection = event.target;
     })
 })
+=======
+
+video.addEventListener('click', event => {
+            if(event.target!=vote && event.target.id.split('_')[0]==='concept'){
+                if(ActiveSelection){
+                    ActiveSelection.classList.remove('btn-success');
+                    ActiveSelection.classList.add('btn-primary');
+                    ActiveSelection.innerHTML = "Select";
+                }
+                event.target.classList.remove('btn-primary');
+                event.target.classList.add('btn-success');
+                event.target.innerHTML = "Selected";
+                ActiveSelection = event.target;
+            }
+    }
+)
+>>>>>>> 886abbe2047edfdee40489d87acebd31689f9a1d
 
 vote.addEventListener('click', event => {
     let errorMessage = "Ops! Something went wrong:<br>";
