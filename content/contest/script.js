@@ -45,14 +45,14 @@ vote.addEventListener('click', event => {
         errorMessage += "<li>Select a Concept to vote</li>";
         error = true;
     }
-    if(!email.value.match(mailformat)){
+    /*if(!email.value.match(mailformat)){
         errorMessage += "<li>Insert a Valid email</li>";
         error = true;
     }
     if(!terms.checked){
         errorMessage += "<li>Accept our Terms</li>";
         error = true;
-    }
+    }*/
     if(error){
         result.innerHTML = `
         <div class="col-12 alert alert-danger" role="alert">
