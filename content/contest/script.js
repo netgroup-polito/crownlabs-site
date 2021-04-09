@@ -21,7 +21,7 @@ video.addEventListener('click', event => {
     }
 )
 
-vote.addEventListener('click', event => {
+vote.addEventListener('click', () => {
     let errorMessage = "Ops! Something went wrong:<br>";
     var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     let error = false;
@@ -29,32 +29,41 @@ vote.addEventListener('click', event => {
         errorMessage += "<li>Select a Concept to vote</li>";
         error = true;
     }
-    if(!email.value.match(mailformat)){
+    /* if(!email.value.match(mailformat)){
         errorMessage += "<li>Insert a Valid email</li>";
         error = true;
     }
     if(!terms.checked){
         errorMessage += "<li>Accept our Terms</li>";
         error = true;
-    }
-    if(error){
+    } */
+    /* if(error){
         result.innerHTML = `
         <div class="col-12 alert alert-danger" role="alert">
             ${errorMessage}
         </div>
         `
         result.classList.add('show');
-    }else{
+    }else{ */
         /** INSERT HERE CALL TO ACTION GOOGLE FORM
          * @parameter to send
          * activeSelection.value    [NUMBER]
          * emaile.value             [EMAIL]
          */
-        result.innerHTML = `
+   /*      result.innerHTML = `
         <div class="col-12 alert alert-success" role="alert">
             Well Done! Thank you for your vote
         </div>
         `
         result.classList.add('show');
-    }
+    } */
+    video.style.display="none";
+    const text='Thanks to vote, your help will be very usefull';
+    video.parentElement.innerHTML=`
+    <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Thanks to vote!</h4>
+        <hr>
+        <p class="mb-0">Your help will be very usefull.</p>
+    </div>`
+    
 })
