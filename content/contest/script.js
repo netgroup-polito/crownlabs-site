@@ -28,19 +28,21 @@ sendVote = async () => {
     // Get the Selected Vote
     const voted = ActiveSelection.value;
 
-    result.innerHTML = `<div class="col-12 alert alert-success" role="alert">Wait ... connection is slow</div>`;
-    console.log('start');
+    // Show Wait Alert
+    result.innerHTML = `<div class="col-12 alert alert-warning" role="alert">Wait ...</div>`;
+    result.classList.add('show');
+
     // Get the User IP
     const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => {return data.ip}).catch(()=>'0.0.0.0');
-    console.log(userIP);
+
     // POST Vote on Spreadsheet
     let resultVotation = await fetch("https://api.apispreadsheets.com/data/10703/", {
-    method: "POST",
-    body: JSON.stringify({"data": {"vote":voted,"userIP":userIP,"date":date}})})
+        method: "POST",
+        body: JSON.stringify({"data": {"vote":voted,"userIP":userIP,"date":date}})
+    })
 
-    console.log('finish');
     // Print the result alert
-    if(resultVotation.status === 201){
+    if (resultVotation.status === 201) {
         result.innerHTML = `
             <div class="col-12 alert alert-success" role="alert">
                 Well Done! Thank you for your vote
@@ -61,12 +63,6 @@ sendVote = async () => {
             </div>
             `
     }
-
-    // Show Result Alert
-    result.classList.add('show');
-
-    // Test Result
-    console.log(resultVotation);
 
     // Disable repeated Vote
     vote.disabled = true;
