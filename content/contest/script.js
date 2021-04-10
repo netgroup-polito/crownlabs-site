@@ -28,14 +28,17 @@ sendVote = async () => {
     // Get the Selected Vote
     const voted = ActiveSelection.value;
 
+    result.innerHTML = `<div class="col-12 alert alert-success" role="alert">Wait ... connection is slow</div>`;
+    console.log('start');
     // Get the User IP
-    const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => {return data.ip});
-    
+    const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => {return data.ip}).catch(()=>'0.0.0.0');
+    console.log(userIP);
     // POST Vote on Spreadsheet
     let resultVotation = await fetch("https://api.apispreadsheets.com/data/10703/", {
     method: "POST",
     body: JSON.stringify({"data": {"vote":voted,"userIP":userIP,"date":date}})})
 
+    console.log('finish');
     // Print the result alert
     if(resultVotation.status === 201){
         result.innerHTML = `
@@ -78,7 +81,7 @@ sendVote = async () => {
 if (storage){
     result.innerHTML = `
         <div class="col-12 alert alert-danger" role="alert">
-            You have already vote Concept ${storage.value}
+            You have already voted Concept ${storage.value}
         </div>
         `
     // Show Result Alert
