@@ -4,6 +4,7 @@ let result = document.getElementById('result');
 let vote = document.getElementById('vote');
 let terms = document.getElementById('terms');
 let email = document.getElementById('email');
+let comment=document.getElementById('comment');
 
 const storage = JSON.parse(localStorage.getItem('data'));
 
@@ -28,18 +29,21 @@ sendVote = async () => {
     // Get the Selected Vote
     const voted = ActiveSelection.value;
 
+    //Get comment
+    const comment_text=comment.value;
+    console.log(comment_text);
+
     // Show Result Alert
     result.innerHTML = `<div class="col-12 alert alert-success" role="alert">Wait ... connection is slow</div>`;
     result.classList.add('show');
     
-    console.log('start');
     // Get the User IP
     const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => {return data.ip}).catch(()=>'0.0.0.0');
 
     // POST Vote on Spreadsheet
     let resultVotation = await fetch("https://api.apispreadsheets.com/data/10703/", {
         method: "POST",
-        body: JSON.stringify({"data": {"vote":voted,"userIP":userIP,"date":date}})
+        body: JSON.stringify({"data": {"vote":voted,"userIP":userIP,"date":date,"comment":comment_text}})
     })
 
     // Print the result alert
@@ -54,7 +58,8 @@ sendVote = async () => {
                 'submit': true,
                 'value': voted,
                 'IP': userIP,
-                'date': date
+                'date': date,
+                'comment': comment_text
             }
             localStorage.setItem('data', JSON.stringify(data));
     }else{
