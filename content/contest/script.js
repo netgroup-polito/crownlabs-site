@@ -23,6 +23,10 @@ selection = (event) => {
 
 sendVote = async () => {
 
+    // Show Wait Alert
+    result.innerHTML = `<div class="col-12 alert alert-success" role="alert">Wait ... connection is slow</div>`;
+    result.classList.add('show');
+
     // Get vote Date
     const date = new Date();
 
@@ -31,11 +35,6 @@ sendVote = async () => {
 
     //Get comment
     const comment_text=comment.value;
-    console.log(comment_text);
-
-    // Show Result Alert
-    result.innerHTML = `<div class="col-12 alert alert-success" role="alert">Wait ... connection is slow</div>`;
-    result.classList.add('show');
     
     // Get the User IP
     const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => {return data.ip}).catch(()=>'0.0.0.0');
@@ -53,15 +52,15 @@ sendVote = async () => {
                 Well Done! Thank you for your vote
             </div>
             `
-            // Save vote Obj in localStorage
-            const data = {
-                'submit': true,
-                'value': voted,
-                'IP': userIP,
-                'date': date,
-                'comment': comment_text
-            }
-            localStorage.setItem('data', JSON.stringify(data));
+        // Save vote Obj in localStorage
+        const data = {
+            'submit': true,
+            'value': voted,
+            'IP': userIP,
+            'date': date,
+            'comment': comment_text
+        }
+        localStorage.setItem('data', JSON.stringify(data));
     }else{
         result.innerHTML = `
             <div class="col-12 alert alert-danger" role="alert">
@@ -69,9 +68,6 @@ sendVote = async () => {
             </div>
             `
     }
-
-    // Test Result
-    console.log(resultVotation);
 
     // Disable repeated Vote
     vote.disabled = true;
