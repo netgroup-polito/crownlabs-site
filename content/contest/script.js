@@ -1,4 +1,4 @@
-let ActiveSelection="";
+let ActiveSelection = "";
 let videos = document.getElementsByName('video');
 let result = document.getElementById('result');
 let vote = document.getElementById('vote');
@@ -8,7 +8,7 @@ let email = document.getElementById('email');
 const storage = JSON.parse(localStorage.getItem('data'));
 
 selection = (event) => {
-    if(ActiveSelection){
+    if (ActiveSelection) {
         ActiveSelection.classList.remove('btn-success');
         ActiveSelection.classList.add('btn-primary');
         ActiveSelection.innerHTML = "Select";
@@ -29,29 +29,30 @@ sendVote = async () => {
     const voted = ActiveSelection.value;
 
     // Get the User IP
-    const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => {return data.ip});
-    
+    const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => { return data.ip });
+
     // POST Vote on Spreadsheet
     let resultVotation = await fetch("https://api.apispreadsheets.com/data/10703/", {
-    method: "POST",
-    body: JSON.stringify({"data": {"vote":voted,"userIP":userIP,"date":date}})})
+        method: "POST",
+        body: JSON.stringify({ "data": { "vote": voted, "userIP": userIP, "date": date } })
+    })
 
     // Print the result alert
-    if(resultVotation.status === 201){
+    if (resultVotation.status === 201) {
         result.innerHTML = `
             <div class="col-12 alert alert-success" role="alert">
                 Well Done! Thank you for your vote
             </div>
             `
-            // Save vote Obj in localStorage
-            const data = {
-                'submit': true,
-                'value': voted,
-                'IP': userIP,
-                'date': date
-            }
-            localStorage.setItem('data', JSON.stringify(data));
-    }else{
+        // Save vote Obj in localStorage
+        const data = {
+            'submit': true,
+            'value': voted,
+            'IP': userIP,
+            'date': date
+        }
+        localStorage.setItem('data', JSON.stringify(data));
+    } else {
         result.innerHTML = `
             <div class="col-12 alert alert-danger" role="alert">
                 Error: ${resultVotation.status}
@@ -75,7 +76,7 @@ sendVote = async () => {
     })
 }
 
-if (storage){
+if (storage) {
     result.innerHTML = `
         <div class="col-12 alert alert-danger" role="alert">
             You have already vote Concept ${storage.value}
@@ -84,11 +85,11 @@ if (storage){
     // Show Result Alert
     result.classList.add('show');
 
-}else{
+} else {
 
     videos.forEach(video => {
         video.addEventListener('click', selection)
     });
-    
+
     vote.addEventListener('click', sendVote);
 }

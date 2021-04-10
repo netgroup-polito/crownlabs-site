@@ -20,7 +20,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
 <html lang="en">
   <body>
     <div class="row my-4">
-      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+      <div class="col-lg-4 col-xs-12 col-md-6 p-2">
         <div class="card text-center">
           <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
@@ -29,11 +29,11 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
           <div class="card-body">
             <h5 class="card-title">Concept 1</h5>
-            <button id="concept_1" class="btn btn-primary" value="1">Select</a>
+            <button name='video' id="concept_1" class="btn btn-primary" value="1">Select</a>
           </div>
         </div>
       </div>
-      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+      <div class="col-lg-4 col-xs-12 col-md-6 p-2">
         <div class="card text-center">
           <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
@@ -42,11 +42,11 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
           <div class="card-body">
             <h5 class="card-title">Concept 2</h5>
-            <button id="concept_2" class="btn btn-primary" value="2">Select</a>
+            <button name='video' id="concept_2" class="btn btn-primary" value="2">Select</a>
           </div>
         </div>
       </div>
-      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+      <div class="col-lg-4 col-xs-12 col-md-6 p-2">
         <div class="card text-center">
           <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
@@ -55,11 +55,11 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
           <div class="card-body">
             <h5 class="card-title">Concept 3</h5>
-            <button id="concept_3" class="btn btn-primary" value="3">Select</a>
+            <button name='video' id="concept_3" class="btn btn-primary" value="3">Select</a>
           </div>
         </div>
       </div>
-      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+      <div class="col-lg-4 col-xs-12 col-md-6 p-2">
         <div class="card text-center">
           <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
@@ -68,11 +68,11 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
           <div class="card-body">
             <h5 class="card-title">Concept 4</h5>
-            <button id="concept_4" class="btn btn-primary" value="4">Select</a>
+            <button name='video' id="concept_4" class="btn btn-primary" value="4">Select</a>
           </div>
         </div>
       </div>
-      <div name="video" class="col-lg-4 col-xs-12 col-md-6 p-2">
+      <div class="col-lg-4 col-xs-12 col-md-6 p-2">
         <div class="card text-center">
           <div class="embed-responsive embed-responsive-16by9">
             <video controls="true" class="embed-responsive-item card-img-top">
@@ -81,7 +81,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           </div>
           <div class="card-body">
             <h5 class="card-title">Concept 5</h5>
-            <button id="concept_5" class="btn btn-primary" value="5">Select</a>
+            <button name='video' id="concept_5" class="btn btn-primary" value="5">Select</a>
           </div>
         </div>
       </div>
