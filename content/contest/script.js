@@ -5,90 +5,66 @@ let vote = document.getElementById('vote');
 let terms = document.getElementById('terms');
 let email = document.getElementById('email');
 
-const storage = JSON.parse(localStorage.getItem('data'));
 
-selection = (event) => {
-    if(ActiveSelection){
-        ActiveSelection.classList.remove('btn-success');
-        ActiveSelection.classList.add('btn-primary');
-        ActiveSelection.innerHTML = "Select";
-    }
-    event.target.classList.remove('btn-primary');
-    event.target.classList.add('btn-success');
-    event.target.innerHTML = "Selected";
-    ActiveSelection = event.target;
-    vote.disabled = false;
-}
-
-sendVote = async () => {
-
-    // Get vote Date
-    const date = new Date();
-
-    // Get the Selected Vote
-    const voted = ActiveSelection.value;
-
-    // Get the User IP
-    const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => {return data.ip});
-    
-    // POST Vote on Spreadsheet
-    let resultVotation = await fetch("https://api.apispreadsheets.com/data/10703/", {
-    method: "POST",
-    body: JSON.stringify({"data": {"vote":voted,"userIP":userIP,"date":date}})})
-
-    // Print the result alert
-    if(resultVotation.status === 201){
-        result.innerHTML = `
-            <div class="col-12 alert alert-success" role="alert">
-                Well Done! Thank you for your vote
-            </div>
-            `
-            // Save vote Obj in localStorage
-            const data = {
-                'submit': true,
-                'value': voted,
-                'IP': userIP,
-                'date': date
+videos.forEach(video => {
+    video.addEventListener('click', event => {
+        if(event.target.id.split('_')[0]==='concept'){
+            if(ActiveSelection){
+                ActiveSelection.classList.remove('btn-success');
+                ActiveSelection.classList.add('btn-primary');
+                ActiveSelection.innerHTML = "Select";
             }
-            localStorage.setItem('data', JSON.stringify(data));
-    }else{
-        result.innerHTML = `
-            <div class="col-12 alert alert-danger" role="alert">
-                Error: ${resultVotation.status}
-            </div>
-            `
-    }
-
-    // Show Result Alert
-    result.classList.add('show');
-
-    // Test Result
-    console.log(resultVotation);
-
-    // Disable repeated Vote
-    vote.disabled = true;
-
-    // Disable event listener selection
-    videos.forEach(video => {
-        video.removeEventListener('click', selection)
-
+            event.target.classList.remove('btn-primary');
+            event.target.classList.add('btn-success');
+            event.target.innerHTML = "Selected";
+            ActiveSelection = event.target;
+        }
     })
-}
+})
 
-if (storage){
-    result.innerHTML = `
+vote.addEventListener('click', () => {
+    let errorMessage = "Ops! Something went wrong:<br>";
+    var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    let error = false;
+    if(!ActiveSelection){
+        errorMessage += "<li>Select a Concept to vote</li>";
+        error = true;
+    }
+    /* if(!email.value.match(mailformat)){
+        errorMessage += "<li>Insert a Valid email</li>";
+        error = true;
+    }
+    if(!terms.checked){
+        errorMessage += "<li>Accept our Terms</li>";
+        error = true;
+    } */
+    /* if(error){
+        result.innerHTML = `
         <div class="col-12 alert alert-danger" role="alert">
-            You have already voted Concept ${storage.value}
+            ${errorMessage}
         </div>
         `
-    // Show Result Alert
-    result.classList.add('show');
-
-}else{
-
-    videos.forEach(video => {
-        video.addEventListener('click', selection)
-    });
+        result.classList.add('show');
+    }else{ */
+        /** INSERT HERE CALL TO ACTION GOOGLE FORM
+         * @parameter to send
+         * activeSelection.value    [NUMBER]
+         * emaile.value             [EMAIL]
+         */
+   /*      result.innerHTML = `
+        <div class="col-12 alert alert-success" role="alert">
+            Well Done! Thank you for your vote
+        </div>
+        `
+        result.classList.add('show');
+    } */
+    video.style.display="none";
+    const text='Thanks to vote, your help will be very usefull';
+    video.parentElement.innerHTML=`
+    <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Thanks to vote!</h4>
+        <hr>
+        <p class="mb-0">Your help will be very usefull.</p>
+    </div>`
     
-    vote.addEventListener('click', sendVote);
-}
+})
