@@ -94,38 +94,13 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
             </div>
             <div class="row mb-3">
               <div class="col text-center">
-                <button id="vote" type="button" class="btn btn-primary">Vote</button>
+                <button id="vote" type="button" class="btn btn-primary" disabled>Vote</button>
               </div>
             </div>
             <div id="result" class="row mt-3 px-3 collapse">
           </div>
           </div>
         </div>
-        <!--form class="col-lg-12 rounded px-3 pt-3 border bg-white" style="min-height:100% !important">
-          <div class="row mb-3">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-10">
-              <input type="email" class="form-control form-control flex-fill" id="email" required>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-sm-10 offset-sm-2">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="terms" required>
-                <label class="form-check-label" for="gridCheck1">
-                  Terms checkbox
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col text-center">
-              <button id="vote" type="button" class="btn btn-primary">Vote</button>
-            </div>
-          </div>
-          <div id="result" class="row mt-3 px-3 collapse">
-          </div>
-        </form-->
       </div>
     </div>
   </body>
