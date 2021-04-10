@@ -24,7 +24,7 @@ selection = (event) => {
 sendVote = async () => {
 
     // Show Wait Alert
-    result.innerHTML = `<div class="col-12 alert alert-success" role="alert">Wait ... connection is slow</div>`;
+    result.innerHTML = `<div class="col-12 alert alert-warning" role="alert">Wait ...</div>`;
     result.classList.add('show');
 
     // Get vote Date
