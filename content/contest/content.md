@@ -90,7 +90,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
           <div class="card-body">
             <div class="form-group ">
               <h5><label for="comment">Insert a comment</label></h5>
-              <textarea class="form-control " style="height: 75px;" name="" id="comment" rows="3"></textarea>
+              <textarea class="form-control " style="height: 100px;" name="" id="comment" rows="3"></textarea>
             </div>
             <div class="row mb-3">
               <div class="col text-center">
