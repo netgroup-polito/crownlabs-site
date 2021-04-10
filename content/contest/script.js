@@ -28,7 +28,10 @@ sendVote = async () => {
     // Get the Selected Vote
     const voted = ActiveSelection.value;
 
+    // Show Result Alert
     result.innerHTML = `<div class="col-12 alert alert-success" role="alert">Wait ... connection is slow</div>`;
+    result.classList.add('show');
+    
     console.log('start');
     // Get the User IP
     const userIP = await fetch('https://api64.ipify.org?format=json').then(response => response.json()).then(data => {return data.ip}).catch(()=>'0.0.0.0');
@@ -62,8 +65,7 @@ sendVote = async () => {
             `
     }
 
-    // Show Result Alert
-    result.classList.add('show');
+    
 
     // Test Result
     console.log(resultVotation);
