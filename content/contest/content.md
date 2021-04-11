@@ -70,7 +70,7 @@ Please vote down here by selecting the design that you think would fit best for 
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 p-2">
+    <div class="offset-lg-2 col-lg-4 col-md-6 p-2">
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
@@ -84,7 +84,7 @@ Please vote down here by selecting the design that you think would fit best for 
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 p-2">
+    <div class="offset-md-3 offset-lg-0 col-lg-4 col-md-6 p-2">
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
@@ -98,17 +98,17 @@ Please vote down here by selecting the design that you think would fit best for 
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 p-2">
+    <div class="offset-lg-2 col-lg-8 col-12 p-2">
       <div class="card text-center h-100">
         <div class="card-body">
           <div class="form-group ">
-            <label for="comment">Tell us what you liked!</label>
+            <label for="comment"><h5>Tell us what you liked!</h5></label>
             <p>(optional)</p>
             <textarea class="form-control " style="height: 100px;" name="" id="comment" rows="3"></textarea>
           </div>
           <div class="row mb-3">
             <div class="col text-center">
-              <button id="vote" type="button" class="btn btn-primary" disabled>Vote</button>
+              <button id="vote" type="button" class="btn btn-success" disabled>Vote</button>
             </div>
           </div>
           <div id="result" class="row mt-3 px-3 collapse">
