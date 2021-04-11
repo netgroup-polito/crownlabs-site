@@ -22,8 +22,7 @@ This is why we've designed some **concepts** showing how the new dashboard will 
 Since CrownLabs is a platform *made by students for the students* we're here to ask your opinion.<br/>
 Please vote down here by selecting the design that you think would fit best for CrownLabs and, if you'd like, leave a comment down below letting us know what you think about it!
 
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 <script defer src="./script.js"></script>
 <html lang="en">
 
@@ -33,7 +32,7 @@ Please vote down here by selecting the design that you think would fit best for 
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
-            <source src="https://drive.google.com/uc?export=download&id=1e-xaqTPQ5xhlulNrGTOzRgyBuhAonU-S"
+            <source src="https://drive.google.com/uc?export=download&id=1BC9LX2RDDH-hpjRB039GdT5uTX7WNNhN"
               type="video/mp4">
           </video>
         </div>
