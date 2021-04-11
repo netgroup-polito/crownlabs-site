@@ -26,7 +26,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
-            <source src="videos/1.mp4"
+            <source src="https://drive.google.com/uc?export=download&id=1xrV-_KO04MILXq9_n3LyimfI1TiNdg6g"
               type="video/mp4">
           </video>
         </div>
@@ -40,7 +40,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
-            <source src="videos/2.mp4"
+            <source src="https://drive.google.com/uc?export=download&id=1-uJbvf9E0eRDtXVeZ-iY8aD7NUFGx2HI"
               type="video/mp4">
           </video>
         </div>
@@ -54,8 +54,8 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
-            <source src="videos/3.mp4"
-              type="video/webm">
+            <source src="https://drive.google.com/uc?export=download&id=1nrjA-zfjn-tp2_50PdletpASQI96Kamg"
+              type="video/mp4">
           </video>
         </div>
         <div class="card-body">
@@ -68,7 +68,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
-            <source src="videos/4.mp4"
+            <source src="https://drive.google.com/uc?export=download&id=1_Aihtb5rQPDn4fge4ptKmjYvfpEpANrk"
               type="video/mp4">
           </video>
         </div>
@@ -82,8 +82,8 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
-            <source src="videos/5.webm"
-              type="video/webm">
+            <source src="https://drive.google.com/uc?export=download&id=1FHPj6XUentGvgwH_tiyLeil2vcT91ei3"
+              type="video/mp4">
           </video>
         </div>
         <div class="card-body">
