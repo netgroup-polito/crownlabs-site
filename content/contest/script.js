@@ -85,7 +85,7 @@ sendVote = async () => {
 if (storage){
     result.innerHTML = `
         <div class="col-12 alert alert-danger" role="alert">
-            You have already voted Concept ${storage.value}
+            You have already voted!
         </div>
         `
     // Show Result Alert
