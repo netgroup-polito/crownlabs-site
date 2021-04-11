@@ -61,7 +61,7 @@ Please vote down here by selecting the design that you think would fit best for 
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
             <source src="https://drive.google.com/uc?export=download&id=1x1k3UBoNmqPFTVCU8XD7bM9f6VTYQUNK"
-              type="video/mp4">
+              type="video/webm">
           </video>
         </div>
         <div class="card-body">
