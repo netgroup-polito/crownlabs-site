@@ -6,7 +6,7 @@ let terms = document.getElementById('terms');
 let email = document.getElementById('email');
 let comment=document.getElementById('comment');
 
-const storage = JSON.parse(localStorage.getItem('data'));
+const storage = JSON.parse(localStorage.getItem('userVote'));
 
 selection = (event) => {
     if(ActiveSelection){
@@ -53,14 +53,14 @@ sendVote = async () => {
             </div>
             `
         // Save vote Obj in localStorage
-        const data = {
+        const userVote = {
             'submit': true,
             'value': voted,
             'IP': userIP,
             'date': date,
             'comment': comment_text
         }
-        localStorage.setItem('data', JSON.stringify(data));
+        localStorage.setItem('userVote', JSON.stringify(userVote));
     }else{
         result.innerHTML = `
             <div class="col-12 alert alert-danger" role="alert">
