@@ -33,7 +33,7 @@ Please vote down here by selecting the design that you think would fit best for 
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
-            <source src="https://drive.google.com/uc?export=download&id=1xrV-_KO04MILXq9_n3LyimfI1TiNdg6g"
+            <source src="https://drive.google.com/uc?export=download&id=1e-xaqTPQ5xhlulNrGTOzRgyBuhAonU-S"
               type="video/mp4">
           </video>
         </div>
