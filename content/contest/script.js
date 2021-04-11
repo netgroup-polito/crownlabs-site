@@ -19,10 +19,14 @@ selection = (event) => {
     event.target.innerHTML = "Selected";
     ActiveSelection = event.target;
     vote.disabled = false;
+    vote.classList.remove('btn-primary');
+    vote.classList.add('btn-success');
 }
 
 sendVote = async () => {
 
+    // Disable repeated Vote
+    vote.disabled = true;
     // Show Wait Alert
     result.innerHTML = `<div class="col-12 alert alert-warning" role="alert">Wait ...</div>`;
     result.classList.add('show');
@@ -69,8 +73,7 @@ sendVote = async () => {
             `
     }
 
-    // Disable repeated Vote
-    vote.disabled = true;
+    
 
     // Disable event listener selection
     videos.forEach(video => {

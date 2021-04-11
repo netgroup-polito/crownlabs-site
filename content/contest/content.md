@@ -108,7 +108,7 @@ Please vote down here by selecting the design that you think would fit best for 
           </div>
           <div class="row mb-3">
             <div class="col text-center">
-              <button id="vote" type="button" class="btn btn-success" disabled>Vote</button>
+              <button id="vote" type="button" class="btn btn-primary" disabled>Vote</button>
             </div>
           </div>
           <div id="result" class="row mt-3 px-3 collapse">
