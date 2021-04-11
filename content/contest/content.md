@@ -9,11 +9,18 @@ weight = 100
 +++
 
 # Vote the new Dashboard concept
+<br/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### 🎉 GOOD NEWS 🎉
+
+CrownLabs is getting a new UI!
+
+We're currently in the process of redesigning the **main dashboard** for CrownLabs since, as you told us through [this survey](https://forms.gle/ktZjrvtW5BzpoHia7), the old one used to look a little bit too overwhelming with tons of buttons and _not-well-placed_ functionalities. *And we all agreed with you!*
+
+This is why we've designed some **concepts** showing how the new dashboard will look. These concepts have been developed keeping in mind **all your suggestions and requests**, while trying to give CrownLabs a more appealing look and feel.
+
+Since CrownLabs is a platform *made by students for the students* we're here to ask your opinion.<br/>
+Please vote down here by selecting the design that you think would fit best for CrownLabs and, if you'd like, leave a comment down below letting us know what you think about it!
 
 <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
@@ -22,7 +29,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
 
 <body>
   <div class="row my-4">
-    <div class="col-lg-4 col-xs-12 col-md-6 p-2">
+    <div class="col-lg-4 col-md-6 p-2">
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
@@ -36,7 +43,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-xs-12 col-md-6 p-2">
+    <div class="col-lg-4 col-md-6 p-2">
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
@@ -50,7 +57,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-xs-12 col-md-6 p-2">
+    <div class="col-lg-4 col-md-6 p-2">
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
@@ -64,7 +71,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-xs-12 col-md-6 p-2">
+    <div class="col-lg-4 col-md-6 p-2">
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
@@ -78,7 +85,7 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-xs-12 col-md-6 p-2">
+    <div class="col-lg-4 col-md-6 p-2">
       <div class="card text-center">
         <div class="embed-responsive embed-responsive-16by9">
           <video controls="true" class="embed-responsive-item card-img-top">
@@ -92,11 +99,12 @@ occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-xs-12 col-md-6 p-2">
+    <div class="col-lg-4 col-md-6 p-2">
       <div class="card text-center h-100">
         <div class="card-body">
           <div class="form-group ">
-            <h5><label for="comment">Insert a comment</label></h5>
+            <label for="comment">Tell us what you liked!</label>
+            <p>(optional)</p>
             <textarea class="form-control " style="height: 100px;" name="" id="comment" rows="3"></textarea>
           </div>
           <div class="row mb-3">
