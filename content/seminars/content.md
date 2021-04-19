@@ -13,8 +13,28 @@ This page lists the events and seminars organized by the CrownLabs community.
 
 <br>
 
+### Data pipeline orchestration via Apache Airflow
+- Speaker: Matteo Senardi, [Docsity](https://www.criticalcase.com/)
+- When: Monday, Apr 26, 2021, 17.30 - 19.00am
+
+#### Abstract
+Docsity is social learning network for students and professionals worldwide, where it is possible to share and download study material. 
+In Docsity we have millions of users coming every month that are engaged with the platform, with tens of millions interactions to be tracked. 
+The exciting challenge for the Docsity data team is to create a process that allows to collect, store and activate millions of clickstreams day by day.
+In Docsity we created a custom build from Docker Compose with Google Cloud Build CI/CD process to deploy new versions of Apache Airflow (an open source platform widely used to design and control data pipeline) with Google Compute Engine every time a commit is pushed on the production branch.
+This talk will present how we automated the entire workflow, hence achieving a timely update of our software while keeping the entire solution stateless.
+
+
+#### Short bio
+Matteo Senardi is the Head of Data of Docsity, where he leads the team responsible for all data chain, from collection on real time clickstream, to transformations and normalizations in order to feed the data lake in Google BigQuery. This includes the datasets definitions and gathering, the development of data-pipelines or the science of making it work and their deployment in production with CI/CD.
+He studied computer engineering in Modena and after the degree, he started working with data in the R&D department of Webranking, a digital marketing agency. He moved later to Mediaset as a senior data engineer, and then he joined Docsity.
+He designs and maintains several open source projects in his [GitHub](https://github.com/pualien) account which are currently used in production environments.
+
+<br>
+
+
 ### Multicloud Infrastructure as Code on Tencent China: Issues and best practice
-- Speaker: Pasquale Lepera, Criticalcase
+- Speaker: Pasquale Lepera, [Criticalcase](https://www.criticalcase.com/)
 - When: Monday, February 22, 2021, 17.00 - 18.30am
 - [Recorded video](https://youtu.be/HRlWgnlBCGQ)
 
@@ -28,13 +48,16 @@ Based on a real use case for a big player of the fashion industry, this sebinar 
 5) How could this kind of project evolve by integrating into a DevOps.
 
 #### Short bio
-Pasquale Lepera is a Senior Cloud Architect and Delivery Manager in Criticalcase. He got 17 years of experience in the IT field working for small and multinational company. During his career he Pasquale covered many roles like: System Engineer, IT Manager, Project Manager, DevOps Engineer, Solution Architect, Cloud Architect and Delivery Manager. Pasquale holds a Master Degree in Telecommunication Engineering from Universita' di Pisa (2004). 
+Matteo Senardi is the Head of Data of Docsity, the social learning network for students and professionals worldwide, where it is possible to share and download study material. 
+In Docsity he leads the team responsible for all data chain, from collection on real time clickstream, to transformations and normalizations in order to feed the data lake in Google BigQuery. This includes the datasets definitions and gathering, the development of data-pipelines or the science of making it work and their deployment in production with CI/CD.
+He studied computer engineering in Modena and after the degree, he started working with data in the R&D department of Webranking, a digital marketing agency. After 3 years he moved for a career change in Milan for Mediaset as a senior data engineer, and a year later joined Docsity.
+He designs and maintains open source projects in his GitHub account which are currently used in production environments.
 
 <br>
 <hr>
 
 ### Design and implementation of a data center network with a layer 2 extension
-- Speaker: Francesco Marabotto, Google
+- Speaker: Francesco Marabotto, [Google](https://www.google.com/)
 - When: Monday, Feb 8, 2021, 11.00am - 12.30pm
 
 #### Abstract
@@ -55,7 +78,7 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 <hr>
 
 ### Wireless deployment and technologies
-- Speaker: Stefano Ferrari (Cisco Systems)
+- Speaker: Stefano Ferrari, [Cisco](https://www.cisco.com/)
 - When: Monday, Jan 18, 2021, 9.30 - 11.00am.
 
 #### Abstract
