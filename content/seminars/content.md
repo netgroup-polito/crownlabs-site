@@ -27,6 +27,8 @@ Come può essere sostenibile, in azienda o per la didattica, l’adozione di sol
 Si e' laureato in Ingegneria Gestionale presso il Politecnico di Torino. Appassionato di tecnologia, si avvicina al mondo dell'open source nel 2006. Nel 2008 fonda la startup Freepath che ha come obiettivo quello di promuovere i progetti open source, parafrasando la celebre frase di Henry Ford "C'e' vero progresso solo quando i vantaggi di una nuova tecnologia diventano per tutti".
 Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di cui è Product Manager e Project Manager dei progetti open source.
 
+<br>
+<hr>
 
 ### The life of a Cloud Security Researcher: how to exploit a cloud environment
 - Speaker: Stefano Chierici, [Sysdig](https://sysdig.com/)
@@ -44,6 +46,7 @@ What we will do together:
 **Stefano Chierici** is a security researcher in Sysdig where his research focuses on defending containerized environments and cloud environments from attacks ranging from web to kernel. Stefano is one of the Falco contributors, an incubation level CNCF project. He studied cyber security in Italy and, before joining Sysdig, he was a pentester and obtained the OSCP Certification in 2019. He was a security engineer and a red team member.
 
 <br>
+<hr>
 
 ### Data pipeline orchestration via Apache Airflow
 - Speaker: Matteo Senardi, [Docsity](https://www.criticalcase.com/)
@@ -63,7 +66,7 @@ He graduated as computer engineering in Modena. After the degree, he started wor
 He designs and maintains several open source projects in his [GitHub](https://github.com/pualien) account, which are currently used in production environments.
 
 <br>
-
+<hr>
 
 ### Multicloud Infrastructure as Code on Tencent China: Issues and best practice
 - Speaker: Pasquale Lepera, [Criticalcase](https://www.criticalcase.com/)
