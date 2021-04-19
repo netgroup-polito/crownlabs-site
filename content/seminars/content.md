@@ -15,7 +15,7 @@ This page lists the events and seminars organized by the CrownLabs community.
 
 ### Data pipeline orchestration via Apache Airflow
 - Speaker: Matteo Senardi, [Docsity](https://www.criticalcase.com/)
-- When: Monday, Apr 26, 2021, 17.30 - 19.00am
+- When: Monday, Apr 26, 2021, 17.30 - 19.00
 
 #### Abstract
 Docsity is social learning network for students and professionals worldwide, where it is possible to share and download study material. 
@@ -35,7 +35,7 @@ He designs and maintains several open source projects in his [GitHub](https://gi
 
 ### Multicloud Infrastructure as Code on Tencent China: Issues and best practice
 - Speaker: Pasquale Lepera, [Criticalcase](https://www.criticalcase.com/)
-- When: Monday, February 22, 2021, 17.00 - 18.30am
+- When: Monday, February 22, 2021, 17.00 - 18.30
 - [Recorded video](https://youtu.be/HRlWgnlBCGQ)
 
 
@@ -58,7 +58,7 @@ He designs and maintains open source projects in his GitHub account which are cu
 
 ### Design and implementation of a data center network with a layer 2 extension
 - Speaker: Francesco Marabotto, [Google](https://www.google.com/)
-- When: Monday, Feb 8, 2021, 11.00am - 12.30pm
+- When: Monday, Feb 8, 2021, 11.00 - 12.30
 
 #### Abstract
 Data centers are the locations where the real asset of an enterprise is stored: data.
@@ -79,7 +79,7 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 
 ### Wireless deployment and technologies
 - Speaker: Stefano Ferrari, [Cisco](https://www.cisco.com/)
-- When: Monday, Jan 18, 2021, 9.30 - 11.00am.
+- When: Monday, Jan 18, 2021, 9.30 - 11.00am
 
 #### Abstract
 Globally, wireless devices will account for 43% of all networked devices by 2022. At the same time, the number of IoT M2M devices will account for 51% of all networked devices by 2022, with the vast majority being wirelessly connected. Wireless is the new switching. In this seminar, we will cover most typical wireless deployments, we will learn that wireless is not just about access and will glance through the most recent industry trends.
