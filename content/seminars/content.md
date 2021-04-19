@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-02-24"
+date = "2021-04-19"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -10,6 +10,24 @@ weight = 100
 ## Seminars and Events
 
 This page lists the events and seminars organized by the CrownLabs community.
+For upcoming seminars, the call link can be requested through the CrownLabs [contact] page(../contact/).
+
+<br>
+
+### The life of a Cloud Security Researcher: how to exploit a cloud environment
+- Speaker: Stefano Chierici, [Sysdig](https://sysdig.com/)
+- When: Monday, May 3, 2021, 17.30 - 18.30
+
+#### Abstract
+Security has always been a challenge for all the companies also on-premises, but cloud-native services raises the bar. Containers offer more virtualization layers to hide an attack and Cloud removed the physical barrier increasing the misconfigurations impact. This talk will make it concrete and try a real cloud attack.
+What we will do together:
+ 1. Identify an entrypoint
+ 2. Lateral Movement in the cloud
+ 3. Cloud Privilege Escalation
+ 4. Detect the intrusion
+
+#### Short bio
+Stefano Chierici is a security researcher in Sysdig where his research focuses on defending containerized environments and cloud environments from attacks ranging from web to kernel. Stefano is one of the Falco contributors, an incubation level CNCF project. He studied cyber security in Italy and, before joining Sysdig, he was a pentester and obtained the OSCP Certification in 2019. He was a security engineer and a red team member.
 
 <br>
 
