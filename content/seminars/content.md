@@ -49,7 +49,7 @@ What we will do together:
 <hr>
 
 ### Data pipeline orchestration via Apache Airflow
-- Speaker: Matteo Senardi, [Docsity](https://www.criticalcase.com/)
+- Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
 - When: Monday, Apr 26, 2021, 17.30 - 19.00
 
 #### Abstract
