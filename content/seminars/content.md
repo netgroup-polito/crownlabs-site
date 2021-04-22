@@ -1,31 +1,37 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-04-19"
+date = "2021-04-22"
 weight = 100
 #title = "Seminars and Events"
 +++
 
 
 ## Seminars and Events
-
-This page lists the events and seminars organized by the CrownLabs community.
-For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
+This page lists events and seminars ([upcoming](#upcoming) and [past](#past)) organized by the CrownLabs community.
 
 <br>
+<hr>
+## <a name="upcoming"></a> Upcoming seminars
+For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
+<br>
+<hr>
 
-### Open-source e innovazione digitale: un approccio sostenibile e scalabile
-- Speaker: Luca Marchino, [Labinf Sistemi](https://www.labinfsistemi.com/)
-- When: Monday, May 10, 2021, 17.30 - 19.00
+### Data pipeline orchestration via Apache Airflow
+- Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
+- When: Monday, Apr 26, 2021, 17.30 - 19.00
 
 #### Abstract
-Il software open source, progettato per essere accessibile pubblicamente, viene sviluppato con un approccio decentralizzato e collaborativo di professionisti IT e community. Il risultato è una soluzione flessibile, longeva e di qualità. L’approccio open source incoraggia la collaborazione e il contributo di ognuno, per realizzare soluzioni efficaci nei confronti di sfide complesse e in contesti di forte cambiamento.
-Come può essere sostenibile, in azienda o per la didattica, l’adozione di soluzioni open source?
+Docsity is social learning network for students and professionals worldwide, where it is possible to share and download study material. 
+In Docsity we have millions of users coming every month that are engaged with the platform, with tens of millions interactions to be tracked. 
+The exciting challenge for the Docsity data team is to create a process that allows to collect, store and activate millions of clickstreams day by day.
+In Docsity we created a custom build from Docker Compose with Google Cloud Build CI/CD process to deploy new versions of Apache Airflow (an open source platform widely used to design and control data pipeline) with Google Compute Engine every time a commit is pushed on the production branch.
+This talk will present how we automated the entire workflow, hence achieving a timely update of our software while keeping the entire solution stateless.
 
 #### Short bio
-**Luca Marchino** e' Delivery Manager e Product Manager di iDempiere ERP - Labinf Sistemi, nonche' Presidente e Cofondatore di ERP Open Source Italia.
-Si e' laureato in Ingegneria Gestionale presso il Politecnico di Torino. Appassionato di tecnologia, si avvicina al mondo dell'open source nel 2006. Nel 2008 fonda la startup Freepath che ha come obiettivo quello di promuovere i progetti open source, parafrasando la celebre frase di Henry Ford "C'e' vero progresso solo quando i vantaggi di una nuova tecnologia diventano per tutti".
-Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di cui è Product Manager e Project Manager dei progetti open source.
+**Matteo Senardi** is the Head of Data of Docsity, where he leads the team responsible for all data chain, from collection on real time clickstream, to transformations and normalizations in order to feed the data lake in Google BigQuery. This includes the datasets definitions and gathering, the development of data-pipelines or the science of making it work and their deployment in production with CI/CD.
+He graduated as computer engineering in Modena. After the degree, he started working with data in the R&D department of Webranking, a digital marketing agency. He moved later to Mediaset as a senior data engineer, and then he joined Docsity.
+He designs and maintains several open source projects in his [GitHub](https://github.com/pualien) account, which are currently used in production environments.
 
 <br>
 <hr>
@@ -48,23 +54,48 @@ What we will do together:
 <br>
 <hr>
 
-### Data pipeline orchestration via Apache Airflow
-- Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
-- When: Monday, Apr 26, 2021, 17.30 - 19.00
+### Open-source e innovazione digitale: un approccio sostenibile e scalabile
+- Speaker: Luca Marchino, [Labinf Sistemi](https://www.labinfsistemi.com/)
+- When: Monday, May 10, 2021, 17.30 - 19.00
 
 #### Abstract
-Docsity is social learning network for students and professionals worldwide, where it is possible to share and download study material. 
-In Docsity we have millions of users coming every month that are engaged with the platform, with tens of millions interactions to be tracked. 
-The exciting challenge for the Docsity data team is to create a process that allows to collect, store and activate millions of clickstreams day by day.
-In Docsity we created a custom build from Docker Compose with Google Cloud Build CI/CD process to deploy new versions of Apache Airflow (an open source platform widely used to design and control data pipeline) with Google Compute Engine every time a commit is pushed on the production branch.
-This talk will present how we automated the entire workflow, hence achieving a timely update of our software while keeping the entire solution stateless.
-
+Il software open source, progettato per essere accessibile pubblicamente, viene sviluppato con un approccio decentralizzato e collaborativo di professionisti IT e community. Il risultato è una soluzione flessibile, longeva e di qualità. L’approccio open source incoraggia la collaborazione e il contributo di ognuno, per realizzare soluzioni efficaci nei confronti di sfide complesse e in contesti di forte cambiamento.
+Come può essere sostenibile, in azienda o per la didattica, l’adozione di soluzioni open source?
 
 #### Short bio
-**Matteo Senardi** is the Head of Data of Docsity, where he leads the team responsible for all data chain, from collection on real time clickstream, to transformations and normalizations in order to feed the data lake in Google BigQuery. This includes the datasets definitions and gathering, the development of data-pipelines or the science of making it work and their deployment in production with CI/CD.
-He graduated as computer engineering in Modena. After the degree, he started working with data in the R&D department of Webranking, a digital marketing agency. He moved later to Mediaset as a senior data engineer, and then he joined Docsity.
-He designs and maintains several open source projects in his [GitHub](https://github.com/pualien) account, which are currently used in production environments.
+**Luca Marchino** e' Delivery Manager e Product Manager di iDempiere ERP - Labinf Sistemi, nonche' Presidente e Cofondatore di ERP Open Source Italia.
+Si e' laureato in Ingegneria Gestionale presso il Politecnico di Torino. Appassionato di tecnologia, si avvicina al mondo dell'open source nel 2006. Nel 2008 fonda la startup Freepath che ha come obiettivo quello di promuovere i progetti open source, parafrasando la celebre frase di Henry Ford "C'e' vero progresso solo quando i vantaggi di una nuova tecnologia diventano per tutti".
+Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di cui è Product Manager e Project Manager dei progetti open source.
 
+<br>
+<hr>
+
+### An Hand-On journey with Amazon AWS
+- Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
+- When: Monday, May 17, 2021, 17.30 - 19.00
+
+#### Abstract
+The abstract will be published shortly.
+
+#### Short bio
+The short bio will be published shortly.
+
+<br>
+<hr>
+
+### Enabling Service Mesh primitives in Kubernetes
+- Speaker: Guido Vicino, [Blue Reply](https://www.reply.it/)
+- When: Monday, May 24, 2021, 17.30 - 19.00
+
+#### Abstract
+The abstract will be published shortly.
+
+#### Short bio
+The short bio will be published shortly.
+
+<br>
+<hr>
+## <a name="past"></a> Past seminars
 <br>
 <hr>
 
