@@ -8,7 +8,6 @@ weight = 100
 
 
 ## Seminars and Events
-
 This page lists events and seminars ([upcoming](#upcoming) and [past](#past)) organized by the CrownLabs community.
 
 <br>
