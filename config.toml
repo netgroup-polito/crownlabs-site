@@ -119,7 +119,7 @@ lastmod = ["lastmod", ":git", "date"]
 #  weight = 30
 
 [[menu.footer]]
-  url = "mailto:crownlabs.polito@gmail.com?Subject=CrownLabs"
+  url = "mailto:crownlabs@polito.it?Subject=Info about CrownLabs"
   name = "Email"
   weight = 30
 
