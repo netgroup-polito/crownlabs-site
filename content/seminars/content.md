@@ -12,9 +12,11 @@ weight = 100
 This page lists events and seminars ([upcoming](#upcoming) and [past](#past)) organized by the CrownLabs community.
 
 <br>
-
+<hr>
 ## <a name="upcoming"></a> Upcoming seminars
 For upcoming seminars, the call link can be requested through the CrownLabs [contact](../contact/) page.
+<br>
+<hr>
 
 ### Data pipeline orchestration via Apache Airflow
 - Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
@@ -94,8 +96,9 @@ The short bio will be published shortly.
 
 <br>
 <hr>
-
 ## <a name="past"></a> Past seminars
+<br>
+<hr>
 
 ### Multicloud Infrastructure as Code on Tencent China: Issues and best practice
 - Speaker: Pasquale Lepera, [Criticalcase](https://www.criticalcase.com/)
