@@ -10,7 +10,7 @@ weight = 100
 ## Seminars and Events
 
 This page lists the events and seminars organized by the CrownLabs community.
-For upcoming seminars, the call link can be requested through the CrownLabs [contact page](../contact/).
+For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
 
 <br>
 
