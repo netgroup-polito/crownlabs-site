@@ -10,4 +10,4 @@ weight = 100
 
 ## Contact us
 
-For any requests or more information about CrownLabs, join our [Slack workspace](https://crown-team-group.slack.com) or send an email to [CrownLabs@Polito](mailto:crownlabs.polito@gmail.com?Subject=CrownLabs).
+For any requests or more information about CrownLabs, join our [Slack workspace](https://crown-team-group.slack.com) or send an email to [CrownLabs@Polito](mailto:crownlabs@polito.it?Subject=Info).
