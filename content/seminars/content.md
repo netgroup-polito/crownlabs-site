@@ -14,7 +14,7 @@ This page lists events and seminars ([upcoming](#upcoming) and [past](#past)) or
 <br>
 <hr>
 ## <a name="upcoming"></a> Upcoming seminars
-For upcoming seminars, the call link can be requested through the CrownLabs [contact](../contact/) page.
+For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
 <br>
 <hr>
 
