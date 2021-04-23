@@ -78,7 +78,7 @@ Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di
 The abstract will be published shortly.
 
 #### Short bio
-The short bio will be published shortly.
+**Luigi Napoleone Capasso** is a Cloud Support Engineer at Amazon Web Services (AWS) in Dublin. He is currently working to help AWS Customers to properly use AWS Cloud services and help fixing their issues. His expertises include computer networking, software design, management and the development and implementation of software solutions. He got a Master's Degree at Politecnico di Torino in 2020 in Computer Networking.
 
 <br>
 <hr>
