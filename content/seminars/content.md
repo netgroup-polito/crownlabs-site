@@ -70,7 +70,7 @@ Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di
 <br>
 <hr>
 
-### An Hand-On journey with Amazon AWS
+### An Hands-on Journey with Amazon AWS
 - Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
 - When: Monday, May 17, 2021, 17.30 - 19.00
 
