@@ -97,7 +97,8 @@ The short bio will be published shortly.
 
 <br>
 <hr>
-## <a name="past"></a> Past seminars
+
+## <a name="past">Past seminars</a>
 <br>
 <hr>
 
