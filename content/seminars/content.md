@@ -12,7 +12,9 @@ This page lists events and seminars ([upcoming](#upcoming) and [past](#past)) or
 
 <br>
 <hr>
-## <a name="upcoming"></a> Upcoming seminars
+
+## <a name="upcoming">Upcoming seminars</a>
+
 For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
 <br>
 <hr>
