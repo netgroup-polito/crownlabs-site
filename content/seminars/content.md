@@ -19,24 +19,6 @@ For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom
 <br>
 <hr>
 
-### Data pipeline orchestration via Apache Airflow
-- Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
-- When: Monday, Apr 26, 2021, 17.30 - 19.00
-
-#### Abstract
-Docsity is social learning network for students and professionals worldwide, where it is possible to share and download study material. 
-In Docsity we have millions of users coming every month that are engaged with the platform, with tens of millions interactions to be tracked. 
-The exciting challenge for the Docsity data team is to create a process that allows to collect, store and activate millions of clickstreams day by day.
-In Docsity we created a custom build from Docker Compose with Google Cloud Build CI/CD process to deploy new versions of Apache Airflow (an open source platform widely used to design and control data pipeline) with Google Compute Engine every time a commit is pushed on the production branch.
-This talk will present how we automated the entire workflow, hence achieving a timely update of our software while keeping the entire solution stateless.
-
-#### Short bio
-**Matteo Senardi** is the Head of Data of Docsity, where he leads the team responsible for all data chain, from collection on real time clickstream, to transformations and normalizations in order to feed the data lake in Google BigQuery. This includes the datasets definitions and gathering, the development of data-pipelines or the science of making it work and their deployment in production with CI/CD.
-He graduated as computer engineering in Modena. After the degree, he started working with data in the R&D department of Webranking, a digital marketing agency. He moved later to Mediaset as a senior data engineer, and then he joined Docsity.
-He designs and maintains several open source projects in his [GitHub](https://github.com/pualien) account, which are currently used in production environments.
-
-<br>
-<hr>
 
 ### The life of a Cloud Security Researcher: how to exploit a cloud environment
 - Speaker: Stefano Chierici, [Sysdig](https://sysdig.com/)
@@ -98,7 +80,43 @@ The short bio will be published shortly.
 <br>
 <hr>
 
+### Distributing Cloud Services in Telco (Edge) Networks
+- Speaker: Mario Baldi, [Pensando Systems](https://www.pensando.io/)
+- When: Monday, June 7, 2021, 17.30 - 19.00
+
+#### Abstract
+The abstract will be published shortly.
+
+#### Short bio
+The short bio will be published shortly.
+
+<br>
+<hr>
+
+
 ## <a name="past">Past seminars</a>
+Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+
+<br>
+<hr>
+
+### Data pipeline orchestration via Apache Airflow
+- Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
+- When: Monday, Apr 26, 2021, 17.30 - 19.00
+- [Recorded video](https://youtu.be/sLjelsSjZ_w)
+
+#### Abstract
+Docsity is social learning network for students and professionals worldwide, where it is possible to share and download study material. 
+In Docsity we have millions of users coming every month that are engaged with the platform, with tens of millions interactions to be tracked. 
+The exciting challenge for the Docsity data team is to create a process that allows to collect, store and activate millions of clickstreams day by day.
+In Docsity we created a custom build from Docker Compose with Google Cloud Build CI/CD process to deploy new versions of Apache Airflow (an open source platform widely used to design and control data pipeline) with Google Compute Engine every time a commit is pushed on the production branch.
+This talk will present how we automated the entire workflow, hence achieving a timely update of our software while keeping the entire solution stateless.
+
+#### Short bio
+**Matteo Senardi** is the Head of Data of Docsity, where he leads the team responsible for all data chain, from collection on real time clickstream, to transformations and normalizations in order to feed the data lake in Google BigQuery. This includes the datasets definitions and gathering, the development of data-pipelines or the science of making it work and their deployment in production with CI/CD.
+He graduated as computer engineering in Modena. After the degree, he started working with data in the R&D department of Webranking, a digital marketing agency. He moved later to Mediaset as a senior data engineer, and then he joined Docsity.
+He designs and maintains several open source projects in his [GitHub](https://github.com/pualien) account, which are currently used in production environments.
+
 <br>
 <hr>
 
