@@ -55,7 +55,7 @@ The abstract will be published shortly.
 
 #### Abstract
 This talk will present an overview of the latest multi-cloud technologies.
-Starting from the definition of Multi-Cloud, the talk will include:
+Starting from the definition of multi-cloud, the talk will include:
 - How to integrate and manage different Cloud services
 - Micro-services, docker containers and related platforms
 - Concrete examples of a viable Multi-Cloud strategy
@@ -106,6 +106,7 @@ What we will do together:
 
 <br>
 <hr>
+
 ### Data pipeline orchestration via Apache Airflow
 - Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
 - When: Monday, Apr 26, 2021, 17.30 - 19.00
