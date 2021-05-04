@@ -20,35 +20,17 @@ For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom
 <hr>
 
 
-### The life of a Cloud Security Researcher: how to exploit a cloud environment
-- Speaker: Stefano Chierici, [Sysdig](https://sysdig.com/)
-- When: Monday, May 3, 2021, 17.30 - 18.30
-
-#### Abstract
-Security has always been a challenge for all the companies also on-premises, but cloud-native services raises the bar. Containers offer more virtualization layers to hide an attack and Cloud removed the physical barrier increasing the misconfigurations impact. This talk will make it concrete and try a real cloud attack.
-What we will do together:
- 1. Identify an entrypoint
- 2. Lateral Movement in the cloud
- 3. Cloud Privilege Escalation
- 4. Detect the intrusion
-
-#### Short bio
-**Stefano Chierici** is a security researcher in Sysdig where his research focuses on defending containerized environments and cloud environments from attacks ranging from web to kernel. Stefano is one of the Falco contributors, an incubation level CNCF project. He studied cyber security in Italy and, before joining Sysdig, he was a pentester and obtained the OSCP Certification in 2019. He was a security engineer and a red team member.
-
-<br>
-<hr>
-
 ### Open-source e innovazione digitale: un approccio sostenibile e scalabile
 - Speaker: Luca Marchino, [Labinf Sistemi](https://www.labinfsistemi.com/)
 - When: Monday, May 10, 2021, 17.30 - 19.00
 
 #### Abstract
-Il software open source, progettato per essere accessibile pubblicamente, viene sviluppato con un approccio decentralizzato e collaborativo di professionisti IT e community. Il risultato è una soluzione flessibile, longeva e di qualità. L’approccio open source incoraggia la collaborazione e il contributo di ognuno, per realizzare soluzioni efficaci nei confronti di sfide complesse e in contesti di forte cambiamento.
+Il software open source, progettato per essere accessibile pubblicamente, viene sviluppato con un approccio decentralizzato e collaborativo di professionisti IT e community. Il risultato è una soluzione flessibile, longeva e di qualità. L'approccio open source incoraggia la collaborazione e il contributo di ognuno, per realizzare soluzioni efficaci nei confronti di sfide complesse e in contesti di forte cambiamento.
 Come può essere sostenibile, in azienda o per la didattica, l’adozione di soluzioni open source?
 
 #### Short bio
-**Luca Marchino** e' Delivery Manager e Product Manager di iDempiere ERP - Labinf Sistemi, nonche' Presidente e Cofondatore di ERP Open Source Italia.
-Si e' laureato in Ingegneria Gestionale presso il Politecnico di Torino. Appassionato di tecnologia, si avvicina al mondo dell'open source nel 2006. Nel 2008 fonda la startup Freepath che ha come obiettivo quello di promuovere i progetti open source, parafrasando la celebre frase di Henry Ford "C'e' vero progresso solo quando i vantaggi di una nuova tecnologia diventano per tutti".
+**Luca Marchino** è Delivery Manager e Product Manager di iDempiere ERP - Labinf Sistemi, nonchè Presidente e Cofondatore di ERP Open Source Italia.
+Si è laureato in Ingegneria Gestionale presso il Politecnico di Torino. Appassionato di tecnologia, si avvicina al mondo dell'open source nel 2006. Nel 2008 fonda la startup Freepath che ha come obiettivo quello di promuovere i progetti open source, parafrasando la celebre frase di Henry Ford "C'è vero progresso solo quando i vantaggi di una nuova tecnologia diventano per tutti".
 Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di cui è Product Manager e Project Manager dei progetti open source.
 
 <br>
@@ -67,15 +49,21 @@ The abstract will be published shortly.
 <br>
 <hr>
 
-### Enabling Service Mesh primitives in Kubernetes
+### Multi-cloud, edge and distributed cloud
 - Speaker: Guido Vicino, [Blue Reply](https://www.reply.it/)
 - When: Monday, May 24, 2021, 17.30 - 19.00
 
 #### Abstract
-The abstract will be published shortly.
+This talk will present an overview of the latest multi-cloud technologies.
+Starting from the definition of Multi-Cloud, the talk will include:
+- How to integrate and manage different Cloud services
+- Micro-services, docker containers and related platforms
+- Concrete examples of a viable Multi-Cloud strategy
+- Types of deployment and reference architectures
+- How to manage and govern the integration between various components
 
 #### Short bio
-The short bio will be published shortly.
+Guido Vicino is Senior Manager at Blue Reply, coordinating Cloud and DevOps Engineers to design and implement multi-cloud solutions, in particular with respect to Infrastructure Automation (IaC, GitOps) and Applicative Automation (i.e. DevOps and SDLC). Over the years he has been developing projects and services in fields as infrastructure and security, using Open-Source software and also collaborating with technology partners as IBM, Red Hat, Dynatrace and Splunk.
 
 <br>
 <hr>
@@ -100,6 +88,24 @@ Recording of some of the past seminars is available on the [CrownLabs Seminars](
 <br>
 <hr>
 
+### The life of a Cloud Security Researcher: how to exploit a cloud environment
+- Speaker: Stefano Chierici, [Sysdig](https://sysdig.com/)
+- When: Monday, May 3, 2021, 17.30 - 18.30
+- [Recorded video](https://youtu.be/JS7YB8pXddU)
+
+#### Abstract
+Security has always been a challenge for all the companies also on-premises, but cloud-native services raises the bar. Containers offer more virtualization layers to hide an attack and Cloud removed the physical barrier increasing the misconfigurations impact. This talk will make it concrete and try a real cloud attack.
+What we will do together:
+ 1. Identify an entrypoint
+ 2. Lateral Movement in the cloud
+ 3. Cloud Privilege Escalation
+ 4. Detect the intrusion
+
+#### Short bio
+**Stefano Chierici** is a security researcher in Sysdig where his research focuses on defending containerized environments and cloud environments from attacks ranging from web to kernel. Stefano is one of the Falco contributors, an incubation level CNCF project. He studied cyber security in Italy and, before joining Sysdig, he was a pentester and obtained the OSCP Certification in 2019. He was a security engineer and a red team member.
+
+<br>
+<hr>
 ### Data pipeline orchestration via Apache Airflow
 - Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
 - When: Monday, Apr 26, 2021, 17.30 - 19.00
