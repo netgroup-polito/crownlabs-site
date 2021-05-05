@@ -1,24 +1,21 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-04-22"
+date = "2021-05-05"
 weight = 100
 #title = "Seminars and Events"
 +++
 
 
 ## Seminars and Events
-This page lists events and seminars ([upcoming](#upcoming) and [past](#past)) organized by the CrownLabs community.
-
-<br>
-<hr>
-
-## <a name="upcoming">Upcoming seminars</a>
+This page lists events and seminars organized by the CrownLabs community.
 
 For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
+
+Past seminars are available [here](#past).
+
 <br>
 <hr>
-
 
 ### Open-source e innovazione digitale: un approccio sostenibile e scalabile
 - Speaker: Luca Marchino, [Labinf Sistemi](https://www.labinfsistemi.com/)
@@ -41,7 +38,8 @@ Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di
 - When: Monday, May 17, 2021, 17.30 - 19.00
 
 #### Abstract
-The abstract will be published shortly.
+This talk will present an overview of the Amazon AWS Cloud infrastructure, and why Cloud solutions are preferred over the traditional ones.
+A brief hands-on with two of the most popular AWS services is then presented. In particular, Amazon VPC and Amazon EC2 will be used to stress the concepts of availability and agility.
 
 #### Short bio
 **Luigi Napoleone Capasso** is a Cloud Support Engineer at Amazon Web Services (AWS) in Dublin. He is currently working to help AWS Customers to properly use AWS Cloud services and help fixing their issues. His expertises include computer networking, software design, management and the development and implementation of software solutions. He got a Master's Degree at Politecnico di Torino in 2020 in Computer Networking.
