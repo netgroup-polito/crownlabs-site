@@ -17,21 +17,6 @@ Past seminars are available [here](#past).
 <br>
 <hr>
 
-### Open-source e innovazione digitale: un approccio sostenibile e scalabile
-- Speaker: Luca Marchino, [Labinf Sistemi](https://www.labinfsistemi.com/)
-- When: Monday, May 10, 2021, 17.30 - 19.00
-
-#### Abstract
-Il software open source, progettato per essere accessibile pubblicamente, viene sviluppato con un approccio decentralizzato e collaborativo di professionisti IT e community. Il risultato è una soluzione flessibile, longeva e di qualità. L'approccio open source incoraggia la collaborazione e il contributo di ognuno, per realizzare soluzioni efficaci nei confronti di sfide complesse e in contesti di forte cambiamento.
-Come può essere sostenibile, in azienda o per la didattica, l’adozione di soluzioni open source?
-
-#### Short bio
-**Luca Marchino** è Delivery Manager e Product Manager di iDempiere ERP - Labinf Sistemi, nonchè Presidente e Cofondatore di ERP Open Source Italia.
-Si è laureato in Ingegneria Gestionale presso il Politecnico di Torino. Appassionato di tecnologia, si avvicina al mondo dell'open source nel 2006. Nel 2008 fonda la startup Freepath che ha come obiettivo quello di promuovere i progetti open source, parafrasando la celebre frase di Henry Ford "C'è vero progresso solo quando i vantaggi di una nuova tecnologia diventano per tutti".
-Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di cui è Product Manager e Project Manager dei progetti open source.
-
-<br>
-<hr>
 
 ### An Hands-on Journey with Amazon AWS
 - Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
@@ -82,6 +67,23 @@ The short bio will be published shortly.
 
 ## <a name="past">Past seminars</a>
 Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+
+<br>
+<hr>
+
+### Open-source e innovazione digitale: un approccio sostenibile e scalabile
+- Speaker: Luca Marchino, [Labinf Sistemi](https://www.labinfsistemi.com/)
+- When: Monday, May 10, 2021, 17.30 - 19.00
+- [Recorded video](https://youtu.be/KNLlqDzRidw)
+
+#### Abstract
+Il software open source, progettato per essere accessibile pubblicamente, viene sviluppato con un approccio decentralizzato e collaborativo di professionisti IT e community. Il risultato è una soluzione flessibile, longeva e di qualità. L'approccio open source incoraggia la collaborazione e il contributo di ognuno, per realizzare soluzioni efficaci nei confronti di sfide complesse e in contesti di forte cambiamento.
+Come può essere sostenibile, in azienda o per la didattica, l’adozione di soluzioni open source?
+
+#### Short bio
+**Luca Marchino** è Delivery Manager e Product Manager di iDempiere ERP - Labinf Sistemi, nonchè Presidente e Cofondatore di ERP Open Source Italia.
+Si è laureato in Ingegneria Gestionale presso il Politecnico di Torino. Appassionato di tecnologia, si avvicina al mondo dell'open source nel 2006. Nel 2008 fonda la startup Freepath che ha come obiettivo quello di promuovere i progetti open source, parafrasando la celebre frase di Henry Ford "C'è vero progresso solo quando i vantaggi di una nuova tecnologia diventano per tutti".
+Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di cui è Product Manager e Project Manager dei progetti open source.
 
 <br>
 <hr>
