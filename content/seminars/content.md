@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-05-05"
+date = "2021-05-18"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -18,20 +18,6 @@ Past seminars are available [here](#past).
 <hr>
 
 
-### An Hands-on Journey with Amazon AWS
-- Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
-- When: Monday, May 17, 2021, 17.30 - 19.00
-
-#### Abstract
-This talk will present an overview of the Amazon AWS Cloud infrastructure, and why Cloud solutions are preferred over the traditional ones.
-A brief hands-on with two of the most popular AWS services is then presented. In particular, Amazon VPC and Amazon EC2 will be used to stress the concepts of availability and agility.
-
-#### Short bio
-**Luigi Napoleone Capasso** is a Cloud Support Engineer at Amazon Web Services (AWS) in Dublin. He is currently working to help AWS Customers to properly use AWS Cloud services and help fixing their issues. His expertises include computer networking, software design, management and the development and implementation of software solutions. He got a Master's Degree at Politecnico di Torino in 2020 in Computer Networking.
-
-<br>
-<hr>
-
 ### Multi-cloud, edge and distributed cloud
 - Speaker: Guido Vicino, [Blue Reply](https://www.reply.it/)
 - When: Monday, May 24, 2021, 17.30 - 19.00
@@ -46,7 +32,7 @@ Starting from the definition of multi-cloud, the talk will include:
 - How to manage and govern the integration between various components
 
 #### Short bio
-Guido Vicino is Senior Manager at Blue Reply, coordinating Cloud and DevOps Engineers to design and implement multi-cloud solutions, in particular with respect to Infrastructure Automation (IaC, GitOps) and Applicative Automation (i.e. DevOps and SDLC). Over the years he has been developing projects and services in fields as infrastructure and security, using Open-Source software and also collaborating with technology partners as IBM, Red Hat, Dynatrace and Splunk.
+**Guido Vicino** is Senior Manager at Blue Reply, coordinating Cloud and DevOps Engineers to design and implement multi-cloud solutions, in particular with respect to Infrastructure Automation (IaC, GitOps) and Applicative Automation (i.e. DevOps and SDLC). Over the years he has been developing projects and services in fields as infrastructure and security, using Open-Source software and also collaborating with technology partners as IBM, Red Hat, Dynatrace and Splunk.
 
 <br>
 <hr>
@@ -67,6 +53,21 @@ The short bio will be published shortly.
 
 ## <a name="past">Past seminars</a>
 Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+
+<br>
+<hr>
+
+### An Hands-on Journey with Amazon AWS
+- Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
+- When: Monday, May 17, 2021, 17.30 - 19.00
+- [Recorded video](https://youtu.be/AP_KCtRFq_U)
+
+#### Abstract
+This talk will present an overview of the Amazon AWS Cloud infrastructure, and why Cloud solutions are preferred over the traditional ones.
+A brief hands-on with two of the most popular AWS services is then presented. In particular, Amazon VPC and Amazon EC2 will be used to stress the concepts of availability and agility.
+
+#### Short bio
+**Luigi Napoleone Capasso** is a Cloud Support Engineer at Amazon Web Services (AWS) in Dublin. He is currently working to help AWS Customers to properly use AWS Cloud services and help fixing their issues. His expertises include computer networking, software design, management and the development and implementation of software solutions. He got a Master's Degree at Politecnico di Torino in 2020 in Computer Networking.
 
 <br>
 <hr>
