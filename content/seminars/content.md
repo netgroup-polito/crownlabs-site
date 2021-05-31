@@ -18,9 +18,34 @@ Past seminars are available [here](#past).
 <hr>
 
 
+### Distributed Services at the Network Edge: Motivations, Opportunities, Technology
+- Speaker: Mario Baldi, [Pensando Systems](https://www.pensando.io/)
+- When: Monday, June 7, 2021, 17.30 - 19.00
+
+#### Abstract
+Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.g., private corporate clients, public corporate servers, the servers of a specific department, the hosts of a corporate branch. With virtualization, while the same logical model still applies, the physical placement of the hosts, their physical proximity, and the natural point to deploy the service application (on the shortest path of traffic to and from the served hosts) have disappeared. Hence, this model of implementing services in a centralized fashion, can no longer be effectively applied.
+
+At the same time, the cloud paradigm has moved all the intelligence of the network at the edge, leaving mere layer 3 connectivity to the core of the network (the so called underlay). This contributes to making the network edge a natural candidate location where to implement services.
+
+This paradigm shift is the focus of this seminar. We start with looking into the motivations for and advantages of implementing complex network, storage and security services at the network edge, and the new opportunities this creates. In this context, we look into a platform developed by Pensando Systems, Inc. to support the execution of such services in a distributed fashion on a PCIe-attached Distributed Services Card (DSC). We analize the architecture of the ASIC that powers the DSC to see how, in order to best address this novel deployment scenario, it was designed to be fully programmable, with both domain specific and general purpose processing capability. A few use cases will be used to validate such architecture.
+
+#### Short bio
+Mario Baldi is Distinguished Technologist at Pensando Systems, Milpitas, CA, USA and Associate Professor of Information Processing Systems (on leave) at Politecnico di Torino, Italy. He has held various positions in startup and established companies in the computer networking industry, as well as several visiting professorships at Universities in four continents, during over 25 years of professional involvement in the computer networking domain. More information on his personal website, [www.baldi.info](http://www.baldi.info)
+
+<br>
+<hr>
+
+
+## <a name="past">Past seminars</a>
+Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+
+<br>
+<hr>
+
 ### Multi-cloud, edge and distributed cloud
 - Speaker: Guido Vicino, [Blue Reply](https://www.reply.it/)
 - When: Monday, May 24, 2021, 17.30 - 19.00
+- [Recorded video](https://youtu.be/kjBzfJjrFcE)
 
 #### Abstract
 This talk will present an overview of the latest multi-cloud technologies.
@@ -33,26 +58,6 @@ Starting from the definition of multi-cloud, the talk will include:
 
 #### Short bio
 **Guido Vicino** is Senior Manager at Blue Reply, coordinating Cloud and DevOps Engineers to design and implement multi-cloud solutions, in particular with respect to Infrastructure Automation (IaC, GitOps) and Applicative Automation (i.e. DevOps and SDLC). Over the years he has been developing projects and services in fields as infrastructure and security, using Open-Source software and also collaborating with technology partners as IBM, Red Hat, Dynatrace and Splunk.
-
-<br>
-<hr>
-
-### Distributing Cloud Services in Telco (Edge) Networks
-- Speaker: Mario Baldi, [Pensando Systems](https://www.pensando.io/)
-- When: Monday, June 7, 2021, 17.30 - 19.00
-
-#### Abstract
-The abstract will be published shortly.
-
-#### Short bio
-The short bio will be published shortly.
-
-<br>
-<hr>
-
-
-## <a name="past">Past seminars</a>
-Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
 
 <br>
 <hr>
