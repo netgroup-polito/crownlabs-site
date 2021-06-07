@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-05-18"
+date = "2021-06-07"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -14,13 +14,24 @@ For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom
 
 Past seminars are available [here](#past).
 
+## Upcoming seminars
+No upcoming seminars are now scheduled. We are going to take a short vacation break.
+See you in the next fall semester!
+
 <br>
 <hr>
 
 
+## <a name="past">Past seminars</a>
+Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+
+<br>
+<hr>
+
 ### Distributed Services at the Network Edge: Motivations, Opportunities, Technology
 - Speaker: Mario Baldi, [Pensando Systems](https://www.pensando.io/)
 - When: Monday, June 7, 2021, 17.30 - 19.00
+- [Recorded video](https://youtu.be/mVYdQvvGQ8c)
 
 #### Abstract
 Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.g., private corporate clients, public corporate servers, the servers of a specific department, the hosts of a corporate branch. With virtualization, while the same logical model still applies, the physical placement of the hosts, their physical proximity, and the natural point to deploy the service application (on the shortest path of traffic to and from the served hosts) have disappeared. Hence, this model of implementing services in a centralized fashion, can no longer be effectively applied.
@@ -31,13 +42,6 @@ This paradigm shift is the focus of this seminar. We start with looking into the
 
 #### Short bio
 **Mario Baldi** is Distinguished Technologist at Pensando Systems, Milpitas, CA, USA and Associate Professor of Information Processing Systems (on leave) at Politecnico di Torino, Italy. He has held various positions in startup and established companies in the computer networking industry, as well as several visiting professorships at Universities in four continents, during over 25 years of professional involvement in the computer networking domain. More information on his personal website, [www.baldi.info](http://www.baldi.info).
-
-<br>
-<hr>
-
-
-## <a name="past">Past seminars</a>
-Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
 
 <br>
 <hr>
