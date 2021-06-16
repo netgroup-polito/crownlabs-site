@@ -135,7 +135,7 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.copyright_footer]]
   url = ""
-  name = "Politecnico di Torino, 2020"
+  name = "Politecnico di Torino, 2020 - 2021"
 #  name = "© Politecnico di Torino, 2020"
   weight = 10
 
