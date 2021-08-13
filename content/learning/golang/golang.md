@@ -8,8 +8,11 @@ weight = 100
 
 ## Introduction
 
-Crownlabs backend is written in Golang (a.k.a. Go), an open source, procedural programming language created by Google.
-In brief, it looks similar to C and C++ but without some of their most tricky issues (e.g. memory management). This guide will do a general excursus on this fast raising programming language, introducing its most relevant features and giving a roadmap for a possible learning path.
+The Crownlabs backend is written in Golang (a.k.a., Go), an open source, procedural programming language created by Google.
+In brief, it looks similar to C and C++ but without some of their most tricky issues (e.g. memory management).
+This guide will do a general excursus on this fast raising programming language, introducing its most relevant features and giving a roadmap for a possible learning path.
+
+Before beginning your journey with Go, let's have some fun: listen to [this song](https://youtu.be/LJvEIjRBSDA), dedicated to the Go language!
 
 ## Useful links
 
@@ -17,10 +20,10 @@ In brief, it looks similar to C and C++ but without some of their most tricky is
 
 The first step is to install Go and it can be done easly [here](https://golang.org/doc/install).
 
-### Ides and editor plugins
+### IDEs and editor plugins
 
 To write code in Go, we suggest some IDEs such as [Visual Studio Code](https://code.visualstudio.com/) or [Goland](https://www.jetbrains.com/go/) and text editor plugins like [vim-go](https://github.com/fatih/vim-go).
-For newbie students of Go the best is *Goland* which also has some mini tutorials of editing with code examples.
+For newbie of Go the best is *Goland* which also has some mini tutorials of editing with code examples.
 
 ## Start learning Go
 
