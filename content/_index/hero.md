@@ -21,13 +21,13 @@ subtitle = "CrownLabs"
   text = "Discover"
   url = "/discover"
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
-  color = "primary" 
+  color = "primary"
 
 [[buttons]]
   text = "Customize"
   url = "/customize"
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
-  color = "primary" 
+  color = "primary"
 
 [[buttons]]
   text = "Login @Polito"
@@ -35,17 +35,22 @@ subtitle = "CrownLabs"
   color = "success"
 
 [[buttons]]
+  text = "Beta @Polito"
+  url = "https://preprod.crownlabs.polito.it/app"
+  color = "danger"
+
+[[buttons]]
   text = "Deploy"
   url = "/deploy"
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
-  color = "primary" 
+  color = "primary"
 
 [[buttons]]
   text = "Extend"
   url = "/extend"
-  
+
 # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
-  color = "primary" 
+  color = "primary"
 
 #[[buttons]]
 #  text = "Github"
@@ -58,4 +63,3 @@ subtitle = "CrownLabs"
 #  color = "primary"
 
 +++
-
