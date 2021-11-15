@@ -3,13 +3,17 @@ headless = true
 fragment = "content"
 date = "2021-02-24"
 weight = 100
-#title = "Resource Section"
+#title = "Resources Section"
 +++
 
 
 ## Resources
 
 This page collects a set of pointers to external resources related to the CrownLabs project.
+
+### Tutorials
+
+* [**Accessing CrownLabs VMs with SSH**](./crownlabs_ssh): a guide about connecting to a **CrownLabs VM** using a command line SSH client.
 
 ### Videos
 
