@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-06-07"
+date = "2021-11-19"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -15,15 +15,47 @@ For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom
 Past seminars are available [here](#past).
 
 ## Upcoming seminars
-No upcoming seminars are now scheduled. We are going to take a short vacation break.
-See you in the next fall semester!
+<!-- No upcoming seminars are now scheduled. We are going to take a short vacation break.
+See you in the next fall semester! -->
+
+
+### Cloud Security & Going Serverless on AWS
+- Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
+- When: Wednesday, Nov 24, 2021, 10.00 - 11.30
+
+#### Abstract
+Cloud Security is the protection of data stored online via Cloud Computing platforms from theft, leakage, and deletion.
+Serverless is a cloud-native development model that allows developers to build and run applications without having to manage any server, neither physical, nor virtual.
+The seminar aims to dig deeper into the two above concepts, showing how simple is going serverless on AWS and how to prevent security threats in the Cloud.
+An hands-on will be taking place, and the most famous AWS serverless services will be used.
+
+#### Short bio
+**Luigi Napoleone Capasso** is a Cloud Support Engineer at Amazon Web Services (AWS) in Dublin. He is currently working to help AWS Customers to properly use AWS Cloud services and help fixing their issues. His expertises include computer networking, software design, management and the development and implementation of software solutions. He got a Master's Degree at Politecnico di Torino in 2020 in Computer Networking.
 
 <br>
 <hr>
 
-
 ## <a name="past">Past seminars</a>
 Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+
+<br>
+<hr>
+
+### Enterprise architectures in Financial institutions: High Availability and Disaster Recovery
+- Speaker: Marcello Bianchetti, [Unicredit Services](https://www.unicreditgroup.eu/en/microsites/unicreditservices.html)
+- When: Wednesday, Nov 4, 2021, 16.00 - 17.30
+
+#### Abstract
+Il seminario si focalizzerà sui seguenti argomenti:
+- Requisiti regolamentari che guidano il disegno delle Architetture ICT nel mondo Bancario a livello Italiano ed Europeo;
+- Standards di RTO e RPO per Banche sistemiche e non;
+- Sfide e soluzioni tecniche utilizzate per implementare i pattern di HA (High Availability) e di DR (Disaster Recovery) a vario livello dello stack tecnologico (storage, virtualization, database, containers, ecc.);
+- Differenze di approccio nei disegni architetturali tra on-prem e on-cloud;
+- Come le applicazioni e le architetture Cloud Native cambiano i pattern di HA e DR.
+
+#### Short bio
+**Marcello Bianchetti** is Head of CIB Architectures at UniCredit Services, Milan.
+He obtained a degree in Computer Engineering at Politecnico di Milano and he is now in charge of the cloud and computing architectures for the entire Unicredit group, the second banking group in Italy and one of the largest in Europe.
 
 <br>
 <hr>
