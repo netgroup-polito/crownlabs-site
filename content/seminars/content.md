@@ -18,10 +18,30 @@ Past seminars are available [here](#past).
 <!-- No upcoming seminars are now scheduled. We are going to take a short vacation break.
 See you in the next fall semester! -->
 
+### Pricing models on public cloud providers
+- Speaker: Federico Cicchiello, [Student@Polito](https://www.politoit/)
+- When: Friday, Dec 10, 2021, 8.30 - 10.00
+
+#### Abstract
+TODO
+
+#### Short bio
+**Federico Cicchiello** TODO.
+
+<br>
+<hr>
+
+
+## <a name="past">Past seminars</a>
+Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+
+<br>
+<hr>
 
 ### Cloud Security & Going Serverless on AWS
 - Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
 - When: Wednesday, Nov 24, 2021, 10.00 - 11.30
+- [Recorded video](https://youtu.be/HOaEeXrGlI4)
 
 #### Abstract
 Cloud Security is the protection of data stored online via Cloud Computing platforms from theft, leakage, and deletion.
@@ -31,12 +51,6 @@ An hands-on will be taking place, and the most famous AWS serverless services wi
 
 #### Short bio
 **Luigi Napoleone Capasso** is a Cloud Support Engineer at Amazon Web Services (AWS) in Dublin. He is currently working to help AWS Customers to properly use AWS Cloud services and help fixing their issues. His expertises include computer networking, software design, management and the development and implementation of software solutions. He got a Master's Degree at Politecnico di Torino in 2020 in Computer Networking.
-
-<br>
-<hr>
-
-## <a name="past">Past seminars</a>
-Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
 
 <br>
 <hr>
