@@ -23,14 +23,39 @@ See you in the next fall semester! -->
 - When: Friday, Dec 10, 2021, 8.30 - 10.00
 
 #### Abstract
-TODO
+While public cloud is increasingly used, it is not always clear their cost model, as well as the different cost options available to customers.
+This seminar will address the following questions:
+- How much public cloud providers charge for their services?
+- What are the costs of having a virtual Kubernetes cluster?
+- What is the impact of each pricing component on the overall infrastructure cost?
+The seminar will also present the pricing models of VMs, containers and block storage services as well as the main networking-related costs of the major public cloud providers (AWS, GCP and Azure), as well as the cluster provisioning modes and the related cost models for Kubernetes services.
+Finally, the seminar will present some considerations on the relative weight of each pricing components through a cost simulation.
+
 
 #### Short bio
-**Federico Cicchiello** TODO.
+**Federico Cicchiello** is a student in the Master Degree on Computer Engineering at Politecnico di Torino, with a graduation thesis focusing on analysis, modeling and implementation of cost models for a multi-cloud Kubernetes scenario.
 
 <br>
 <hr>
 
+### Definizione e implementazione della strategia Go-to-cloud in un’azienda
+- Speaker: Jorge Monge, [Management Solutions](https://www.managementsolutions.com/en)
+- When: Wednesday, Dec 15, 2021, 10.00 - 11.30
+
+#### Abstract
+Il seminario ha come obiettivo condividere tutte le attività complementari e propedeutiche alla definizione della strategia go-to-cloud di un’azienda:
+- Identificazione delle esigenze tecnologiche;
+- Definizione dei requisiti del modello To-Be;
+- Gestione dello scouting e della selezione del fornitore;
+- Analisi degli impatti normativi;
+- Identificazione e gestione dei rischi associati al progetto di implementazione della nuova soluzione;
+- Definizione degli indicatori e monitoraggio del progetto.
+
+#### Short bio
+**Jorge Monge** è CISO e Partner responsabile della core competence di Tecnologia presso Management Solutions. Laureato in Computer Engineering presso l’Universidad di Deusto (Spagna), è inoltre in possesso del titolo Financial Risk Manager (FRM) di GARP. Durante la sua carriera ha partecipato in progetti di consulenza con una forte componente IT presso i principali player del settore Finanziario, Assicurativo, Energetico e delle Telecomunicazioni in tutta Europa ma anche negli Stati Uniti e in America Latina.
+
+<br>
+<hr>
 
 ## <a name="past">Past seminars</a>
 Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
