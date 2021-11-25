@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-11-19"
+date = "2021-11-25"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -14,12 +14,16 @@ For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom
 
 Past seminars are available [here](#past).
 
+<br>
+
 ## Upcoming seminars
 <!-- No upcoming seminars are now scheduled. We are going to take a short vacation break.
 See you in the next fall semester! -->
 
+<br>
+
 ### Pricing models on public cloud providers
-- Speaker: Federico Cicchiello, [Student@Polito](https://www.politoit/)
+- Speaker: Federico Cicchiello, [Politecnico di Torino](https://www.polito.it/)
 - When: Friday, Dec 10, 2021, 8.30 - 10.00
 
 #### Abstract
@@ -140,7 +144,6 @@ Starting from the definition of multi-cloud, the talk will include:
 ### An Hands-on Journey with Amazon AWS
 - Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
 - When: Monday, May 17, 2021, 17.30 - 19.00
-- [Recorded video](https://youtu.be/AP_KCtRFq_U)
 
 #### Abstract
 This talk will present an overview of the Amazon AWS Cloud infrastructure, and why Cloud solutions are preferred over the traditional ones.
