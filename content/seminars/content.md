@@ -35,9 +35,25 @@ This seminar will address the following questions:
 The seminar will also present the pricing models of VMs, containers and block storage services as well as the main networking-related costs of the major public cloud providers (AWS, GCP and Azure), as well as the cluster provisioning modes and the related cost models for Kubernetes services.
 Finally, the seminar will present some considerations on the relative weight of each pricing components through a cost simulation.
 
-
 #### Short bio
 **Federico Cicchiello** is a student in the Master Degree on Computer Engineering at Politecnico di Torino, with a graduation thesis focusing on analysis, modeling and implementation of cost models for a multi-cloud Kubernetes scenario.
+
+<br>
+<hr>
+
+### API Management in Hybrid Cloud scenarios
+- Speaker: Francesco Semeraro, [Cluster Azure Reply](https://www.reply.com/cluster-reply/en/)
+- When: Tuesday, Dec 14, 2021, 10.00 - 11.30
+
+#### Abstract
+As many organizations move to a digital enterprise model in which more and more data is exposed via APIs, an API management technology is required to alleviate the effort of maintaining multiple APIs that are produced and published within the company.
+API administration technologies need to support hybrid scenarios, in which some portions of the platform are cloud-based, while others are still on-premise.
+This seminar will analyse the advantages of setting up an hybrid API management solution and it will present a Proof-of-Concept (PoC) implementation based on Azure API management.
+Finally, an hands-on session will explore all the components involved in an hybrid API management solution from the Azure portal to the on-premise Kubernetes cluster.
+
+#### Short Bio
+**Francesco Semeraro** is a cloud engineer and solutions architect at Cluster Azure Reply, the Reply company focused on solutions based on Microsoft Azure. These include cloud, multi-cloud and hybrid cloud infrastructures, often based on Kubernetes clusters and Docker containers.
+Francesco got his master's degree in Computer Science and Engineering at Politecnico di Milano, and then continued his studies pursuing a 2nd level master's degree in Artificial intelligence and Cloud at Politecnico di Torino.
 
 <br>
 <hr>
@@ -57,6 +73,23 @@ Il seminario ha come obiettivo condividere tutte le attività complementari e pr
 
 #### Short bio
 **Jorge Monge** è CISO e Partner responsabile della core competence di Tecnologia presso Management Solutions. Laureato in Computer Engineering presso l’Universidad di Deusto (Spagna), è inoltre in possesso del titolo Financial Risk Manager (FRM) di GARP. Durante la sua carriera ha partecipato in progetti di consulenza con una forte componente IT presso i principali player del settore Finanziario, Assicurativo, Energetico e delle Telecomunicazioni in tutta Europa ma anche negli Stati Uniti e in America Latina.
+
+<br>
+<hr>
+
+### Connecting to Google: how Google handles its external and internal connectivity
+- Speaker: Francesco Marabotto, [Google](https://www.google.com/)
+- When: Monday, Jan 10, 2022, 11.00 - 12.30
+
+#### Abstract
+(In progress)
+
+#### Short bio
+**Francesco Marabotto** is a Tech Lead for the Edge production network of Google.
+He leads the technical direction of a group ensuring that the network can meet the requirements of availability, reliability and performance.
+He joined Google in 2015 as a network technician working on the Edge, Core and SDN data center network.
+Before Google, Francesco has worked in Cisco as a technical support engineer and has then moved to consulting and finally to an escalation engineering position in a product team in charge of data center L3 switches.
+Francesco holds a MSc in Computer Engineering from Politecnico di Torino. 
 
 <br>
 <hr>
@@ -247,7 +280,6 @@ He leads the technical direction of a group ensuring that the network can meet t
 He joined Google in 2015 as a network technician working on the Edge, Core and SDN data center network.
 Before Google, Francesco has worked in Cisco as a technical support engineer and has then moved to consulting and finally to an escalation engineering position in a product team in charge of data center L3 switches.
 Francesco holds a MSc in Computer Engineering from Politecnico di Torino. 
-
 
 <br>
 <hr>
