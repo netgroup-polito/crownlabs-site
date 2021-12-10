@@ -12,7 +12,9 @@ This page lists events and seminars organized by the CrownLabs community.
 
 For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
 
-Past seminars are available [below](#past). Recorded seminars are available on the [CrownLabs Seminar playlist](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) on Youtube.
+Past seminars are available [below](#past).
+
+Recorded seminars are available on the [CrownLabs Seminar playlist](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) on Youtube.
 
 <br>
 
@@ -105,6 +107,7 @@ This seminar will address the following questions:
 - How much public cloud providers charge for their services?
 - What are the costs of having a virtual Kubernetes cluster?
 - What is the impact of each pricing component on the overall infrastructure cost?
+
 The seminar will also present the pricing models of VMs, containers and block storage services as well as the main networking-related costs of the major public cloud providers (AWS, GCP and Azure), as well as the cluster provisioning modes and the related cost models for Kubernetes services.
 Finally, the seminar will present some considerations on the relative weight of each pricing components through a cost simulation.
 
