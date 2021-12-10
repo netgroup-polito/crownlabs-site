@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-11-25"
+date = "2021-12-10"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -96,7 +96,7 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 <hr>
 
 ### Building and operating the CrownLabs service: architecture and lessons learned
-- Speaker: Marco Iorio, [Politecnido di Torino](https://www.polito.it/)
+- Speaker: Marco Iorio, [Politecnico di Torino](https://www.polito.it/)
 - When: TO BE SCHEDULED (Jan 2022)
 
 #### Abstract
@@ -109,7 +109,7 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 <hr>
 
 ## <a name="past">Past seminars</a>
-Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
 
 <br>
 <hr>
