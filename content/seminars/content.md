@@ -12,7 +12,7 @@ This page lists events and seminars organized by the CrownLabs community.
 
 For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
 
-Past seminars are available [here](#past).
+Past seminars are available [below](#past).
 
 <br>
 
@@ -21,25 +21,6 @@ Past seminars are available [here](#past).
 See you in the next fall semester! -->
 
 <br>
-
-### Pricing models on public cloud providers
-- Speaker: Federico Cicchiello, [Politecnico di Torino](https://www.polito.it/)
-- When: Friday, Dec 10, 2021, 8.30 - 10.00
-
-#### Abstract
-While public cloud is increasingly used, it is not always clear their cost model, as well as the different cost options available to customers.
-This seminar will address the following questions:
-- How much public cloud providers charge for their services?
-- What are the costs of having a virtual Kubernetes cluster?
-- What is the impact of each pricing component on the overall infrastructure cost?
-The seminar will also present the pricing models of VMs, containers and block storage services as well as the main networking-related costs of the major public cloud providers (AWS, GCP and Azure), as well as the cluster provisioning modes and the related cost models for Kubernetes services.
-Finally, the seminar will present some considerations on the relative weight of each pricing components through a cost simulation.
-
-#### Short bio
-**Federico Cicchiello** is a student in the Master Degree on Computer Engineering at Politecnico di Torino, with a graduation thesis focusing on analysis, modeling and implementation of cost models for a multi-cloud Kubernetes scenario.
-
-<br>
-<hr>
 
 ### API Management in Hybrid Cloud scenarios
 - Speaker: Francesco Semeraro, [Cluster Azure Reply](https://www.reply.com/cluster-reply/en/)
@@ -94,8 +75,41 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 <br>
 <hr>
 
+### Building and operating the CrownLabs service: architecture and lessons learned
+- Speaker: Marco Iorio, [Politecnido di Torino](https://www.polito.it/)
+- When: TO BE SCHEDULED (Jan 2022)
+
+#### Abstract
+(In progress)
+
+#### Short bio
+**Marco Iorio** (in progress).
+
+<br>
+<hr>
+
 ## <a name="past">Past seminars</a>
 Recording of some of the past seminars is available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) Youtube playlist.
+
+<br>
+<hr>
+
+### Pricing models on public cloud providers
+- Speaker: Federico Cicchiello, [Politecnico di Torino](https://www.polito.it/)
+- When: Friday, Dec 10, 2021, 8.30 - 10.00
+- [Recorded video](https://youtu.be/GOcRsNC4or8)
+
+#### Abstract
+While public cloud is increasingly used, it is not always clear their cost model, as well as the different cost options available to customers.
+This seminar will address the following questions:
+- How much public cloud providers charge for their services?
+- What are the costs of having a virtual Kubernetes cluster?
+- What is the impact of each pricing component on the overall infrastructure cost?
+The seminar will also present the pricing models of VMs, containers and block storage services as well as the main networking-related costs of the major public cloud providers (AWS, GCP and Azure), as well as the cluster provisioning modes and the related cost models for Kubernetes services.
+Finally, the seminar will present some considerations on the relative weight of each pricing components through a cost simulation.
+
+#### Short bio
+**Federico Cicchiello** is a student in the Master Degree on Computer Engineering at Politecnico di Torino, with a graduation thesis focusing on analysis, modeling and implementation of cost models for a multi-cloud Kubernetes scenario.
 
 <br>
 <hr>
