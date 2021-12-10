@@ -72,7 +72,7 @@ This seminar presents how to correctly design event-driven and serverless applic
 - Customer Stories
 
 #### Short bio
-**Felice Tartaro** joined Reply in 2002 after a Master’s Degree at Politecnico di Torino. After 7 years as Developer and Solution Architect he started working on building a private cloud solution for internal use in Reply. He joined Storm Reply in 2012 and now he is an Associate Partner with responsibilities on Automation, MSP and Cloud Native application practices.
+**Felice Tartaro** joined Reply in 2002 after a Master’s Degree at Politecnico di Torino. After 7 years as Developer and Solution Architect he started working on building a private cloud solution for internal use in Reply. He joined Storm Reply in 2012 and now he is an Associate Partner with responsibilities on Automation, MSP and Cloud Native application practices.<br>
 **Girolamo Piccinni**, a former student of Politecnico di Torino and Eurecom, joined Reply in 2012 working on AWS Cloud Technologies since then. He is now Manager at Storm Reply working on enterprise evolution on cloud to address IoT and high-throughput workloads via modern application patterns on Cloud.
 
 <br>
