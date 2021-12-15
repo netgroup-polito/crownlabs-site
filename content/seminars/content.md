@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-12-10"
+date = "2021-12-15"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -24,25 +24,6 @@ See you in the next fall semester! -->
 
 <br>
 
-
-### Cloud outsourcing strategy
-- Speaker: Jorge Monge, [Management Solutions](https://www.managementsolutions.com)
-- When: Wednesday, Dec 15, 2021, 10.00 - 11.30
-
-#### Abstract
-Il seminario ha come obiettivo condividere tutte le attività complementari e propedeutiche alla definizione della strategia go-to-cloud di un’azienda:
-- Identificazione delle esigenze tecnologiche;
-- Definizione dei requisiti del modello To-Be;
-- Gestione dello scouting e della selezione del fornitore;
-- Analisi degli impatti normativi;
-- Identificazione e gestione dei rischi associati al progetto di implementazione della nuova soluzione;
-- Definizione degli indicatori e monitoraggio del progetto.
-
-#### Short bio
-**Jorge Monge** è CISO e Partner responsabile della core competence di Tecnologia presso Management Solutions. Laureato in Computer Engineering presso l’Universidad di Deusto (Spagna), è inoltre in possesso del titolo Financial Risk Manager (FRM) di GARP. Durante la sua carriera ha partecipato in progetti di consulenza con una forte componente IT presso i principali player del settore Finanziario, Assicurativo, Energetico e delle Telecomunicazioni in tutta Europa ma anche negli Stati Uniti e in America Latina.
-
-<br>
-<hr>
 
 ### Serverless Event-Driven on AWS Cloud: real stories
 - Speakers: Felice Tartaro and Girolamo Piccinni, [Storm Reply](https://www.reply.com/storm-reply/)
@@ -94,6 +75,26 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 
 ## <a name="past">Past seminars</a>
 Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
+
+<br>
+<hr>
+
+### Cloud outsourcing strategy
+- Speaker: Jorge Monge, [Management Solutions](https://www.managementsolutions.com)
+- When: Wednesday, Dec 15, 2021, 10.00 - 11.30
+- [Recorded video](https://youtu.be/z3IT_Jw4r8g)
+
+#### Abstract
+Il seminario ha come obiettivo condividere tutte le attività complementari e propedeutiche alla definizione della strategia go-to-cloud di un’azienda:
+- Identificazione delle esigenze tecnologiche;
+- Definizione dei requisiti del modello To-Be;
+- Gestione dello scouting e della selezione del fornitore;
+- Analisi degli impatti normativi;
+- Identificazione e gestione dei rischi associati al progetto di implementazione della nuova soluzione;
+- Definizione degli indicatori e monitoraggio del progetto.
+
+#### Short bio
+**Jorge Monge** è CISO e Partner responsabile della core competence di Tecnologia presso Management Solutions. Laureato in Computer Engineering presso l’Universidad di Deusto (Spagna), è inoltre in possesso del titolo Financial Risk Manager (FRM) di GARP. Durante la sua carriera ha partecipato in progetti di consulenza con una forte componente IT presso i principali player del settore Finanziario, Assicurativo, Energetico e delle Telecomunicazioni in tutta Europa ma anche negli Stati Uniti e in America Latina.
 
 <br>
 <hr>
