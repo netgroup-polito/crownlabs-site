@@ -31,7 +31,7 @@ subtitle = "CrownLabs"
 
 [[buttons]]
   text = "Login @Polito"
-  url = "https://preprod.crownlabs.polito.it/app"
+  url = "/app"
   color = "success"
 
 [[buttons]]
