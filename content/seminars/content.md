@@ -25,8 +25,8 @@ See you in the next fall semester! -->
 <br>
 
 
-### Definizione e implementazione della strategia Go-to-cloud in un’azienda
-- Speaker: Jorge Monge, [Management Solutions](https://www.managementsolutions.com/en)
+### Cloud outsourcing strategy
+- Speaker: Jorge Monge, [Management Solutions](https://www.managementsolutions.com)
 - When: Wednesday, Dec 15, 2021, 10.00 - 11.30
 
 #### Abstract
