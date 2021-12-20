@@ -1,5 +1,5 @@
 +++
-title = "Connecting to CrownLabs with SSH"
+title = "Accessing CrownLabs VMs with SSH"
 fragment = "content"
 weight = 100
 date = "2021-11-12"

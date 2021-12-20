@@ -23,8 +23,8 @@ As shown in the figure below, it is necessary to first establish the SSH connect
 This can be achieved with the `ssh -J bastion@crownlabs.polito.it crownlabs@10.1.2.3` command, in which the local **SSH client** first connects to the bastion (indeed, the **-J** option specifies a **ProxyJump**), leveraging the generated **SSH key-pair** for authentication purposes.
 Specifically, the **bastion** checks the **client**'s authentication attempt using the **public key** previously uploaded to the **CrownLabs Dashboard**.
 
-If authentication succeeds, you are then redirected to your **VM**. 
-Indeed, the second part of the command is the standard **user@ipadress**, where **user** is **crownlabs** (the default user on each **VM**) and **ip** is your **VM's IP address**. 
+If authentication succeeds, you are then redirected to your **VM**.
+Indeed, the second part of the command is the standard **user@ipadress**, where **user** is **crownlabs** (the default user on each **VM**) and **ip** is your **VM's IP address**.
 The **VM** will authenticate you through your **SSH key-pair**, as the bastion previously did.
 Alternatively, it might fallback to traditional password authentication (which is **crownlabs**).
 
@@ -55,7 +55,7 @@ Note that the directory contains a file called `id_rsa` (without **.pub**); this
 Print the content of your **SSH public key** typing `cat $HOME/.ssh/id_rsa.pub` (Linux) or opening `%USERPROFILE%\.ssh\id_rsa.pub` with an editor such as **notepad** (**Windows**).
 ## Upload your key on CrownLabs
 
-Now open your page on **CrownLabs** and go to the [**Account page**](https://preprod.crownlabs.polito.it/app/account).
+Now open your page on **CrownLabs** and go to the [**Account page**](https://crownlabs.polito.it/app/account).
 
 <br>
 
@@ -88,13 +88,13 @@ When completing this process, CrownLabs will **push automatically** the above SS
 
 <br>
 
-1. Create an instance of a VM in your [**CrownLabs Dashboard page**](https://preprod.crownlabs.polito.it/app).
+1. Create an instance of a VM in your [**CrownLabs Dashboard page**](https://crownlabs.polito.it/app).
 
 ![image-20211112191418307](./img/2_1.png)
 
 <br>
 
-2. Now move to the **[Active page](https://preprod.crownlabs.polito.it/app/active)** and click on the **SSH** icon inside the row of the **VM** that you have just created. A popup with a shell command inside will be shown, **copy** that command.
+2. Now move to the **[Active page](https://crownlabs.polito.it/app/active)** and click on the **SSH** icon inside the row of the **VM** that you have just created. A popup with a shell command inside will be shown, **copy** that command.
 
 ![image-20211112193803509](./img/2_2.png)
 
@@ -113,4 +113,3 @@ When completing this process, CrownLabs will **push automatically** the above SS
 Now you are able to log in your **VMs** using **SSH**. In case you want to access from different PCs you can add other keys following the same process.
 
 If you are interested in an advanced tutorial about **SSH key** you can read this [page](https://docs.gitlab.com/ee/ssh/) on Gitlab.
-
