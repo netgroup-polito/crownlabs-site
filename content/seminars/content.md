@@ -25,24 +25,6 @@ See you in the next fall semester! -->
 <br>
 
 
-### Serverless Event-Driven on AWS Cloud: real stories
-- Speakers: Felice Tartaro and Girolamo Piccinni, [Storm Reply](https://www.reply.com/storm-reply/)
-- When: Tuesday, Dec 21, 2021, 10.00 - 11.30
-
-#### Abstract
-Several enterprise workloads problems can be solved with event-driven architectures. However, dealing with largely distributed and loosely coupled services might be challenging.
-This seminar presents how to correctly design event-driven and serverless applications on cloud using real customer stories and is structured as follows:
-- Serverless short introduction
-- Enterprise integration patterns & Event Driven Architectures 
-- Customer Stories
-
-#### Short bio
-**Felice Tartaro** joined Reply in 2002 after a Master’s Degree at Politecnico di Torino. After 7 years as Developer and Solution Architect he started working on building a private cloud solution for internal use in Reply. He joined Storm Reply in 2012 and now he is an Associate Partner with responsibilities on Automation, MSP and Cloud Native application practices.<br>
-**Girolamo Piccinni**, a former student of Politecnico di Torino and Eurecom, joined Reply in 2012 working on AWS Cloud Technologies since then. He is now Manager at Storm Reply working on enterprise evolution on cloud to address IoT and high-throughput workloads via modern application patterns on Cloud.
-
-<br>
-<hr>
-
 ### Connecting to Google: how Google handles its external and internal connectivity
 - Speaker: Francesco Marabotto, [Google](https://www.google.com/)
 - When: Monday, Jan 10, 2022, 11.00 - 12.30
@@ -75,6 +57,25 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 
 ## <a name="past">Past seminars</a>
 Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
+
+<br>
+<hr>
+
+### Serverless Event-Driven on AWS Cloud: real stories
+- Speakers: Felice Tartaro and Girolamo Piccinni, [Storm Reply](https://www.reply.com/storm-reply/)
+- When: Tuesday, Dec 21, 2021, 10.00 - 11.30
+- [Recorded video](https://youtu.be/4vgfWscRVTU)
+
+#### Abstract
+Several enterprise workloads problems can be solved with event-driven architectures. However, dealing with largely distributed and loosely coupled services might be challenging.
+This seminar presents how to correctly design event-driven and serverless applications on cloud using real customer stories and is structured as follows:
+- Serverless short introduction
+- Enterprise integration patterns & Event Driven Architectures 
+- Customer stories
+
+#### Short bio
+**Felice Tartaro** joined Reply in 2002 after a Master’s Degree at Politecnico di Torino. After 7 years as Developer and Solution Architect he started working on building a private cloud solution for internal use in Reply. He joined Storm Reply in 2012 and now he is an Associate Partner with responsibilities on Automation, MSP and Cloud Native application practices.<br>
+**Girolamo Piccinni**, a former student of Politecnico di Torino and Eurecom, joined Reply in 2012 working on AWS Cloud Technologies since then. He is now Manager at Storm Reply working on enterprise evolution on cloud to address IoT and high-throughput workloads via modern application patterns on Cloud.
 
 <br>
 <hr>
