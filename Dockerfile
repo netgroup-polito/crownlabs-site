@@ -1,9 +1,8 @@
-FROM palexster/hugo AS builder
+FROM klakegg/hugo:0.91.0-ext-alpine-ci AS builder
 
-ADD . /website
+COPY . /website
 WORKDIR /website
 RUN hugo --verbose
 
-FROM nginx
+FROM nginx:1.21-alpine
 COPY --from=builder /website/public /usr/share/nginx/html
-
