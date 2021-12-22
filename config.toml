@@ -1,9 +1,9 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "Crownlabs"
+title = "CrownLabs"
 theme = "syna"
-enableGitInfo = true
+enableGitInfo = false
 version = "0.16.2"
 
 # Google Analytics tracking
@@ -176,4 +176,3 @@ lastmod = ["lastmod", ":git", "date"]
   pre = "fab fa-youtube"
 #  url = "https://youtu.be/i7fqga7xQv0"
   url = "https://www.youtube.com/playlist?list=PLTAfidx4guQIIPZVaEn8H_hfSTFJ5VQDu"
-
