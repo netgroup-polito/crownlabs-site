@@ -64,7 +64,7 @@ This seminar presents the CrownLabs architecture and infrastructural setup, main
 
 **Marco Iorio** is a Ph.D student at Politecnico di Torino, where he previously received his M.Sc degree in computer engineering.
 His research interests include multi-cloud systems, edge/fog computing and cyber-security applied to vehicular networks.
-Marco is one of the members of the CrownLabs starting team. Since then, he has been involved in the design and development of the project, serving as tutor of several course projects, as well as he is in charge of operating the CrownLabs infrastructure.
+Marco is one of the founding members of the CrownLabs team. Since then, he has been involved in the design and development of the project, serving as tutor of several course projects, as well as he is in charge of operating the CrownLabs infrastructure.
 
 <br>
 <hr>
