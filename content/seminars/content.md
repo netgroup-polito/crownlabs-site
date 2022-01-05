@@ -37,20 +37,34 @@ See you in the next fall semester! -->
 He leads the technical direction of a group ensuring that the network can meet the requirements of availability, reliability and performance.
 He joined Google in 2015 as a network technician working on the Edge, Core and SDN data center network.
 Before Google, Francesco has worked in Cisco as a technical support engineer and has then moved to consulting and finally to an escalation engineering position in a product team in charge of data center L3 switches.
-Francesco holds a MSc in Computer Engineering from Politecnico di Torino. 
+Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 
 <br>
 <hr>
 
 ### Building and operating the CrownLabs service: architecture and lessons learned
+<!-- ### CrownLabs: A deep-dive journey to unravel the skein -->
 - Speaker: Marco Iorio, [Politecnico di Torino](https://www.polito.it/)
-- When: TO BE SCHEDULED (Jan 2022)
+- When: Tuesday, Jan 11, 2022, 10.00 - 12.00
 
 #### Abstract
-(In progress)
+
+CrownLabs is an open-source project started in March 2020 at Politecnico di Torino to deliver remote computing laboratories.
+Since then, it has been leveraged with satisfaction by the students of more than ten courses, including Cloud Computing, Software Networking, Computer Networks, and Computer Animation, just to cite a few.
+CrownLabs also successfully hosted the September session of the Computer Science (first year course) exams, featuring the integration with the official "exams" platform at PoliTO.
+This seminar presents the CrownLabs architecture and infrastructural setup, mainly addressing the following aspects:
+
+- The motivations and the design of the Kubernetes-powered application back-end;
+- The provisioning of user environments: VMs vs containers;
+- The design and evolution of the CrownLabs frontend;
+- The architectural overview of the Kubernetes-based infrastructure;
+- The lessons learned while operating the service.
 
 #### Short bio
-**Marco Iorio** (in progress).
+
+**Marco Iorio** is a Ph.D student at Politecnico di Torino, where he previously received his M.Sc degree in computer engineering.
+His research interests include multi-cloud systems, edge/fog computing and cyber-security applied to vehicular networks.
+Marco is one of the founding members of the CrownLabs team. Since then, he has been involved in the design and development of the project, serving as tutor of several course projects, as well as he is in charge of operating the CrownLabs infrastructure.
 
 <br>
 <hr>
@@ -70,7 +84,7 @@ Recordings of some of the past seminars are available on the [CrownLabs Seminars
 Several enterprise workloads problems can be solved with event-driven architectures. However, dealing with largely distributed and loosely coupled services might be challenging.
 This seminar presents how to correctly design event-driven and serverless applications on cloud using real customer stories and is structured as follows:
 - Serverless short introduction
-- Enterprise integration patterns & Event Driven Architectures 
+- Enterprise integration patterns & Event Driven Architectures
 - Customer stories
 
 #### Short bio
@@ -269,8 +283,8 @@ What we will do together:
 - [Recorded video](https://youtu.be/sLjelsSjZ_w)
 
 #### Abstract
-Docsity is social learning network for students and professionals worldwide, where it is possible to share and download study material. 
-In Docsity we have millions of users coming every month that are engaged with the platform, with tens of millions interactions to be tracked. 
+Docsity is social learning network for students and professionals worldwide, where it is possible to share and download study material.
+In Docsity we have millions of users coming every month that are engaged with the platform, with tens of millions interactions to be tracked.
 The exciting challenge for the Docsity data team is to create a process that allows to collect, store and activate millions of clickstreams day by day.
 In Docsity we created a custom build from Docker Compose with Google Cloud Build CI/CD process to deploy new versions of Apache Airflow (an open source platform widely used to design and control data pipeline) with Google Compute Engine every time a commit is pushed on the production branch.
 This talk will present how we automated the entire workflow, hence achieving a timely update of our software while keeping the entire solution stateless.
@@ -318,7 +332,7 @@ In this seminar I'm going to describe a scalable and reliable network suited for
 He leads the technical direction of a group ensuring that the network can meet the requirements of availability, reliability and performance.
 He joined Google in 2015 as a network technician working on the Edge, Core and SDN data center network.
 Before Google, Francesco has worked in Cisco as a technical support engineer and has then moved to consulting and finally to an escalation engineering position in a product team in charge of data center L3 switches.
-Francesco holds a MSc in Computer Engineering from Politecnico di Torino. 
+Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 
 <br>
 <hr>
@@ -332,6 +346,3 @@ Globally, wireless devices will account for 43% of all networked devices by 2022
 
 #### Short bio
 **Stefano Ferrari** is a senior manager of engineering at Cisco Systems, leading a group focused on wireless technologies and new generation networking operating systems. He joined Cisco in 2009 as software engineer working in service provider, enterprise and IOT industrial technologies. Before Cisco, Stefano worked as consultant. Stefano holds a MSc in Software Engineering from Politecnico di Torino (2009) and Eurecom (2008).
-
-
-
