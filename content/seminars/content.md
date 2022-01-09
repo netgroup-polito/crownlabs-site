@@ -66,7 +66,7 @@ Marco is one of the founding members of the CrownLabs team. Since then, he has b
 <hr>
 
 ### Monitoring on Kubernetes: Prometheus Hands-on
-- Speaker: Danilo Abbaldo, [Blue Reply](https://www.reply.com/blue-reply/it/)
+- Speaker: Marco Schiapparelli, [Blue Reply](https://www.reply.com/blue-reply/it/)
 - When: Tuesday, Jan 18, 2022, 14.30 - 16.00
 
 #### Abstract
@@ -74,7 +74,7 @@ Observability is a key pillar of modern cloud native architecture and services. 
 This seminar will briefly present what is Prometheus, how it can be installed and operated on a Kubernetes cluster, and an hands-on showing how Prometheus can be used to solve a real problem.
 
 #### Short bio
-**Danilo Abbaldo** - In progress.
+**Marco Schiapparelli** - In progress.
 
 <br>
 <hr>
