@@ -12,9 +12,7 @@ This page lists events and seminars organized by the CrownLabs community.
 
 For upcoming seminars, use the following [Zoom call link](https://polito-it.zoom.us/j/93120057836) (passcode 429974).
 
-Past seminars are available [below](#past).
-
-Recorded seminars are available on the [CrownLabs Seminar playlist](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) on Youtube.
+Past seminars are available [below](#past); available recordings can be found on the [CrownLabs Seminar playlist](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) on Youtube.
 
 <br>
 
