@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2021-12-15"
+date = "2022-01-09"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -30,7 +30,9 @@ See you in the next fall semester! -->
 - When: Monday, Jan 10, 2022, 11.00 - 12.30
 
 #### Abstract
-(In progress)
+This seminar will provide context on how wide-area network design is used to meet the business needs of a company that provides services to their customers.
+With latency and availability requirements becoming more important, we will discuss why the Edge is such an important part of a network and what are the challenges encountered when designing it.
+The focus of the talk will be Google's answer to these challenges: the Espresso ecosystem, an SDN programmable edge network that serves the majority of Google's traffic while keeping costs down.
 
 #### Short bio
 **Francesco Marabotto** is a Tech Lead for the Edge production network of Google.
@@ -43,17 +45,14 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 <hr>
 
 ### Building and operating the CrownLabs service: architecture and lessons learned
-<!-- ### CrownLabs: A deep-dive journey to unravel the skein -->
 - Speaker: Marco Iorio, [Politecnico di Torino](https://www.polito.it/)
 - When: Tuesday, Jan 11, 2022, 10.00 - 12.00
 
 #### Abstract
-
 CrownLabs is an open-source project started in March 2020 at Politecnico di Torino to deliver remote computing laboratories.
 Since then, it has been leveraged with satisfaction by the students of more than ten courses, including Cloud Computing, Software Networking, Computer Networks, and Computer Animation, just to cite a few.
 CrownLabs also successfully hosted the September session of the Computer Science (first year course) exams, featuring the integration with the official "exams" platform at PoliTO.
 This seminar presents the CrownLabs architecture and infrastructural setup, mainly addressing the following aspects:
-
 - The motivations and the design of the Kubernetes-powered application back-end;
 - The provisioning of user environments: VMs vs containers;
 - The design and evolution of the CrownLabs frontend;
@@ -61,10 +60,23 @@ This seminar presents the CrownLabs architecture and infrastructural setup, main
 - The lessons learned while operating the service.
 
 #### Short bio
-
 **Marco Iorio** is a Ph.D student at Politecnico di Torino, where he previously received his M.Sc degree in computer engineering.
 His research interests include multi-cloud systems, edge/fog computing and cyber-security applied to vehicular networks.
 Marco is one of the founding members of the CrownLabs team. Since then, he has been involved in the design and development of the project, serving as tutor of several course projects, as well as he is in charge of operating the CrownLabs infrastructure.
+
+<br>
+<hr>
+
+### Monitoring on Kubernetes: Prometheus Hands-on
+- Speaker: Danilo Abbaldo, [Blue Reply](https://www.reply.com/blue-reply/it/)
+- When: Tuesday, Jan 18, 2022, 14.30 - 16.00
+
+#### Abstract
+Observability is a key pillar of modern cloud native architecture and services. One of the key component is Prometheus, which is in charge of gathering and enabling further analysis on multiple data sources, hence providing full visibility across the entire datacenter.
+This seminar will briefly present what is Prometheus, how it can be installed and operated on a Kubernetes cluster, and an hands-on showing how Prometheus can be used to solve a real problem.
+
+#### Short bio
+**Danilo Abbaldo** - In progress.
 
 <br>
 <hr>
