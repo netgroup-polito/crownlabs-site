@@ -25,7 +25,7 @@ See you in the next fall semester! -->
 
 ### Connecting to Google: how Google handles its external and internal connectivity
 - Speaker: Francesco Marabotto, [Google](https://www.google.com/)
-- When: Monday, Jan 10, 2022, 11.00 - 12.30
+- When: Monday, Jan 10, 2022, 11.30 - 13.00
 
 #### Abstract
 This seminar will provide context on how wide-area network design is used to meet the business needs of a company that provides services to their customers.
