@@ -22,22 +22,23 @@ See you in the next fall semester! -->
 
 <br>
 
-
-### Connecting to Google: how Google handles its external and internal connectivity
-- Speaker: Francesco Marabotto, [Google](https://www.google.com/)
-- When: Monday, Jan 10, 2022, 11.30 - 13.00
+### Monitoring on Kubernetes: Prometheus Hands-on
+- Speaker: Marco Schiapparelli, [Blue Reply](https://www.reply.com/blue-reply/it/)
+- When: Tuesday, Jan 18, 2022, 14.30 - 16.00
 
 #### Abstract
-This seminar will provide context on how wide-area network design is used to meet the business needs of a company that provides services to their customers.
-With latency and availability requirements becoming more important, we will discuss why the Edge is such an important part of a network and what are the challenges encountered when designing it.
-The focus of the talk will be Google's answer to these challenges: the Espresso ecosystem, an SDN programmable edge network that serves the majority of Google's traffic while keeping costs down.
+Observability is a key pillar of modern cloud native architecture and services. One of the key component is Prometheus, which is in charge of gathering and enabling further analysis on multiple data sources, hence providing full visibility across the entire datacenter.
+This seminar will briefly present what is Prometheus, how it can be installed and operated on a Kubernetes cluster, and an hands-on showing how Prometheus can be used to solve a real problem.
 
 #### Short bio
-**Francesco Marabotto** is a Tech Lead for the Edge production network of Google.
-He leads the technical direction of a group ensuring that the network can meet the requirements of availability, reliability and performance.
-He joined Google in 2015 as a network technician working on the Edge, Core and SDN data center network.
-Before Google, Francesco has worked in Cisco as a technical support engineer and has then moved to consulting and finally to an escalation engineering position in a product team in charge of data center L3 switches.
-Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
+**Marco Schiapparelli** got his master’s degree in Computer Engineering at Politecnico di Torino. He is a DevOps and Hybrid Cloud engineer at Blue Reply. His professional experience include Cloud, Multi-Cloud and Hybrid Cloud infrastructures, often based on Kubernetes clusters and Docker containers.
+Over the years he has been developing projects and services in fields as Infrastructure Automation (IaC, GitOps) and Applicative Automation (i.e. DevOps and SDLC), using Open-Source software and also collaborating with IBM and Red Hat as technology partners.
+
+<br>
+<hr>
+
+## <a name="past">Past seminars</a>
+Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
 
 <br>
 <hr>
@@ -45,6 +46,7 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 ### Building and operating the CrownLabs service: architecture and lessons learned
 - Speaker: Marco Iorio, [Politecnico di Torino](https://www.polito.it/)
 - When: Tuesday, Jan 11, 2022, 10.00 - 12.00
+- (Recorded video](https://youtu.be/WIHZiNR59Z8)
 
 #### Abstract
 CrownLabs is an open-source project started in March 2020 at Politecnico di Torino to deliver remote computing laboratories.
@@ -65,22 +67,21 @@ Marco is one of the founding members of the CrownLabs team. Since then, he has b
 <br>
 <hr>
 
-### Monitoring on Kubernetes: Prometheus Hands-on
-- Speaker: Marco Schiapparelli, [Blue Reply](https://www.reply.com/blue-reply/it/)
-- When: Tuesday, Jan 18, 2022, 14.30 - 16.00
+### Connecting to Google: how Google handles its external and internal connectivity
+- Speaker: Francesco Marabotto, [Google](https://www.google.com/)
+- When: Monday, Jan 10, 2022, 11.30 - 13.00
 
 #### Abstract
-Observability is a key pillar of modern cloud native architecture and services. One of the key component is Prometheus, which is in charge of gathering and enabling further analysis on multiple data sources, hence providing full visibility across the entire datacenter.
-This seminar will briefly present what is Prometheus, how it can be installed and operated on a Kubernetes cluster, and an hands-on showing how Prometheus can be used to solve a real problem.
+This seminar will provide context on how wide-area network design is used to meet the business needs of a company that provides services to their customers.
+With latency and availability requirements becoming more important, we will discuss why the Edge is such an important part of a network and what are the challenges encountered when designing it.
+The focus of the talk will be Google's answer to these challenges: the Espresso ecosystem, an SDN programmable edge network that serves the majority of Google's traffic while keeping costs down.
 
 #### Short bio
-**Marco Schiapparelli** - In progress.
-
-<br>
-<hr>
-
-## <a name="past">Past seminars</a>
-Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
+**Francesco Marabotto** is a Tech Lead for the Edge production network of Google.
+He leads the technical direction of a group ensuring that the network can meet the requirements of availability, reliability and performance.
+He joined Google in 2015 as a network technician working on the Edge, Core and SDN data center network.
+Before Google, Francesco has worked in Cisco as a technical support engineer and has then moved to consulting and finally to an escalation engineering position in a product team in charge of data center L3 switches.
+Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 
 <br>
 <hr>
