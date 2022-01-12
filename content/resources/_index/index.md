@@ -22,7 +22,7 @@ This page collects a set of pointers to external resources related to the CrownL
 
 * [**Getting started with CrownLabs**](https://youtu.be/zvRy1hGJpMY): a short _hands on_ video, oriented to students, showing how to use CrownLabs. Available at https://youtu.be/zvRy1hGJpMY.
 
-* [**Building and operating CrownLabs: architecture and lessons learned**](https://youtu.be/WIHZiNR59Z8): a wonderful presentation about how CrownLabs works, with a deep dive of its software internals, the hardware setup, and the most important lesson learned. From Marco Iorio, so far (Jan 2022) the coordinator and the main driver of the project. In Italian. Available at https://youtu.be/WIHZiNR59Z8.
+* [**Building and operating CrownLabs: architecture and lessons learned**](https://youtu.be/WIHZiNR59Z8): a wonderful presentation about how CrownLabs works, with a deep dive of its software internals, the hardware setup, and the most important lesson learned. From Marco Iorio, so far (Jan 2022) the coordinator and the main driver of the project. In Italian. Available at https://youtu.be/WIHZiNR59Z8 [[Slides](/2022-01-11-Iorio-Building_And_Operating_CrownLabs.pdf)].
 
 Other videos are available as well: look at our [**Youtube channel**](https://www.youtube.com/playlist?list=PLTAfidx4guQIIPZVaEn8H_hfSTFJ5VQDu).
 
