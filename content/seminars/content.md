@@ -17,14 +17,27 @@ Past seminars are available [below](#past); available recordings can be found on
 <br>
 
 ## Upcoming seminars
-<!-- No upcoming seminars are now scheduled. We are going to take a short vacation break.
-See you in the next fall semester! -->
+No upcoming seminars are scheduled. We are going to take a short vacation (actually, exams) break.
+See you in the next semester!
+
+<!--
+<br>
+Place new seminars here
+-->
 
 <br>
+<hr>
+
+## <a name="past">Past seminars</a>
+Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
+
+<br>
+<hr>
 
 ### Monitoring on Kubernetes: Prometheus Hands-on
 - Speaker: Marco Schiapparelli, [Blue Reply](https://www.reply.com/blue-reply/it/)
 - When: Tuesday, Jan 18, 2022, 14.30 - 16.00
+- [Recorded video](https://youtu.be/EaODJkFjYrA)
 
 #### Abstract
 Observability is a key pillar of modern cloud native architecture and services. One of the key component is Prometheus, which is in charge of gathering and enabling further analysis on multiple data sources, hence providing full visibility across the entire datacenter.
@@ -37,16 +50,10 @@ Over the years he has been developing projects and services in fields as Infrast
 <br>
 <hr>
 
-## <a name="past">Past seminars</a>
-Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
-
-<br>
-<hr>
-
 ### Building and operating the CrownLabs service: architecture and lessons learned
 - Speaker: Marco Iorio, [Politecnico di Torino](https://www.polito.it/)
 - When: Tuesday, Jan 11, 2022, 10.00 - 12.00
-- (Recorded video](https://youtu.be/WIHZiNR59Z8)
+- [Recorded video](https://youtu.be/WIHZiNR59Z8)
 
 #### Abstract
 CrownLabs is an open-source project started in March 2020 at Politecnico di Torino to deliver remote computing laboratories.
