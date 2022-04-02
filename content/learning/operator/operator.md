@@ -45,12 +45,12 @@ Useful information to get the kubebuilder project started:
 
 Example:
 
-```
+```bash
 kubebuilder init --domain polito.it
 ```
 
-```
-$ kubebuilder create api \
+```bash
+kubebuilder create api \
   --group crownlabs \
   --kind YourCustomKind \
   --version v1alpha2
@@ -76,11 +76,11 @@ Here are some useful suggestions if you are new to programming an operator:
 1. You may need to watch more than one resource, e.g., when you have to react to different conditions.
 This leads the operator to wake up when either one of the watched resources is modified. A possible example is the following: in the reconcile function the operator creates a resource that can take a while to be ready. If you have to wait for its readiness to go on in the reconcile, instead of polling the resource you can simply return from the reconcile function and watch for it. Taking as example the `CrownLabs` Instance-Operator, the default watched resource is the Instance. If you have to create a persistent Instance, a Datavolume is created; since a DataVolume takes 5 to 10 minutes to be ready, this kind of resource has been added to the watched ones, so that every time the Datavolume is modified (e.g. because it became ready) the reconcile is triggered.
 In this case what you need to do is to add Owns() in the [setup](https://book.kubebuilder.io/cronjob-tutorial/controller-implementation.html#setup) function, with the desired resource inside:
-    ```
-    func (r *_ObjectToReconcile_) SetupWithManager(mgr ctrl.Manager) error {
 
+    ```go
+    func (r *_ObjectToReconcile_) SetupWithManager(mgr ctrl.Manager) error {
         return ctrl.NewControllerManagedBy(mgr).
-            For(&principal_resource).
+            For(&main_resource).
             Owns(&second_resource_to_watch).
             Owns(&third_resource_to_watch).
             Complete(r)
@@ -91,18 +91,19 @@ In this case what you need to do is to add Owns() in the [setup](https://book.ku
 An example is a resource that needs reconciling only if a specific label is present.
 This operation can be performed thanks to the [Predicates](https://sdk.operatorframework.io/docs/building-operators/golang/references/event-filtering/).
 In order to use them you should modify the setup function explained above in the following way:
-    ```
+
+    ```go
     func (r *ObjectToReconcile) SetupWithManager(mgr ctrl.Manager) error {
-        klog.Info("setup manager")
         return ctrl.NewControllerManagedBy(mgr).
-        For(&principal_resource, builder.WithPredicates(predicate.GenerationChangedPredicate{})).
+            For(&main_resource, builder.WithPredicates(predicate.GenerationChangedPredicate{})).
             Owns(&second_resource_to_watch, builder.WithPredicates(someExamplePredicate())).
             Complete(r)
     }
     ```
+
     The SetupWithManager function is different from the above one since now, together with the watched resource, there is an optional parameter (the _predicate_) that specifies when the reconcile is triggered.
 
-    ```
+    ```go
     func someExamplePredicate() predicate.Predicate {
         return predicate.Funcs{
             CreateFunc: func(e event.UpdateEvent) bool {
@@ -132,11 +133,11 @@ Finally, `CreateOrUpdate` takes care of saving the modified resource in the clus
 In other words, this function implements a very similar behavior to `kubectl apply`.
 
     Here there is a CreateOrUpdate example for a deployment:
-    ```
+
+    ```go
     deployment := corev1.Deployment{
-        ObjectMeta: metav1.ObjectMeta{
-            Name: "name", Namespace: "namespace"}
-            }
+        ObjectMeta: metav1.ObjectMeta{Name: "name", Namespace: "namespace"}
+    }
     _, err = ctrl.CreateOrUpdate(ctx, r.Client, &deployment, func() error {
             UpdateDeploymentSpec(&deployment)
             return ctrl.SetControllerReference( &Owner, &deployment, r.Scheme)
@@ -144,27 +145,20 @@ In other words, this function implements a very similar behavior to `kubectl app
     ```
 
 
-4. While updating a resource, sometimes the `Update()` function could trigger errors like: "_operation cannot be fulfilled on resource, the object has been modified_".
-This means that the controller is using a different version of the resource from the one present in the cluster; this of course leads to a failure when updating the resource.
-To overcome this problem you can use the function Patch() instead of Update().
-In fact, Patch() does not make any check on the resource version; a possible problem consists in the possibility to lose some updates (since the changes in a resource are compared thanks to the version of the resource itself).
-If the resource is watched only by one controller, you only may risk to overwrite your own changes and this may not matter thanks to idempotence. If the resource is owned by more than one controller, you should be very careful to use this function since you can lose some updates made by others controllers.
-Here you can find an example of how a Patch is made: first you copy the old object, then you modify the fields you want, finally you apply the patch:  
-    ```
-    PatchedDeployment := *deployment.DeepCopy()
-    PatchedDeployment.Spec.Template.Labels := newLabels
-
-    if err := r.Patch(ctx, &PatchedDeployment, client.MergeFrom(deployment)); err != nil {
-        klog.Error("Unable to patch")
-        klog.Error(err)
-    }
-    ```
-
-
 ## Notes
 
 You might notice that the structure in the CrownLabs repository is different from the one generated by kubebuilder. However, this is not a big deal:
+
 - `main.go` goes inside its own folder inside `operators/cmd/<operator-name>`
 - `<kind>_controller.go` goes inside its own directory `operators/pkg/<kind>-controller/`
 - CRD manifests go inside `operators/deploy/crds/`
 - operator\'s deployment goes inside its own folder inside `operators/deploy/<operator-name>`
+
+
+## Additional links
+
+Here, you can find a set of pointers to external resources concerning more advanced Kubernetes operators development aspects.
+
+- [Kubernetes Controllers at Scale: Clients, Caches, Conflicts, Patches Explained](https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332)
+- [Understanding Kubernetes controllers](https://leftasexercise.com/2019/07/08/understanding-kubernetes-controllers-part-i-queues-and-the-core-controller-loop/)
+- [Advanced Kubernetes Operator Development with Finalizer, Informer, and Webhook](https://medium.com/geekculture/advanced-kubernetes-operator-development-with-finalizer-informer-and-webhook-2339e9fd8eba)
