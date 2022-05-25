@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2022-01-09"
+date = "2022-05-25"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -33,6 +33,19 @@ Recordings of some of the past seminars are available on the [CrownLabs Seminars
 
 <br>
 <hr>
+
+
+### eBPF and Code Portability
+- Speaker: Mauricio Vásquez Bernal, [Microsoft](https://www.microsoft.com/)
+- When: Tuesday, May 24, 2022, 11.00 - 12.00
+- [Recorded video](https://youtu.be/lMKA0C9Y0GU)
+
+#### Abstract
+Portability is one of the potential advantages of the eBPF technology. However, this requires the code recompilation on the target machine, which is not always possible. This talk will present the problem about code portability in eBPF and the main solutions that exist so far, namely CO-RE, and additional tools such as BTFHub and BTFGen.
+
+#### Short bio
+**Mauricio Vásquez Bernal** is software engineer at Microsoft, thanks to the recent acquisition of his previous company, Kinvolk. He is currently participating to the development of OpenTelemetry, a distributed tracing and metrics system. In the past he was research assistant at Politecnico di Torino, where he worked on the design and the implementation of high performance network function with eBPF (extended Berkley Packet Filter) and XDP (eXpress Data Path) technologies. He was one of the main developers of Polycube, an open source software framework that provides fast and lightweight network functions. Mauricio got his BSc in Electronic Engineering at University of Antioquia, Colombia and then the MSc in Computer Engineering from Politecnico di Torino in 2015. Besides his work, he is an amateur MTB and road cyclist, he enjoys participating in amateur races.
+
 
 ### Monitoring on Kubernetes: Prometheus Hands-on
 - Speaker: Marco Schiapparelli, [Blue Reply](https://www.reply.com/blue-reply/it/)
