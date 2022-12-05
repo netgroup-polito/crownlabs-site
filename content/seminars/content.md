@@ -21,6 +21,9 @@ Past seminars are available [below](#past); available recordings can be found on
 No upcoming seminars are scheduled. We are going to take a short vacation (actually, exams) break.
 See you in the next semester!
 -->
+Here there are the seminars currently planned.
+<br>
+<hr>
 
 ### Introducing the Gateway API, the next generation of Ingress API
 - Speaker: Mattia Lavacca, [Kong](https://konghq.com/)
