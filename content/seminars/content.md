@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2022-05-25"
+date = "2022-12-05"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -17,8 +17,20 @@ Past seminars are available [below](#past); available recordings can be found on
 <br>
 
 ## Upcoming seminars
+<!--
 No upcoming seminars are scheduled. We are going to take a short vacation (actually, exams) break.
 See you in the next semester!
+-->
+
+### Introducing the Gateway API, the next generation of Ingress API
+- Speaker: Mattia Lavacca, [Kong](https://konghq.com/)
+- When: Tuesday, Dec 13, 2022, 11.00 - 12.30
+
+#### Abstract
+Gateway API is the next generation of the Ingress API and is where new features will be added. We will explore the rich set of features provided by this API and deep dive into a tutorial session where we will learn how to expose applications outside the cluster boundaries. We will eventually perform traffic splitting and Load Balancing based on several rules. During the tutorial, we will leverage the Kong Gateway Operator, which offers an operator approach to create controlplanes and dataplanes upon Gateway creation, jointly with Kong as a dataplane and the Kong Ingress Controller as a controlplane.
+
+#### Short bio
+**Mattia Lavacca** is software engineer at Kong, deepy involved in Kubernetes networking. He is an active contributor to the Gateway API and is working on many Kong projects related to networking in Kubernetes, such as the Ingress controller and the Gateway Operator. In addition, he has been quite involved in the last years in the open-source community, contributing, among others, to Liqo, an open-source project related to resource sharing in multi-cluster environments.
 
 <!--
 <br>
@@ -187,7 +199,6 @@ Finally, the seminar will present some considerations on the relative weight of 
 ### Cloud Security & Going Serverless on AWS
 - Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
 - When: Wednesday, Nov 24, 2021, 10.00 - 11.30
-- [Recorded video](https://youtu.be/HOaEeXrGlI4)
 
 #### Abstract
 Cloud Security is the protection of data stored online via Cloud Computing platforms from theft, leakage, and deletion.
