@@ -33,7 +33,7 @@ Here there are the seminars currently planned.
 Gateway API is the next generation of the Ingress API and is where new features will be added. We will explore the rich set of features provided by this API and deep dive into a tutorial session where we will learn how to expose applications outside the cluster boundaries. We will eventually perform traffic splitting and Load Balancing based on several rules. During the tutorial, we will leverage the Kong Gateway Operator, which offers an operator approach to create controlplanes and dataplanes upon Gateway creation, jointly with Kong as a dataplane and the Kong Ingress Controller as a controlplane.
 
 #### Short bio
-**Mattia Lavacca** is software engineer at Kong, deepy involved in Kubernetes networking. He is an active contributor to the Gateway API and is working on many Kong projects related to networking in Kubernetes, such as the Ingress controller and the Gateway Operator. In addition, he has been quite involved in the last years in the open-source community, contributing, among others, to Liqo, an open-source project related to resource sharing in multi-cluster environments.
+**Mattia Lavacca** is a software engineer at Kong, deeply involved in Kubernetes networking. He is an active contributor to the Gateway API and is working on many Kong projects related to networking in Kubernetes, such as the Ingress controller and the Gateway Operator. In addition, he has been quite involved in the last years in the open-source community, contributing, among others, to Liqo, an open-source project related to resource sharing in multi-cluster environments.
 
 <!--
 <br>
