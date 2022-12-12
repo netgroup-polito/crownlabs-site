@@ -27,7 +27,7 @@ Here there are the seminars currently planned.
 
 ### Introducing the Gateway API, the next generation of Ingress API
 - Speaker: Mattia Lavacca, [Kong](https://konghq.com/)
-- When: Tuesday, Dec 13, 2022, 11.00 - 12.30
+- When: Tuesday, Dec 13, 2022, 11.30 - 13.00
 
 #### Abstract
 Gateway API is the next generation of the Ingress API and is where new features will be added. We will explore the rich set of features provided by this API and deep dive into a tutorial session where we will learn how to expose applications outside the cluster boundaries. We will eventually perform traffic splitting and Load Balancing based on several rules. During the tutorial, we will leverage the Kong Gateway Operator, which offers an operator approach to create controlplanes and dataplanes upon Gateway creation, jointly with Kong as a dataplane and the Kong Ingress Controller as a controlplane.
