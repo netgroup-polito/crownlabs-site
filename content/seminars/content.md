@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2022-12-05"
+date = "2022-12-16"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -21,19 +21,13 @@ Past seminars are available [below](#past); available recordings can be found on
 No upcoming seminars are scheduled. We are going to take a short vacation (actually, exams) break.
 See you in the next semester!
 -->
+<!--
 Here there are the seminars currently planned.
 <br>
 <hr>
+-->
 
-### Introducing the Gateway API, the next generation of Ingress API
-- Speaker: Mattia Lavacca, [Kong](https://konghq.com/)
-- When: Tuesday, Dec 13, 2022, 11.30 - 13.00
-
-#### Abstract
-Gateway API is the next generation of the Ingress API and is where new features will be added. We will explore the rich set of features provided by this API and deep dive into a tutorial session where we will learn how to expose applications outside the cluster boundaries. We will eventually perform traffic splitting and Load Balancing based on several rules. During the tutorial, we will leverage the Kong Gateway Operator, which offers an operator approach to create controlplanes and dataplanes upon Gateway creation, jointly with Kong as a dataplane and the Kong Ingress Controller as a controlplane.
-
-#### Short bio
-**Mattia Lavacca** is a software engineer at Kong, deeply involved in Kubernetes networking. He is an active contributor to the Gateway API and is working on many Kong projects related to networking in Kubernetes, such as the Ingress controller and the Gateway Operator. In addition, he has been quite involved in the last years in the open-source community, contributing, among others, to Liqo, an open-source project related to resource sharing in multi-cluster environments.
+Upcoming seminars will be announced soon. Stay tuned!
 
 <!--
 <br>
@@ -50,6 +44,20 @@ Recordings of some of the past seminars are available on the [CrownLabs Seminars
 <hr>
 
 
+### Introducing the Gateway API, the next generation of Ingress API
+- Speaker: Mattia Lavacca, [Kong](https://konghq.com/)
+- When: Tuesday, Dec 13, 2022, 11.30 - 13.00
+- [Recorded video](https://youtu.be/WN2GOPrC5jA)
+
+#### Abstract
+Gateway API is the next generation of the Ingress API and is where new features will be added. We will explore the rich set of features provided by this API and deep dive into a tutorial session where we will learn how to expose applications outside the cluster boundaries. We will eventually perform traffic splitting and Load Balancing based on several rules. During the tutorial, we will leverage the Kong Gateway Operator, which offers an operator approach to create controlplanes and dataplanes upon Gateway creation, jointly with Kong as a dataplane and the Kong Ingress Controller as a controlplane.
+
+#### Short bio
+**Mattia Lavacca** is a software engineer at Kong, deeply involved in Kubernetes networking. He is an active contributor to the Gateway API and is working on many Kong projects related to networking in Kubernetes, such as the Ingress controller and the Gateway Operator. In addition, he has been quite involved in the last years in the open-source community, contributing, among others, to Liqo, an open-source project related to resource sharing in multi-cluster environments.
+
+<br>
+<hr>
+
 ### eBPF and Code Portability
 - Speaker: Mauricio Vásquez Bernal, [Microsoft](https://www.microsoft.com/)
 - When: Tuesday, May 24, 2022, 11.00 - 12.00
@@ -61,6 +69,8 @@ Portability is one of the potential advantages of the eBPF technology. However, 
 #### Short bio
 **Mauricio Vásquez Bernal** is software engineer at Microsoft, thanks to the recent acquisition of his previous company, Kinvolk. He is currently participating to the development of OpenTelemetry, a distributed tracing and metrics system. In the past he was research assistant at Politecnico di Torino, where he worked on the design and the implementation of high performance network function with eBPF (extended Berkley Packet Filter) and XDP (eXpress Data Path) technologies. He was one of the main developers of Polycube, an open source software framework that provides fast and lightweight network functions. Mauricio got his BSc in Electronic Engineering at University of Antioquia, Colombia and then the MSc in Computer Engineering from Politecnico di Torino in 2015. Besides his work, he is an amateur MTB and road cyclist, he enjoys participating in amateur races.
 
+<br>
+<hr>
 
 ### Monitoring on Kubernetes: Prometheus Hands-on
 - Speaker: Marco Schiapparelli, [Blue Reply](https://www.reply.com/blue-reply/it/)
