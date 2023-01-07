@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2022-12-16"
+date = "2023-01-07"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -39,6 +39,27 @@ Place new seminars here
 
 ## <a name="past">Past seminars</a>
 Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
+
+<br>
+<hr>
+
+
+### Infrastructure self-provisioning to speed-up cloud adoption
+- Speaker: Riccardo Di Marino, [Storm Reply](https://www.reply.com/storm-reply/)
+- When: Tuesday, Jan 10, 2022, 10.00 - 11.00
+<!--
+- [Recorded video](https://youtu.be/WN2GOPrC5jA)
+-->
+
+#### Abstract
+As many organizations are facing their digital transformation, the new cloud operating model assumes the use of standardized and compliant products, as well as their timely delivery to application teams.
+In this seminar we show a solution based on a Cloud Service Catalog, using the infrastructure as a code (IaC) paradigm, together with configuration management and automation tools, to create a Self Service portal, where each application team can provision in a self service fashion the infrastructure components.
+The components configuration and the end to end delivery, within the Cloud Service Catalog, shall be automated, so that they guarantee by design the compliance with enterprise standards, in terms of security policy, network placement and configuration parameters (tags, allocation, sizing) In the final part, the services involved in the solution will be shown, through an hands-on session performed on the AWS console.
+
+
+#### Short bio
+**Riccardo Di Marino**  is a cloud engineer and solutions architect at Storm Reply, the Reply company focused on solutions based on Amazon Web Services. He joined the company in January 2022, which is focused mainly on helping enterprises to apply an effective digital transformation, through the migration to the cloud.
+Riccardo got his master’s degree in Communications and Computer Networks Engineering at Politecnico di Torino, and then continued his studies pursuing the second edition of the 2nd level specializing master in Artificial Intelligence & Cloud, concluded in December 2022 at Politecnico di Torino.
 
 <br>
 <hr>
