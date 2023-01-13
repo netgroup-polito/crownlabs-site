@@ -47,9 +47,7 @@ Recordings of some of the past seminars are available on the [CrownLabs Seminars
 ### Infrastructure self-provisioning to speed-up cloud adoption
 - Speaker: Riccardo Di Marino, [Storm Reply](https://www.reply.com/storm-reply/)
 - When: Tuesday, Jan 10, 2022, 10.00 - 11.00
-<!--
-- [Recorded video](https://youtu.be/WN2GOPrC5jA)
--->
+- [Recorded video](https://youtu.be/KpppLgPNooE)
 
 #### Abstract
 As many organizations are facing their digital transformation, the new cloud operating model assumes the use of standardized and compliant products, as well as their timely delivery to application teams.
