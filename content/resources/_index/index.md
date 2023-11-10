@@ -13,7 +13,7 @@ This page collects a set of pointers to external resources related to the CrownL
 
 ### Tutorials
 
-* [**Accessing CrownLabs VMs with SSH**](./crownlabs_ssh): a guide about connecting to a **CrownLabs VM** using a command line SSH client.
+* [**Accessing CrownLabs VMs with SSH**](./crownlabs_ssh): a guide about connecting to a **CrownLabs VM** using SSH, both with a command line client and with a code editor.
 * [**Accessing a CrownLabs Sandbox Namespace**](./sandbox): a guide about configuring **kubectl** to access a CrownLabs **sandbox namespace**.
 
 ### Videos

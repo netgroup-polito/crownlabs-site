@@ -12,6 +12,8 @@ weight = 100
 
 This guide shows how to generate a SSH key pair on your operating systems (Windows, Linux, MacOS), how to load it on **CrownLabs** and access your **CrownLabs**' VM using SSH from a local terminal.
 
+Additionally, many code editors, such as **VS Code**, can be connect to the **CrownLabs** VM over SSH and simplify the programming experience.
+
 Note that the **generation** of the **SSH key pair** and the upload of the **SSH public key** does not have to be repeated each time you create a new **VM**.
 This process only needs to be done once per **device.**
 
@@ -106,7 +108,35 @@ When completing this process, CrownLabs will **push automatically** the above SS
 
 ![image-20211112194835635](./img/2_3.png)
 
-<br>
+
+## Connect VS Code to a VM
+
+1. Install the **Remote - SSH** extension.
+
+2. Edit the SSH configuration file.
+The default location is `~/.ssh/config` on Linux and `C:\Users\<your_user>\.ssh\config` on Windows.
+
+3. Append the following configuration, inserting the IP address of your VM (it can be found in the SSH connection command: `ssh -J bastion@crownlabs.polito.it crownlabs@<your_vm_ip>`), and save.
+```
+Host bastion
+	HostName ssh.crownlabs.polito.it
+	User bastion
+
+Host crownlabs
+	HostName <your_vm_ip>
+	ProxyJump bastion
+	User crownlabs
+```
+
+4. Click on the **Open a Remote Window** button in the bottom-left corner of Code.
+
+5. Click on **Connect Current Window to Host**.
+
+6. Select **crownlabs**.
+
+7. On Windows, select **Linux** as the platform.
+
+8. Your **VS Code** is now connected to the **CrownLabs VM**, you can open a remote terminal by using *Ctrl+J* and open a remote folder as a project.
 
 ## Conclusion
 

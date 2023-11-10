@@ -11,3 +11,4 @@ date = "2021-11-12"
 - [How to generate an SSH key pair](#how-to-generate-an-ssh-key-pair)
 - [Upload your key on CrownLabs](#upload-your-key-on-crownLabs)
 - [Connect to a VM from terminal](#connect-to-a-vm-from-terminal)
+- [Connect VS Code to a VM](#connect-vs-code-to-a-vm)
