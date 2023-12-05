@@ -22,7 +22,7 @@ This process only needs to be done once per **device.**
 All CrownLabs VMs are characterized by **private IP addresses**, and cannot be accessed directly through SSH.
 As shown in the figure below, it is necessary to first establish the SSH connection through a **bastion**, which instead is publicly accessible, and then **jump** to the final destination (i.e., the VM).
 
-This can be achieved with the `ssh -J bastion@crownlabs.polito.it crownlabs@10.1.2.3` command, in which the local **SSH client** first connects to the bastion (indeed, the **-J** option specifies a **ProxyJump**), leveraging the generated **SSH key-pair** for authentication purposes.
+This can be achieved with the `ssh -J bastion@ssh.crownlabs.polito.it crownlabs@10.1.2.3` command, in which the local **SSH client** first connects to the bastion (indeed, the **-J** option specifies a **ProxyJump**), leveraging the generated **SSH key-pair** for authentication purposes.
 Specifically, the **bastion** checks the **client**'s authentication attempt using the **public key** previously uploaded to the **CrownLabs Dashboard**.
 
 If authentication succeeds, you are then redirected to your **VM**.
