@@ -1,7 +1,7 @@
 +++
 fragment = "content"
 #disabled = true
-date = "2021-11-12"
+date = "2023-12-21"
 weight = 100
 # title = "Connecting to CrownLabs with SSH"
 +++
@@ -84,11 +84,12 @@ Now open your page on **CrownLabs** and go to the [**Account page**](https://cro
 ![image-20211112190234270](./img/1_4.png)
 
 When completing this process, CrownLabs will **push automatically** the above SSH key in all the _console-based_ VMs you created, as well in the Bastion host; therefore you will be able to connect to all the above VMs using your key.
+
+Note that the **SSH key is pushed** in the target VM only **when the VM is started for the first time**. Therefore **you may need to delete running VMs** for this new configuration to be applied.
+
 <br>
 
 ## Connect to a VM from terminal
-
-<br>
 
 1. Create an instance of a VM in your [**CrownLabs Dashboard page**](https://crownlabs.polito.it/app).
 
