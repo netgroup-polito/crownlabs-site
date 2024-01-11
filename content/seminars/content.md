@@ -43,10 +43,75 @@ Recordings of some of the past seminars are available on the [CrownLabs Seminars
 <br>
 <hr>
 
+### Software Driven Network Operations (in Italian)
+- Speaker: Paolo Fasano, [TIM](https://www.tim.it)
+- When: Friday, Jan 19, 2024, 11:30 - 14:30
+
+#### Abstract
+Le reti di telecomunicazioni moderne presentano un elevato grado di complessità dovuto ad una molteplicità di fattori che includono:
+- Incremento del numero di apparati, a seguito della continua crescita del traffico;
+- Eterogeneità delle tecnologie utilizzate;
+- Elevata dinamicità e volatilità di utenti e servizi, con continue modifiche delle configurazioni;
+- Pattern di traffico variegati e non sempre facilmente prevedibili (in particolare eventi in tempo reale);
+- Problematiche di isolamento dei guasti o degli attacchi informatici.
+
+In questo contesto, l'_Operation_ della rete (inteso come insieme di attività di creation, delivery, maintenance e assurance) vede crescere allo stesso modo il proprio livello di criticità dovendo garantire un livello elevato di disponibilità della rete e dei servizi anche in presenza dei fattori di complessità precedentemente indicati. L’automazione nelle attività di operation, per una rete di telecomunicazione moderna, quale quella di TIM, si pone quindi come una necessità intrinseca per garantire il necessario livello di efficienza e qualità dell’offerta: Software Driven Network Operations identifica questo paradigma, in cui la progressiva adozione di procedure automatiche nella prima configurazione iniziale dei nuovi apparati inseriti in rete, nella modellizzazione di servizi end to end complessi che richiedono interventi coordinati su molteplici apparati, nella raccolta di dati di prestazioni e nella loro analisi, rende possibile la rivisitazione dei processi di operation e la loro ottimizzazione in modalità proattiva e non solo reattiva.
+
+In questo seminario viene illustrata ad alto livello l’architettura della piattaforma costruita da TIM per attualizzare il concetto di Software Driven Network Operations, attraverso la creazione di una piattaforma in casa (TIM SDN platform) a partire da componenti commerciali, componenti open source e componenti custom. L’approccio ribalta parzialmente quello dei prodotti di gestione generali disponibili sul mercato, assemblando le componenti nel sistema a partire dalle caratteristiche degli elementi di rete e delle esigenze delle diverse funzioni aziendali (approccio “use case driven”), mantenendo però un approccio sistemico nella gestione delle interazioni con gli apparati.
+
+TIM SDN Platform include 3 macro componenti funzionali: BRAIN, WRITE, READ, incaricate rispettivamente della modellazione e dell'orchestrazione dei servizi, dell'attuazione di configurazioni e comandi, e la raccolta di dati e telemetria sullo stato dell'infrastruttura.
+Nel corso del seminario saranno presentati un primo livello di dettaglio dell’architettura funzionale di queste componenti e alcuni use case sviluppati sulla TIM SDN Platform.
+
+#### Short bio
+**Paolo Fasano** è responsabile delle attività "Software Defined Networks" presso TIM, dove si occupa dell'automatizzazione delle operazioni di rete IP e di trasporto. SDN in TIM è stato declinato a seguito di precedenti progetti di innovazione focalizzati sull'incontro tra le tecnologie emergenti e le effettive esigenze derivanti dalle richieste del mercato e dagli obiettivi di efficienza. In precedenza, Paolo Fasano ha rivestito ruoli legati all'innovazione di rete ed è l'autore di numerosi contributi nella definizione di standard internazionali, nonchè è stato uno dei pionieri di IPv6 in Italia.
+
+<br>
+<hr>
+
+### TODO (in Italian)
+- Speaker: Danilo Abbaldo, [Liquid Reply](https://www.reply.com/liquid-reply/)
+- When: Wednesday, Jan 17, 2024, 16:00 - 17:30
+
+#### Abstract
+TODO
+
+#### Short bio
+**Danilo Abbaldo** TODO.
+
+<br>
+<hr>
+
+### Machine Learning and Generative AI, why now? (in Italian)
+- Speaker: Guido Maria Nebiolo, [Storm Reply](https://www.reply.com/storm-reply/)
+- When: Wednesday, Jan 17, 2024, 14:30 - 16:00
+
+#### Abstract
+This seminar will delve into the fundamentals of Machine Learning, exploring its distinctions from both Artificial Intelligence and traditional programming methodologies. The discussion will encompass the underlying mechanisms of machine learning algorithms, elucidating concepts such as features and weights. Various families of Machine Learning algorithms will be examined, shedding light on their respective functionalities.
+An exploration of the distinctions between supervised, unsupervised, and reinforcement learning will follow, with the different problem classes that each solves. Furthermore, the seminar will highlight the transformative impact of Deep Learning, with a specific focus on how Artificial Neural Networks (ANN) have significantly influenced the Machine Learning landscape in recent years.
+The concluding segment of the seminar will center on the contemporary subject of Generative AI. Demonstrations will be presented to showcase the capabilities of this emerging technology, offering insights into its potential applications and implications.
+
+#### Short bio
+**Guido Maria Nebiolo** started working with Amazon Web Services in 2015, joined Reply in 2017 and now he is a manager in Storm Reply, the Reply company focused on solutions based on AWS. He’s main topics are Cloud Native Applications and AI/ML and he is an active AWS Trainer and Ambassador.
+
+<br>
+<hr>
+
+### Building Datacenter Infrastructures at Aruba (in Italian)
+- Speaker: Alessandro Bruschini, [Aruba](https://www.aruba.it)
+- When: Tuesday, Jan 16, 2024, 10:00 - 11:30
+
+#### Abstract
+TODO
+
+#### Short bio
+**Alessandro Bruschini** started his journey in the world of telecommunications in 1989, as a designer and manager of metropolitan networks at Telecom Italia. In 2002 he moved to a newborn local TLC operator, with increasing responsibilities till reaching the role of General Manager. In 2009 he joined Aruba, and he participated to the design and implementation of the Arezzo data center (DC-IT1). As Head of the Infrastructure Department, he has been in charge of the design and management of the Global Cloud Data Centre in Bergamo (DC-IT3) and now the Hyper Cloud Data Centre in Rome (DC-IT4, under construction).
+
+<br>
+<hr>
 
 ### Infrastructure self-provisioning to speed-up cloud adoption
 - Speaker: Riccardo Di Marino, [Storm Reply](https://www.reply.com/storm-reply/)
-- When: Tuesday, Jan 10, 2022, 10.00 - 11.00
+- When: Tuesday, Jan 10, 2023, 10:00 - 11:00
 - [Recorded video](https://youtu.be/KpppLgPNooE)
 
 #### Abstract
@@ -54,9 +119,8 @@ As many organizations are facing their digital transformation, the new cloud ope
 In this seminar we show a solution based on a Cloud Service Catalog, using the infrastructure as a code (IaC) paradigm, together with configuration management and automation tools, to create a Self Service portal, where each application team can provision in a self service fashion the infrastructure components.
 The components configuration and the end to end delivery, within the Cloud Service Catalog, shall be automated, so that they guarantee by design the compliance with enterprise standards, in terms of security policy, network placement and configuration parameters (tags, allocation, sizing) In the final part, the services involved in the solution will be shown, through an hands-on session performed on the AWS console.
 
-
 #### Short bio
-**Riccardo Di Marino**  is a cloud engineer and solutions architect at Storm Reply, the Reply company focused on solutions based on Amazon Web Services. He joined the company in January 2022, which is focused mainly on helping enterprises to apply an effective digital transformation, through the migration to the cloud.
+**Riccardo Di Marino** is a cloud engineer and solutions architect at Storm Reply, the Reply company focused on solutions based on Amazon Web Services. He joined the company in January 2022, which is focused mainly on helping enterprises to apply an effective digital transformation, through the migration to the cloud.
 Riccardo got his master’s degree in Communications and Computer Networks Engineering at Politecnico di Torino, and then continued his studies pursuing the second edition of the 2nd level specializing master in Artificial Intelligence & Cloud, concluded in December 2022 at Politecnico di Torino.
 
 <br>
@@ -65,7 +129,7 @@ Riccardo got his master’s degree in Communications and Computer Networks Engin
 
 ### Introducing the Gateway API, the next generation of Ingress API
 - Speaker: Mattia Lavacca, [Kong](https://konghq.com/)
-- When: Tuesday, Dec 13, 2022, 11.30 - 13.00
+- When: Tuesday, Dec 13, 2022, 11:30 - 13:00
 - [Recorded video](https://youtu.be/WN2GOPrC5jA)
 
 #### Abstract
@@ -79,7 +143,7 @@ Gateway API is the next generation of the Ingress API and is where new features 
 
 ### eBPF and Code Portability
 - Speaker: Mauricio Vásquez Bernal, [Microsoft](https://www.microsoft.com/)
-- When: Tuesday, May 24, 2022, 11.00 - 12.00
+- When: Tuesday, May 24, 2022, 11:00 - 12:00
 - [Recorded video](https://youtu.be/lMKA0C9Y0GU)
 
 #### Abstract
@@ -93,7 +157,7 @@ Portability is one of the potential advantages of the eBPF technology. However, 
 
 ### Monitoring on Kubernetes: Prometheus Hands-on
 - Speaker: Marco Schiapparelli, [Blue Reply](https://www.reply.com/blue-reply/it/)
-- When: Tuesday, Jan 18, 2022, 14.30 - 16.00
+- When: Tuesday, Jan 18, 2022, 14:30 - 16:00
 - [Recorded video](https://youtu.be/EaODJkFjYrA)
 
 #### Abstract
@@ -109,7 +173,7 @@ Over the years he has been developing projects and services in fields as Infrast
 
 ### Building and operating the CrownLabs service: architecture and lessons learned
 - Speaker: Marco Iorio, [Politecnico di Torino](https://www.polito.it/)
-- When: Tuesday, Jan 11, 2022, 10.00 - 12.00
+- When: Tuesday, Jan 11, 2022, 10:00 - 12:00
 - [Recorded video](https://youtu.be/WIHZiNR59Z8)
 
 #### Abstract
@@ -133,7 +197,7 @@ Marco is one of the founding members of the CrownLabs team. Since then, he has b
 
 ### Connecting to Google: how Google handles its external and internal connectivity
 - Speaker: Francesco Marabotto, [Google](https://www.google.com/)
-- When: Monday, Jan 10, 2022, 11.30 - 13.00
+- When: Monday, Jan 10, 2022, 11:30 - 13:00
 
 #### Abstract
 This seminar will provide context on how wide-area network design is used to meet the business needs of a company that provides services to their customers.
@@ -152,7 +216,7 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 
 ### Serverless Event-Driven on AWS Cloud: real stories
 - Speakers: Felice Tartaro and Girolamo Piccinni, [Storm Reply](https://www.reply.com/storm-reply/)
-- When: Tuesday, Dec 21, 2021, 10.00 - 11.30
+- When: Tuesday, Dec 21, 2021, 10:00 - 11:30
 - [Recorded video](https://youtu.be/4vgfWscRVTU)
 
 #### Abstract
@@ -171,7 +235,7 @@ This seminar presents how to correctly design event-driven and serverless applic
 
 ### Cloud outsourcing strategy
 - Speaker: Jorge Monge, [Management Solutions](https://www.managementsolutions.com)
-- When: Wednesday, Dec 15, 2021, 10.00 - 11.30
+- When: Wednesday, Dec 15, 2021, 10:00 - 11:30
 - [Recorded video](https://youtu.be/z3IT_Jw4r8g)
 
 #### Abstract
@@ -191,7 +255,7 @@ Il seminario ha come obiettivo condividere tutte le attività complementari e pr
 
 ### API Management in Hybrid Cloud scenarios
 - Speaker: Francesco Semeraro, [Cluster Azure Reply](https://www.reply.com/cluster-reply/)
-- When: Tuesday, Dec 14, 2021, 10.00 - 11.30
+- When: Tuesday, Dec 14, 2021, 10:00 - 11:30
 - [Recorded video](https://youtu.be/0mSbfpS_9yY)
 
 #### Abstract
@@ -209,7 +273,7 @@ Francesco got his master's degree in Computer Science and Engineering at Politec
 
 ### Pricing models on public cloud providers
 - Speaker: Federico Cicchiello, [Politecnico di Torino](https://www.polito.it/)
-- When: Friday, Dec 10, 2021, 8.30 - 10.00
+- When: Friday, Dec 10, 2021, 8:30 - 10:00
 - [Recorded video](https://youtu.be/GOcRsNC4or8)
 
 #### Abstract
@@ -230,7 +294,7 @@ Finally, the seminar will present some considerations on the relative weight of 
 
 ### Cloud Security & Going Serverless on AWS
 - Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
-- When: Wednesday, Nov 24, 2021, 10.00 - 11.30
+- When: Wednesday, Nov 24, 2021, 10:00 - 11:30
 
 #### Abstract
 Cloud Security is the protection of data stored online via Cloud Computing platforms from theft, leakage, and deletion.
@@ -246,7 +310,7 @@ An hands-on will be taking place, and the most famous AWS serverless services wi
 
 ### Enterprise architectures in Financial institutions: High Availability and Disaster Recovery
 - Speaker: Marcello Bianchetti, [Unicredit Services](https://www.unicreditgroup.eu/en/microsites/unicreditservices.html)
-- When: Wednesday, Nov 4, 2021, 16.00 - 17.30
+- When: Wednesday, Nov 4, 2021, 16:00 - 17:30
 
 #### Abstract
 Il seminario si focalizzerà sui seguenti argomenti:
@@ -265,7 +329,7 @@ He obtained a degree in Computer Engineering at Politecnico di Milano and he is 
 
 ### Distributed Services at the Network Edge: Motivations, Opportunities, Technology
 - Speaker: Mario Baldi, [Pensando Systems](https://www.pensando.io/)
-- When: Monday, June 7, 2021, 17.30 - 19.00
+- When: Monday, June 7, 2021, 17:30 - 19:00
 - [Recorded video](https://youtu.be/mVYdQvvGQ8c)
 
 #### Abstract
@@ -283,7 +347,7 @@ This paradigm shift is the focus of this seminar. We start with looking into the
 
 ### Multi-cloud, edge and distributed cloud
 - Speaker: Guido Vicino, [Blue Reply](https://www.reply.it/)
-- When: Monday, May 24, 2021, 17.30 - 19.00
+- When: Monday, May 24, 2021, 17:30 - 19:00
 - [Recorded video](https://youtu.be/kjBzfJjrFcE)
 
 #### Abstract
@@ -303,7 +367,7 @@ Starting from the definition of multi-cloud, the talk will include:
 
 ### An Hands-on Journey with Amazon AWS
 - Speaker: Luigi Napoleone Capasso, [Amazon](https://www.amazon.com/)
-- When: Monday, May 17, 2021, 17.30 - 19.00
+- When: Monday, May 17, 2021, 17:30 - 19:00
 
 #### Abstract
 This talk will present an overview of the Amazon AWS Cloud infrastructure, and why Cloud solutions are preferred over the traditional ones.
@@ -317,7 +381,7 @@ A brief hands-on with two of the most popular AWS services is then presented. In
 
 ### Open-source e innovazione digitale: un approccio sostenibile e scalabile
 - Speaker: Luca Marchino, [Labinf Sistemi](https://www.labinfsistemi.com/)
-- When: Monday, May 10, 2021, 17.30 - 19.00
+- When: Monday, May 10, 2021, 17:30 - 19:00
 - [Recorded video](https://youtu.be/KNLlqDzRidw)
 
 #### Abstract
@@ -334,7 +398,7 @@ Nel 2014 la startup che ha fondato entra far parte del gruppo Labinf Sistemi, di
 
 ### The life of a Cloud Security Researcher: how to exploit a cloud environment
 - Speaker: Stefano Chierici, [Sysdig](https://sysdig.com/)
-- When: Monday, May 3, 2021, 17.30 - 18.30
+- When: Monday, May 3, 2021, 17:30 - 18:30
 - [Recorded video](https://youtu.be/JS7YB8pXddU)
 
 #### Abstract
@@ -353,7 +417,7 @@ What we will do together:
 
 ### Data pipeline orchestration via Apache Airflow
 - Speaker: Matteo Senardi, [Docsity](https://www.docsity.com/)
-- When: Monday, Apr 26, 2021, 17.30 - 19.00
+- When: Monday, Apr 26, 2021, 17:30 - 19:00
 - [Recorded video](https://youtu.be/sLjelsSjZ_w)
 
 #### Abstract
@@ -373,7 +437,7 @@ He designs and maintains several open source projects in his [GitHub](https://gi
 
 ### Multicloud Infrastructure as Code on Tencent China: Issues and best practice
 - Speaker: Pasquale Lepera, [Criticalcase](https://www.criticalcase.com/)
-- When: Monday, February 22, 2021, 17.00 - 18.30
+- When: Monday, February 22, 2021, 17:00 - 18:30
 - [Recorded video](https://youtu.be/HRlWgnlBCGQ)
 
 
@@ -393,7 +457,7 @@ Based on a real use case for a big player of the fashion industry, this sebinar 
 
 ### Design and implementation of a data center network with a layer 2 extension
 - Speaker: Francesco Marabotto, [Google](https://www.google.com/)
-- When: Monday, Feb 8, 2021, 11.00 - 12.30
+- When: Monday, Feb 8, 2021, 11:00 - 12:30
 
 #### Abstract
 Data centers are the locations where the real asset of an enterprise is stored: data.
@@ -413,7 +477,7 @@ Francesco holds a MSc in Computer Engineering from Politecnico di Torino.
 
 ### Wireless deployment and technologies
 - Speaker: Stefano Ferrari, [Cisco](https://www.cisco.com/)
-- When: Monday, Jan 18, 2021, 9.30 - 11.00am
+- When: Monday, Jan 18, 2021, 9:30 - 11:00
 
 #### Abstract
 Globally, wireless devices will account for 43% of all networked devices by 2022. At the same time, the number of IoT M2M devices will account for 51% of all networked devices by 2022, with the vast majority being wirelessly connected. Wireless is the new switching. In this seminar, we will cover most typical wireless deployments, we will learn that wireless is not just about access and will glance through the most recent industry trends.
