@@ -68,15 +68,17 @@ Nel corso del seminario saranno presentati un primo livello di dettaglio dell’
 <br>
 <hr>
 
-### TODO (in Italian)
-- Speaker: Danilo Abbaldo, [Liquid Reply](https://www.reply.com/liquid-reply/)
+### Automation in the cloud: convergence between infrastructure and development (in Italian)
+- Speaker: Vincenzo Vigliotti and Davide Sarais, [Liquid Reply](https://www.reply.com/liquid-reply/)
 - When: Wednesday, Jan 17, 2024, 16:00 - 17:30
 
 #### Abstract
-TODO
+As organizations increasingly rely on cloud services for their operations, the need for efficient and streamlined management of cloud tasks becomes a key point. This talk highlights the usability properties, scalability and adaptability of automation technologies to different corporate scenarios, emphasizing its role in minimizing human errors, reducing operational costs, and accelerating task execution.
 
 #### Short bio
-**Danilo Abbaldo** TODO.
+**Vincenzo Vigliotti** is cloud engineer at Liquid Reply, the company within the Reply group specialized in multicloud solutions. He has been working at Reply since 2022, the year in which he obtained a Master's Degree in Computer Engineering from the University of Salerno. His experience includes consultancy projects in cloud infrastructure and governance in Azure and toolchain management with automotive and financial companies.
+
+**Davide Sarais** is a cloud architect in Liquid Reply. He has been working at Reply since 2016, the year in which he obtained a Master's Degree in Computer Science from the University of Turin. His experience includes consultancy projects with a purely infrastructural focus with banking, insurance and automotive companies.
 
 <br>
 <hr>
@@ -99,6 +101,7 @@ The concluding segment of the seminar will center on the contemporary subject of
 ### Building Datacenter Infrastructures at Aruba (in Italian)
 - Speaker: Alessandro Bruschini, [Aruba](https://www.aruba.it)
 - When: Tuesday, Jan 16, 2024, 10:00 - 11:30
+- [Recorded video](https://youtu.be/yi1tVMgv8Rg)
 
 #### Abstract
 Datacenters represent one of the key building blocks in the modern IT-based world, with an increasing importance in our everyday life. Alessandro Bruschini, Infrastructure Manager at Aruba S.p.A., will describe the main architectural challenges in building and operating a datacenter; in particular, he will focus on their **design and architecture**, providing an overview of their **hardware infrastructure** and the **power and cooling solutions**, while also giving us an insight of the **security measures** and the **operational best practices**. Aruba, one of the main players in the Italian cloud market, is the market leader for datacenter infrastructures in our country, with the Global Cloud Data Center (IT3), the largest data center campus in Italy (with a surface area of 200,000m²) on the outskirts of Milan; two Data Centers in Tuscany, Arezzo (IT1 and IT2), which, thanks to their proximity and multiple interconnections, offer maximum levels of redundancy; and the Hyper Cloud Data Center (IT4) on its final construction phases in Rome.
