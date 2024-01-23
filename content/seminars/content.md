@@ -43,6 +43,19 @@ Recordings of some of the past seminars are available on the [CrownLabs Seminars
 <br>
 <hr>
 
+### Evolution of Telecommunications Networks towards Cloud Native (in Italian)
+- Speaker: Giuseppe Ferraris
+- When: Tuesday, Jan 23, 2024, 17:00 - 18:30
+
+#### Abstract
+This seminar will provide an overview of the architecture of the TIM Network for its different components, including the Access Network, Metro Network, and Backbone. It will then analyze how this network can evolve towards a new paradigm where network functions are realized by cloud-native applications. Finally, it will provide information about the Sylva project of the Linux Foundation Europe, which aims to produce an open-source software stack for the realization of a Container as a Service infrastructure that can be used to support carrier-grade network functions.
+
+#### Short bio
+**Giuseppe Ferraris** has been involved in the field of telecommunications networks for over 30 years, focusing on innovation. In recent years, he has been a Program Manager at TIM, where he has coordinated several projects related to Cloud Network Infrastructure. He has also served as a co-chairman of the Sylva project at the Linux Foundation Europe. Prior to this, he was also a Project Coordinator for several projects funded by the European Commission and actively contributed to international standards.
+
+<br>
+<hr>
+
 ### Software Driven Network Operations (in Italian)
 - Speaker: Paolo Fasano, [TIM](https://www.tim.it)
 - When: Friday, Jan 19, 2024, 11:30 - 14:30
