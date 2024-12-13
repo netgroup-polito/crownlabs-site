@@ -21,13 +21,106 @@ Past seminars are available [below](#past); available recordings can be found on
 No upcoming seminars are scheduled. We are going to take a short vacation (actually, exams) break.
 See you in the next semester!
 -->
-<!--
+
 Here there are the seminars currently planned.
 <br>
 <hr>
--->
 
+### P4
+- Speaker: Mario Baldi, AMD
+- When: Friday, 13 December 2024, 11:30 - 13:00
+
+<br>
+<hr>
+
+### Netto
+- Speaker: Davide Miola, Politecnico di Torino
+- When: Friday, 13 December 2024, 13:00 - 14:30
+
+<br>
+<hr>
+
+### When Systems Break: Cloud Disaster Stories with a Silver Lining
+- Speaker: Lorenzo David, [Confluent](https://www.confluent.io/)
+- When: Wednesday, 18 December 2024, 13:00 - 14:30
+
+#### Abstract
+Distributed cloud infrastructure provides value to organizations both organizationally and technologically, offering advantages over more traditional monolithic systems. However, the complexity of managing this infrastructure at scale, across a multi-cloud environment, is not trivial and requires a fundamental shift in the way engineers operate and ensure the reliability of the system.
+
+In this seminar, we will provide insights into how modern cloud-based infrastructure is architected and discuss standard Site Reability Engineering (SRE) practices. We will then examine disaster scenarios, from simple breakages to more complex regional outages, and share lessons learned from real-world incidents.
+
+#### Short Bio
+Lorenzo David is an Engineering Manager at Confluent and a 2015 alumni of Politecnico di Torino and Eurecom ParisTech. He has 10 years of experience across US and Italy, building cloud infrastructure and products in networking and cybersecurity.
+
+<br>
+<hr>
+
+### Unikernels
+- Speaker: Federico Parola, Politecnico di Torino
+- When: Wednesday, 18 December 2024, 14:30 - 16:00
+
+<br>
+<hr>
+
+### New technologies for datacenter networking
+- Speaker: Mario Baldi, AMD
+- When: Friday, 20 December 2024, 11:30 - 13:00
+
+<br>
+<hr>
+
+### Bare metal operations
+- Speaker: Francesco Cappa, Politecnico di Torino
+- When: Friday, 20 December 2024, 14:30 - 16:00
+
+<br>
+<hr>
+
+### Energy
+- Speaker: Stefano Galantino, Politecnico di Torino
+- When: Friday, 20 December 2024, 16:00 - 17:30
+
+<br>
+<hr>
+
+### Software Driven Network Operations (in Italian)
+- Speaker: Paolo Fasano, [TIM](https://www.tim.it)
+- When: Friday, Jan 10, 2025, 11:30 - 14:00
+
+#### Abstract
+Le reti di telecomunicazioni moderne presentano un elevato grado di complessità dovuto ad una molteplicità di fattori che includono:
+- Incremento del numero di apparati, a seguito della continua crescita del traffico;
+- Eterogeneità delle tecnologie utilizzate;
+- Elevata dinamicità e volatilità di utenti e servizi, con continue modifiche delle configurazioni;
+- Pattern di traffico variegati e non sempre facilmente prevedibili (in particolare eventi in tempo reale);
+- Problematiche di isolamento dei guasti o degli attacchi informatici.
+
+In questo contesto, l'_Operation_ della rete (inteso come insieme di attività di creation, delivery, maintenance e assurance) vede crescere allo stesso modo il proprio livello di criticità dovendo garantire un livello elevato di disponibilità della rete e dei servizi anche in presenza dei fattori di complessità precedentemente indicati. L’automazione nelle attività di operation, per una rete di telecomunicazione moderna, quale quella di TIM, si pone quindi come una necessità intrinseca per garantire il necessario livello di efficienza e qualità dell’offerta: Software Driven Network Operations identifica questo paradigma, in cui la progressiva adozione di procedure automatiche nella prima configurazione iniziale dei nuovi apparati inseriti in rete, nella modellizzazione di servizi end to end complessi che richiedono interventi coordinati su molteplici apparati, nella raccolta di dati di prestazioni e nella loro analisi, rende possibile la rivisitazione dei processi di operation e la loro ottimizzazione in modalità proattiva e non solo reattiva.
+
+In questo seminario viene illustrata ad alto livello l’architettura della piattaforma costruita da TIM per attualizzare il concetto di Software Driven Network Operations, attraverso la creazione di una piattaforma in casa (TIM SDN platform) a partire da componenti commerciali, componenti open source e componenti custom. L’approccio ribalta parzialmente quello dei prodotti di gestione generali disponibili sul mercato, assemblando le componenti nel sistema a partire dalle caratteristiche degli elementi di rete e delle esigenze delle diverse funzioni aziendali (approccio “use case driven”), mantenendo però un approccio sistemico nella gestione delle interazioni con gli apparati.
+
+TIM SDN Platform include 3 macro componenti funzionali: BRAIN, WRITE, READ, incaricate rispettivamente della modellazione e dell'orchestrazione dei servizi, dell'attuazione di configurazioni e comandi, e la raccolta di dati e telemetria sullo stato dell'infrastruttura.
+Nel corso del seminario saranno presentati un primo livello di dettaglio dell’architettura funzionale di queste componenti e alcuni use case sviluppati sulla TIM SDN Platform.
+
+#### Short bio
+**Paolo Fasano** è responsabile delle attività "Software Defined Networks" presso TIM, dove si occupa dell'automatizzazione delle operazioni di rete IP e di trasporto. SDN in TIM è stato declinato a seguito di precedenti progetti di innovazione focalizzati sull'incontro tra le tecnologie emergenti e le effettive esigenze derivanti dalle richieste del mercato e dagli obiettivi di efficienza. In precedenza, Paolo Fasano ha rivestito ruoli legati all'innovazione di rete ed è l'autore di numerosi contributi nella definizione di standard internazionali, nonchè è stato uno dei pionieri di IPv6 in Italia.
+
+### Composable Disaggregated Infrastructures
+- Speaker: Christian Pinto, IBM Research
+- When: Friday, 10 January 2025, 16:00 - 17:30
+
+#### Abstract
+Composable Systems are a new paradigm for building computer systems that aims at improving utilization of hardware, reducing energy consumption and enables the infrastructure to dynamically adapt to different incoming workloads, rather than the way around. However, this technology is not yet the state of the art for building data centers and it requires further efforts on the hardware, software and standardization initiatives. In particular operating system, boot loaders and management software are a big area of exploration in this moment. This talk will go through the landscape of composable disaggregated infrastructure, describing existing commercial solutions and ongoing research and efforts for integrating with the cloud control data plane.
+
+#### Short bio
+** Christian Pinto** is a Staff Research Scientist in the "Next Generation Systems and Cloud" team at IBM Research Europe (Ireland Lab). Christian’s research activities and interests are focused on novel cloud computing paradigms, and applications of distributed systems and cloud computing concepts to the field of Artificial Intelligence, virtualization and computer architecture. In the recent years, Christian is been working in the area of disaggregated and composable systems, including participating to the development of a memory disaggregation prototype and conducting research on application of this technology to cloud infrastructure and its integration in the Linux memory management system. Christian holds a Ph.D. in Computers and Electronic Engineering from University of Bologna, and a Master degree in Computer Engineering from the same university.
+
+<br>
+<hr>
+
+<!--
 Upcoming seminars will be announced soon. Stay tuned!
+-->
 
 <!--
 <br>
@@ -56,30 +149,6 @@ This seminar will provide an overview of the architecture of the TIM Network for
 <br>
 <hr>
 
-### Software Driven Network Operations (in Italian)
-- Speaker: Paolo Fasano, [TIM](https://www.tim.it)
-- When: Friday, Jan 19, 2024, 11:30 - 14:30
-
-#### Abstract
-Le reti di telecomunicazioni moderne presentano un elevato grado di complessità dovuto ad una molteplicità di fattori che includono:
-- Incremento del numero di apparati, a seguito della continua crescita del traffico;
-- Eterogeneità delle tecnologie utilizzate;
-- Elevata dinamicità e volatilità di utenti e servizi, con continue modifiche delle configurazioni;
-- Pattern di traffico variegati e non sempre facilmente prevedibili (in particolare eventi in tempo reale);
-- Problematiche di isolamento dei guasti o degli attacchi informatici.
-
-In questo contesto, l'_Operation_ della rete (inteso come insieme di attività di creation, delivery, maintenance e assurance) vede crescere allo stesso modo il proprio livello di criticità dovendo garantire un livello elevato di disponibilità della rete e dei servizi anche in presenza dei fattori di complessità precedentemente indicati. L’automazione nelle attività di operation, per una rete di telecomunicazione moderna, quale quella di TIM, si pone quindi come una necessità intrinseca per garantire il necessario livello di efficienza e qualità dell’offerta: Software Driven Network Operations identifica questo paradigma, in cui la progressiva adozione di procedure automatiche nella prima configurazione iniziale dei nuovi apparati inseriti in rete, nella modellizzazione di servizi end to end complessi che richiedono interventi coordinati su molteplici apparati, nella raccolta di dati di prestazioni e nella loro analisi, rende possibile la rivisitazione dei processi di operation e la loro ottimizzazione in modalità proattiva e non solo reattiva.
-
-In questo seminario viene illustrata ad alto livello l’architettura della piattaforma costruita da TIM per attualizzare il concetto di Software Driven Network Operations, attraverso la creazione di una piattaforma in casa (TIM SDN platform) a partire da componenti commerciali, componenti open source e componenti custom. L’approccio ribalta parzialmente quello dei prodotti di gestione generali disponibili sul mercato, assemblando le componenti nel sistema a partire dalle caratteristiche degli elementi di rete e delle esigenze delle diverse funzioni aziendali (approccio “use case driven”), mantenendo però un approccio sistemico nella gestione delle interazioni con gli apparati.
-
-TIM SDN Platform include 3 macro componenti funzionali: BRAIN, WRITE, READ, incaricate rispettivamente della modellazione e dell'orchestrazione dei servizi, dell'attuazione di configurazioni e comandi, e la raccolta di dati e telemetria sullo stato dell'infrastruttura.
-Nel corso del seminario saranno presentati un primo livello di dettaglio dell’architettura funzionale di queste componenti e alcuni use case sviluppati sulla TIM SDN Platform.
-
-#### Short bio
-**Paolo Fasano** è responsabile delle attività "Software Defined Networks" presso TIM, dove si occupa dell'automatizzazione delle operazioni di rete IP e di trasporto. SDN in TIM è stato declinato a seguito di precedenti progetti di innovazione focalizzati sull'incontro tra le tecnologie emergenti e le effettive esigenze derivanti dalle richieste del mercato e dagli obiettivi di efficienza. In precedenza, Paolo Fasano ha rivestito ruoli legati all'innovazione di rete ed è l'autore di numerosi contributi nella definizione di standard internazionali, nonchè è stato uno dei pionieri di IPv6 in Italia.
-
-<br>
-<hr>
 
 ### Automation in the cloud: convergence between infrastructure and development (in Italian)
 - Speaker: Vincenzo Vigliotti and Davide Sarais, [Liquid Reply](https://www.reply.com/liquid-reply/)
