@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2024-01-12"
+date = "2024-12-17"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -26,16 +26,30 @@ Here there are the seminars currently planned.
 <br>
 <hr>
 
-### P4
+### Introduction to the P4 Domain-Specific Language for data plane programmability
 - Speaker: Mario Baldi, AMD
 - When: Friday, 13 December 2024, 11:30 - 13:00
+
+#### Abstract
+The need to introduce high level configurability and programmability into the data plane of network appliances is now stronger than ever, with hyperscalers demanding custom network forwarding functions, and hardware offload becoming increasingly relevant for high-speed networking. However, general purpose programming languages like C are unsuited for this task, due to the difficulty of compiling high level code into Domain-Specific Architectures for packet processing. Instead, the community has come up with the P4 DSL, which attempts to define a portable, easy to use language for hardware packet forwarding data planes.
+In this talk, P4 is extensively presented in both its high-level design principles and goals, but also through hands on code examples that showcase its effectiveness and simplicity. Additionally, the talk discusses the status and level of maturity of this technology, after the 10th anniversary of the release of its first official specification.
+
+#### Short Bio
+Mario Baldi got a Ph.D. in Computer Engineering from Politecnico di Torino, where he now holds an Associate Professor position. His day job however is at AMD, where he converged after their acquisition of Pensando Systems back in 2022. At AMD, he currently works in the research division for networking for AI.
 
 <br>
 <hr>
 
-### Netto
+### Netto: Monitor the cost of the Linux network stack in real-time with eBPF
 - Speaker: Davide Miola, Politecnico di Torino
 - When: Friday, 13 December 2024, 13:00 - 14:30
+
+#### Abstract
+Modern "cloud-native" software relies on extensive intra-host communication between distributed application fragments (microservices) to implement large scale deployments. Typically, such communication is achieved through virtual network functions that allow to replicate physical topologies entirely within the software domain. Despite the undoubted convenience, this approach leads to added cost, as moving packets through virtual networks incurs expensive overheads.
+This talk goes through the motivations, design and implementation of Netto, a tool that leverages eBPF to isolate and measure the CPU cost of the network stack in Linux, as being able to estimate the cost of software network functions is the first step towards addressing it. Additionally, the talk highlights the strengths and weaknesses of using eBPF for tracing applications, particularly in how system performance is affected by the inherent cost of entering the eBPF sandbox, scaled by the frequency of its invocations.
+
+#### Short Bio
+**Davide Miola** received his M.Sc. in Computer Engineering from Politecnico di Torino in 2023, where he his now pursuing a Ph.D. The research area where he is most active is that of next generation software packet processing for efficient data plane functions targeting datacenter and enterprise networks.
 
 <br>
 <hr>
@@ -55,9 +69,16 @@ Lorenzo David is an Engineering Manager at Confluent and a 2015 alumni of Polite
 <br>
 <hr>
 
-### Unikernels
+### Unikernels for fast and efficient serverless computing
 - Speaker: Federico Parola, Politecnico di Torino
 - When: Wednesday, 18 December 2024, 14:30 - 16:00
+
+#### Abstract
+Unikernels are specialized, single-address-space machine images constructed by using library operating systems. While the concept of linking library operating systems (libOSes) to applications was first devised in the late 1990s, libOSes have had little popularity on bare metal machines, mainly held back by their complexity in sharing the resources of physical servers among different applications. Modern virtualized environments however represent an ideal scenario for this approach, with Virtual Machines dedicated to individual applications, and the multiplexing of hardware resources delegated to an external component, the Hypervisor. In this context, unikernels can help reduce the overheads of traditional virtual machines, such as slow boot times and high resource footprint, while guaranteeing stronger isolation compared to containers.
+In the first part of this talk, we will explore the main concepts at the base of unikernels, how they compare to traditional virtual machines and containers, and the main research and commercial implementations currently available. In the second part of the talk, we will present SURE, a novel framework based on unikernels, designed to accelerate the operation of serverless computing, thanks to a high-performance data plane for communication between user functions and lightweight sidecar-level functionalities embedded in the unikernel.
+
+#### Short Bio
+**Federico Parola** is Research Assistant at Politecnico di Torino where he got his PhD in June 2024. His main research interests include high-performance packet processing through technologies such as eBPF and DPDK, and efficient virtualization through containers and lightweight virtual machines.
 
 <br>
 <hr>
@@ -69,16 +90,31 @@ Lorenzo David is an Engineering Manager at Confluent and a 2015 alumni of Polite
 <br>
 <hr>
 
-### Bare metal operations
-- Speaker: Francesco Cappa, Politecnico di Torino
+### Energy Considerations in Data Center Design
+- Speaker: Stefano Galantino, Politecnico di Torino
 - When: Friday, 20 December 2024, 14:30 - 16:00
+
+#### Abstract
+This seminar covers the critical aspects of modern data centers and their role in cloud computing, emphasizing their benefits and energy implications in the currend trend towards mode distributed cloud and edge solutions.
+The discussion will delve into power consumption in data centers, focusing on the energy demands of servers, cooling systems, and other components. Strategies for achieving energy efficiency and meeting climate-neutral goals by 2030 will be addressed. Data center design will be explored, detailing the infrastructure required to support operations and identifying areas for energy optimization.
+Environmental sustainability will be a major focus, with topics such as reducing greenhouse gas emissions, managing water use, and minimizing waste. Innovative solutions like subsea data centers and immersion cooling technologies will demonstrate how cutting-edge advancements can enhance efficiency.
+
+#### Short bio
+**Stefano Galantino** received the M.Sc. degree in computer engineering from the Politecnico di Torino, Italy, where he is currently pursuing the Ph.D. degree. His research interests include cloud-to-edge continuum, sustainable, and energy-efficient computing.
 
 <br>
 <hr>
 
-### Energy
-- Speaker: Stefano Galantino, Politecnico di Torino
+### Bare-Metal Clusters in the Virtualized Era: Automating Management with Kubernetes, ClusterAPI, and Metal3
+- Speaker: Francesco Cappa, Politecnico di Torino
 - When: Friday, 20 December 2024, 16:00 - 17:30
+
+#### Abstract
+In the era of virtualization, bare-metal clusters remain essential for workloads demanding high performance, low latency, and direct hardware access. However, managing bare-metal infrastructure poses unique challenges, including manual provisioning, lifecycle complexities, and a lack of abstraction compared to virtualized environments. This presentation explores how modern automation tools, such as Kubernetes, ClusterAPI, and Metal3, address these challenges by integrating bare-metal management into a cloud-native paradigm.
+Metal3’s capabilities, powered by RedHat’s Ironic, which facilitate hardware provisioning through a Kubernetes-native interface, will be explored in details. Participants will learn about the Cluster API's declarative lifecycle management and how these technologies enable scalable, flexible, and automated control of bare-metal resources. This session provides actionable insights into transforming bare-metal clusters into agile, cloud-integrated infrastructures, bridging the gap between physical and virtualized environments.
+
+#### Short Bio
+**Francesco Cappa** is Research Assistant at Politecnico di Torino where he received his M.Sc. in Computer Engineering from Politecnico di Torino in 2022. His research focuses on multi-cluster environments and high-performance applications, leveraging technologies like Kubernetes and eBPF to advance modern computing solutions. 
 
 <br>
 <hr>
