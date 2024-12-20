@@ -27,6 +27,7 @@ Here there are the seminars currently planned.
 <hr>
 
 ### Introduction to the P4 Domain-Specific Language for data plane programmability
+<a name="baldi-p4"></a>
 - Speaker: Mario Baldi, AMD
 - When: Friday, 13 December 2024, 11:30 - 13:00
 
@@ -41,6 +42,7 @@ In this talk, P4 is extensively presented in both its high-level design principl
 <hr>
 
 ### Netto: Monitor the cost of the Linux network stack in real-time with eBPF
+<a name="miola-netto"></a>
 - Speaker: Davide Miola, Politecnico di Torino
 - When: Friday, 13 December 2024, 13:00 - 14:30
 
@@ -152,7 +154,7 @@ Nel corso del seminario saranno presentati un primo livello di dettaglio dell’
 
 ### Serverless AI: Building Scalable Generative Applications in the Cloud
 - Speaker: Guido Nebiolo, [Storm Reply](https://www.reply.com/storm-reply/)
-- When: Wednesday, Jan 10, 2025, 14:30 - 16:00
+- When: Friday, Jan 10, 2025, 14:30 - 16:00
  
 #### Abstract
 This seminar introduces the concept of serverless computing and its application to generative AI systems. The theoretical portion covers serverless architectures, event-driven computing, and their advantages for AI deployment. Students will understand how serverless platforms can automatically scale to handle varying loads of AI inference requests. The practical section demonstrates building a serverless generative AI application, including real-world examples from companies using serverless AI for content generation, image processing, and natural language tasks. Live coding demonstrations will show the implementation of a serverless AI endpoint.
