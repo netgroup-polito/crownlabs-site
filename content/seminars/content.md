@@ -1,7 +1,7 @@
 +++
 headless = true
 fragment = "content"
-date = "2024-12-17"
+date = "2024-12-18"
 weight = 100
 #title = "Seminars and Events"
 +++
@@ -35,7 +35,7 @@ The need to introduce high level configurability and programmability into the da
 In this talk, P4 is extensively presented in both its high-level design principles and goals, but also through hands on code examples that showcase its effectiveness and simplicity. Additionally, the talk discusses the status and level of maturity of this technology, after the 10th anniversary of the release of its first official specification.
 
 #### Short Bio
-Mario Baldi got a Ph.D. in Computer Engineering from Politecnico di Torino, where he now holds an Associate Professor position. His day job however is at AMD, where he converged after their acquisition of Pensando Systems back in 2022. At AMD, he currently works in the research division for networking for AI.
+**Mario Baldi** got a Ph.D. in Computer Engineering from Politecnico di Torino, where he now holds an Associate Professor position. His day job however is at AMD, where he converged after their acquisition of Pensando Systems back in 2022. At AMD, he currently works in the research division for networking for AI.
 
 <br>
 <hr>
@@ -64,7 +64,7 @@ Distributed cloud infrastructure provides value to organizations both organizati
 In this seminar, we will provide insights into how modern cloud-based infrastructure is architected and discuss standard Site Reability Engineering (SRE) practices. We will then examine disaster scenarios, from simple breakages to more complex regional outages, and share lessons learned from real-world incidents.
 
 #### Short Bio
-Lorenzo David is an Engineering Manager at Confluent and a 2015 alumni of Politecnico di Torino and Eurecom ParisTech. He has 10 years of experience across US and Italy, building cloud infrastructure and products in networking and cybersecurity.
+**Lorenzo David** is an Engineering Manager at Confluent and a 2015 alumni of Politecnico di Torino and Eurecom ParisTech. He has 10 years of experience across US and Italy, building cloud infrastructure and products in networking and cybersecurity.
 
 <br>
 <hr>
@@ -83,9 +83,15 @@ In the first part of this talk, we will explore the main concepts at the base of
 <br>
 <hr>
 
-### New technologies for datacenter networking
+### Networking for Distributed AI
 - Speaker: Mario Baldi, AMD
 - When: Friday, 20 December 2024, 11:30 - 13:00
+
+#### Abstract
+The seminar discusses the motivations for distributing computation in AI, typical communication patterns generated during distributed training and inference, how the network interconnection is organized, which network protocols are being used, and what specific challenges those protocols are addressing.
+
+#### Short Bio
+**Mario Baldi** got a Ph.D. in Computer Engineering from Politecnico di Torino, where he now holds an Associate Professor position. His day job however is at AMD, where he converged after their acquisition of Pensando Systems back in 2022. At AMD, he currently works in the research division for networking for AI.
 
 <br>
 <hr>
@@ -141,6 +147,22 @@ Nel corso del seminario saranno presentati un primo livello di dettaglio dell’
 #### Short bio
 **Paolo Fasano** è responsabile delle attività "Software Defined Networks" presso TIM, dove si occupa dell'automatizzazione delle operazioni di rete IP e di trasporto. SDN in TIM è stato declinato a seguito di precedenti progetti di innovazione focalizzati sull'incontro tra le tecnologie emergenti e le effettive esigenze derivanti dalle richieste del mercato e dagli obiettivi di efficienza. In precedenza, Paolo Fasano ha rivestito ruoli legati all'innovazione di rete ed è l'autore di numerosi contributi nella definizione di standard internazionali, nonchè è stato uno dei pionieri di IPv6 in Italia.
 
+<br>
+<hr>
+
+### Serverless AI: Building Scalable Generative Applications in the Cloud
+- Speaker: Guido Nebiolo, [Storm Reply](https://www.reply.com/storm-reply/)
+- When: Wednesday, Jan 10, 2025, 14:30 - 16:00
+ 
+#### Abstract
+This seminar introduces the concept of serverless computing and its application to generative AI systems. The theoretical portion covers serverless architectures, event-driven computing, and their advantages for AI deployment. Students will understand how serverless platforms can automatically scale to handle varying loads of AI inference requests. The practical section demonstrates building a serverless generative AI application, including real-world examples from companies using serverless AI for content generation, image processing, and natural language tasks. Live coding demonstrations will show the implementation of a serverless AI endpoint.
+
+#### Short bio
+**Guido Maria Nebiolo** started working with Amazon Web Services in 2015, joined Reply in 2017 and now he is a manager in Storm Reply, the Reply company focused on solutions based on AWS. He’s main topics are Cloud Native Applications and AI/ML and he is an active AWS Trainer and Ambassador.
+
+<br>
+<hr>
+
 ### Composable Disaggregated Infrastructures
 - Speaker: Christian Pinto, IBM Research
 - When: Friday, 10 January 2025, 16:00 - 17:30
@@ -149,10 +171,9 @@ Nel corso del seminario saranno presentati un primo livello di dettaglio dell’
 Composable Systems are a new paradigm for building computer systems that aims at improving utilization of hardware, reducing energy consumption and enables the infrastructure to dynamically adapt to different incoming workloads, rather than the way around. However, this technology is not yet the state of the art for building data centers and it requires further efforts on the hardware, software and standardization initiatives. In particular operating system, boot loaders and management software are a big area of exploration in this moment. This talk will go through the landscape of composable disaggregated infrastructure, describing existing commercial solutions and ongoing research and efforts for integrating with the cloud control data plane.
 
 #### Short bio
-** Christian Pinto** is a Staff Research Scientist in the "Next Generation Systems and Cloud" team at IBM Research Europe (Ireland Lab). Christian’s research activities and interests are focused on novel cloud computing paradigms, and applications of distributed systems and cloud computing concepts to the field of Artificial Intelligence, virtualization and computer architecture. In the recent years, Christian is been working in the area of disaggregated and composable systems, including participating to the development of a memory disaggregation prototype and conducting research on application of this technology to cloud infrastructure and its integration in the Linux memory management system. Christian holds a Ph.D. in Computers and Electronic Engineering from University of Bologna, and a Master degree in Computer Engineering from the same university.
+**Christian Pinto** is a Staff Research Scientist in the "Next Generation Systems and Cloud" team at IBM Research Europe (Ireland Lab). Christian’s research activities and interests are focused on novel cloud computing paradigms, and applications of distributed systems and cloud computing concepts to the field of Artificial Intelligence, virtualization and computer architecture. In the recent years, Christian is been working in the area of disaggregated and composable systems, including participating to the development of a memory disaggregation prototype and conducting research on application of this technology to cloud infrastructure and its integration in the Linux memory management system. Christian holds a Ph.D. in Computers and Electronic Engineering from University of Bologna, and a Master degree in Computer Engineering from the same university.
 
-<br>
-<hr>
+
 
 <!--
 Upcoming seminars will be announced soon. Stay tuned!
