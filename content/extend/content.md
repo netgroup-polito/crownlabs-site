@@ -21,8 +21,8 @@ New extensions to CrownLabs services may require to enrich both the backend and 
 With respect to the backend (Kubernetes), the glue logic comes as [Custom Resources (CRD)](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/), mainly written in GO language.
 Extending the platform may require to create new Kubernetes operators implementing the desired services.
 
-With respect to the frontent (web browser), the glue logic is oriented to present a minimal dashboard to students and instructors and it is mainly written in Javascript, exploiting the [React](https://reactjs.org/) library and [Material-UI](https://material-ui.com/) components.
-In this case, extending the platform may require to create the proper Javascript front-end that interfaces with the new Kubernetes operators mentioned above.
+With respect to the frontend (web browser), the glue logic is oriented to present a minimal dashboard to students and instructors and it is mainly written in TypeScript, exploiting the [React](https://reactjs.org/) library and [Antd](https://ant.design/) components.
+In this case, extending the platform may require to create the proper TypeScript front-end that interfaces with the new Kubernetes operators mentioned above.
 
 More information is available on GitHub, in the sections dedicated to the CrownLabs [Operators](https://github.com/netgroup-polito/CrownLabs/tree/master/operators) and [Web frontend](https://github.com/netgroup-polito/CrownLabs/tree/master/webservice).
 
