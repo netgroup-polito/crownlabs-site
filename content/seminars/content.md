@@ -17,17 +17,32 @@ Past seminars are available [below](#past); available recordings can be found on
 <br>
 
 ## Upcoming seminars
-<!--
 No upcoming seminars are scheduled. We are going to take a short vacation (actually, exams) break.
 See you in the next semester!
--->
 
+<!--
 Here there are the seminars currently planned.
 <br>
 <hr>
+-->
+
+
+<!--
+Upcoming seminars will be announced soon. Stay tuned!
+-->
+
+<!--
+<br>
+Place new seminars here
+-->
+
+<br>
+<hr>
+
+## <a name="past">Past seminars</a>
+Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
 
 ### Introduction to the P4 Domain-Specific Language for data plane programmability
-<a name="baldi-p4"></a>
 - Speaker: Mario Baldi, AMD
 - When: Friday, 13 December 2024, 11:30 - 13:00
 
@@ -174,23 +189,6 @@ Composable Systems are a new paradigm for building computer systems that aims at
 
 #### Short bio
 **Christian Pinto** is a Staff Research Scientist in the "Next Generation Systems and Cloud" team at IBM Research Europe (Ireland Lab). Christian’s research activities and interests are focused on novel cloud computing paradigms, and applications of distributed systems and cloud computing concepts to the field of Artificial Intelligence, virtualization and computer architecture. In the recent years, Christian is been working in the area of disaggregated and composable systems, including participating to the development of a memory disaggregation prototype and conducting research on application of this technology to cloud infrastructure and its integration in the Linux memory management system. Christian holds a Ph.D. in Computers and Electronic Engineering from University of Bologna, and a Master degree in Computer Engineering from the same university.
-
-
-
-<!--
-Upcoming seminars will be announced soon. Stay tuned!
--->
-
-<!--
-<br>
-Place new seminars here
--->
-
-<br>
-<hr>
-
-## <a name="past">Past seminars</a>
-Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
 
 <br>
 <hr>
