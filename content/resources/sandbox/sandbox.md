@@ -17,7 +17,7 @@ In case of problems, or if you want to request the creation of a sandbox namespa
 In order to access your **sandbox namespace** on CrownLabs, it is necessary to first install **kubectl**, the Kubernetes command-line tool that allows to run commands against Kubernetes clusters.
 You can refer to the [official documentation](https://kubernetes.io/docs/tasks/tools/) to discover how to download and install **kubectl** on your preferred operating system.
 
-**Note:** you should make sure the selected kubectl version is compatible with the CrownLabs cluster, according to the [version skew policy](https://kubernetes.io/releases/version-skew-policy/#kubectl). The CrownLabs cluster is currently based on Kubernetes v1.21, hence versions 1.20.x, 1.21.x and 1.22.x of kubectl are officially supported.
+**Note:** you should make sure the selected kubectl version is compatible with the CrownLabs cluster, according to the [version skew policy](https://kubernetes.io/releases/version-skew-policy/#kubectl). The CrownLabs cluster is currently based on Kubernetes v1.28, hence versions 1.27.x, 1.28.x and 1.29.x of kubectl are officially supported.
 
 **Note:** you may also install kubectl and perform the following configurations on a CrownLabs instance, if you are not using your own PC (e.g., you are in a PoliTO laboratory).
 
