@@ -1,0 +1,7 @@
+replicas: 2
+
+hostName: crownlabs.polito.it
+
+image:
+  repository: crownlabs/website
+  tag: latest
