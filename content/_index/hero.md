@@ -30,8 +30,13 @@ subtitle = "CrownLabs"
   color = "primary"
 
 [[buttons]]
-  text = "Login @Polito"
-  url = "/app"
+  text = "Login (old cluster)"
+  url = "https://crownlabs.polito.it/app"
+  color = "success"
+
+[[buttons]]
+  text = "Login (new cluster)"
+  url = "https://ng.crownlabs.polito.it/app"
   color = "success"
 
 [[buttons]]
