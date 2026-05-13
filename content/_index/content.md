@@ -1,7 +1,7 @@
 +++
 fragment = "content"
 #disabled = true
-date = "2020-04-18"
+date = "2026-05-13"
 weight = 110
 #background = "secondary"
 
@@ -10,6 +10,8 @@ weight = 110
 #title_align = "left" # Default is center, can be left, right or center
 +++
 
+Note: CrownLabs is migrating to a new cluster, hence **temporarily** we currently have TWO different clusters active, with two different set of users.
+**If you are not sure which one is your, try to login in the old cluster**.
 
 CrownLabs provides immediate access to your **remote computing labs**, without any special requirements: just a **browser**!
 
