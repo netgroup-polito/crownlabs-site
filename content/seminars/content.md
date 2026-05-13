@@ -42,6 +42,23 @@ Place new seminars here
 ## <a name="past">Past seminars</a>
 Recordings of some of the past seminars are available on the [CrownLabs Seminars](https://www.youtube.com/playlist?list=PLTAfidx4guQKksw0DmT_9s9sVqslHjpso) playlist on Youtube.
 
+### Software-Driven Vendor-Independent Network Operations
+- Speaker: Dinesh Dutt, Stardust Systems
+- When: Thursday, 15 January 2026, 15:00 - 16:00
+
+#### Abstract
+In the ever growing complexity of network infrastructures in terms of devices, vendors, operating environments (e.g., datacenter vs WAN), and more, the availability of an overarching network orchestrator is a must. Such a sofware can be used to reduce the compexity to update, coordinate, orchestrate, troubleshoot large infrastructures.
+
+This seminar presents the case of Stardust System, a leading company in network domain, which helps organizations to streamline, audit, troubleshoot and analyze complex computer networks (from campus networks to large data centers), providing to network operators tools that work without programming skills, using a GUI, CLI, and API; automating network workflows and making it easier to validate configuration, detect changes over time, and resolve issues across devices from different vendors; and supporting multiple network platforms (Cisco, Juniper, Arista, SONiC, Linux servers, etc.)
+
+This seminar will also discuss why the software plays an increasing role in the world of network operations and it will highlight the skills that are supposed to be needed by future network administrators. 
+
+#### Short Bio
+**Dinesh Dutt** currently CEO and co-founder of Stardust Systems, is a well known networking expert and excellent technical writer. He is author of three very popular and well-regarded books on data center network, the most recent being _Cloud Native Data Center Networking_. He has spent 20 years in the networking industry, first working for Cisco Systems where he started as software engineer and finished as a Cisco Fellow. His next stint was as the Chief Scientist at Cumulus Networks, the company that started the network disaggregation revolution. He is passionate about networks and open source. At Cisco, he was one of the key architects behind many of Cisco’s mega switches such as Catalyst 6500, MDS Storage Switches, and the Nexus 7000 and 5000 family of switches. He is the coinventor of VXLAN.
+
+<br>
+<hr>
+
 ### Introduction to the P4 Domain-Specific Language for data plane programmability
 - Speaker: Mario Baldi, AMD
 - When: Friday, 13 December 2024, 11:30 - 13:00
