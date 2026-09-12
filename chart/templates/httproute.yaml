@@ -16,10 +16,8 @@ spec:
   - {{ .Values.hostName | quote }}
   parentRefs:
   - name: {{ required "gateway.name must be set when routing.gwapiMode=true" .Values.gateway.name | quote }}
-    {{- if eq $httpRouteApiVersion "gateway.networking.k8s.io/v1" }}
     kind: Gateway
     group: gateway.networking.k8s.io
-    {{- end }}
     {{- if .Values.gateway.namespace }}
     namespace: {{ .Values.gateway.namespace | quote }}
     {{- end }}
