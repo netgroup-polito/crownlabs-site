@@ -10,6 +10,7 @@ gateway:
   # Required when routing.gwapiMode=true.
   name: ""
   # Optional namespace of the referenced Gateway; when empty, the route targets a Gateway in the same namespace.
+  # If set to a different namespace, ensure an appropriate Gateway API ReferenceGrant exists.
   namespace: ""
 
 image:
