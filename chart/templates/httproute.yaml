@@ -8,9 +8,7 @@ spec:
   - {{ .Values.hostName | quote }}
   parentRefs:
   - name: {{ required "gateway.name must be set when routing.gwapiMode=true" .Values.gateway.name | quote }}
-    {{- if .Values.gateway.namespace }}
-    namespace: {{ .Values.gateway.namespace | quote }}
-    {{- end }}
+    namespace: {{ .Values.gateway.namespace | default .Release.Namespace | quote }}
   rules:
   - matches:
     - path:

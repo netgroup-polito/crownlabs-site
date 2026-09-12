@@ -1,12 +1,15 @@
 replicas: 2
 
 routing:
+  # When true, deploy an HTTPRoute instead of an Ingress.
   gwapiMode: false
 
 hostName: crownlabs.polito.it
 
 gateway:
+  # Required when routing.gwapiMode=true.
   name: ""
+  # Namespace of the referenced Gateway; defaults to the Helm release namespace when empty.
   namespace: ""
 
 image:
