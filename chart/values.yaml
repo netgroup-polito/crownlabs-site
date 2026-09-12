@@ -1,6 +1,13 @@
 replicas: 2
 
+routing:
+  gwapiMode: false
+
 hostName: crownlabs.polito.it
+
+gateway:
+  name: ""
+  namespace: ""
 
 image:
   repository: crownlabs/website
