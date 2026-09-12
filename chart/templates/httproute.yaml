@@ -1,8 +1,13 @@
 {{- if .Values.routing.gwapiMode }}
-{{- if not (.Capabilities.APIVersions.Has "gateway.networking.k8s.io/v1/HTTPRoute") }}
-{{- fail "routing.gwapiMode=true requires the Gateway API HTTPRoute CRD (gateway.networking.k8s.io/v1)" }}
+{{- $httpRouteApiVersion := "" }}
+{{- if .Capabilities.APIVersions.Has "gateway.networking.k8s.io/v1/HTTPRoute" }}
+{{- $httpRouteApiVersion = "gateway.networking.k8s.io/v1" }}
+{{- else if .Capabilities.APIVersions.Has "gateway.networking.k8s.io/v1beta1/HTTPRoute" }}
+{{- $httpRouteApiVersion = "gateway.networking.k8s.io/v1beta1" }}
+{{- else }}
+{{- fail "routing.gwapiMode=true requires the Gateway API HTTPRoute CRD (gateway.networking.k8s.io/v1 or gateway.networking.k8s.io/v1beta1)" }}
 {{- end }}
-apiVersion: gateway.networking.k8s.io/v1
+apiVersion: {{ $httpRouteApiVersion }}
 kind: HTTPRoute
 metadata:
   name: website
