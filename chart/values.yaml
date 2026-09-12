@@ -1,6 +1,16 @@
 replicas: 2
 
+# When true, deploy an HTTPRoute instead of an Ingress.
+gwapiMode: false
+
 hostName: crownlabs.polito.it
+
+gateway:
+  # Required when gwapiMode=true.
+  name: ""
+  # Optional namespace of the referenced Gateway; when empty, the route targets a Gateway in the same namespace.
+  # If set to a different namespace, ensure an appropriate Gateway API ReferenceGrant exists.
+  namespace: ""
 
 image:
   repository: crownlabs/website

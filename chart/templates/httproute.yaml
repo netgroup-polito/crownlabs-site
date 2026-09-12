@@ -1,0 +1,34 @@
+{{- if .Values.gwapiMode }}
+{{- $httpRouteApiVersion := "" }}
+{{- if .Capabilities.APIVersions.Has "gateway.networking.k8s.io/v1/HTTPRoute" }}
+{{- $httpRouteApiVersion = "gateway.networking.k8s.io/v1" }}
+{{- else if .Capabilities.APIVersions.Has "gateway.networking.k8s.io/v1beta1/HTTPRoute" }}
+{{- $httpRouteApiVersion = "gateway.networking.k8s.io/v1beta1" }}
+{{- else }}
+{{- fail "gwapiMode=true requires the Gateway API HTTPRoute CRD (gateway.networking.k8s.io/v1 or gateway.networking.k8s.io/v1beta1)" }}
+{{- end }}
+apiVersion: {{ $httpRouteApiVersion }}
+kind: HTTPRoute
+metadata:
+  name: website
+spec:
+  {{- if .Values.hostName }}
+  hostnames:
+  - {{ .Values.hostName | quote }}
+  {{- end }}
+  parentRefs:
+  - name: {{ required "gateway.name must be set when gwapiMode=true" .Values.gateway.name | quote }}
+    kind: Gateway
+    group: gateway.networking.k8s.io
+    {{- if .Values.gateway.namespace }}
+    namespace: {{ .Values.gateway.namespace | quote }}
+    {{- end }}
+  rules:
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /
+    backendRefs:
+    - name: website
+      port: 80
+{{- end }}
