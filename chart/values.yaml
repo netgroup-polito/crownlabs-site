@@ -9,7 +9,7 @@ hostName: crownlabs.polito.it
 gateway:
   # Required when routing.gwapiMode=true.
   name: ""
-  # Namespace of the referenced Gateway; defaults to the Helm release namespace when empty.
+  # Optional namespace of the referenced Gateway; when empty, the route targets a Gateway in the same namespace.
   namespace: ""
 
 image:

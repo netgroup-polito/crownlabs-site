@@ -1,4 +1,7 @@
 {{- if .Values.routing.gwapiMode }}
+{{- if not (.Capabilities.APIVersions.Has "gateway.networking.k8s.io/v1/HTTPRoute") }}
+{{- fail "routing.gwapiMode=true requires the Gateway API HTTPRoute CRD (gateway.networking.k8s.io/v1)" }}
+{{- end }}
 apiVersion: gateway.networking.k8s.io/v1
 kind: HTTPRoute
 metadata:
@@ -8,7 +11,9 @@ spec:
   - {{ .Values.hostName | quote }}
   parentRefs:
   - name: {{ required "gateway.name must be set when routing.gwapiMode=true" .Values.gateway.name | quote }}
-    namespace: {{ .Values.gateway.namespace | default .Release.Namespace | quote }}
+    {{- if .Values.gateway.namespace }}
+    namespace: {{ .Values.gateway.namespace | quote }}
+    {{- end }}
   rules:
   - matches:
     - path:
