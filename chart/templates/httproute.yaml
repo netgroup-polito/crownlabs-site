@@ -1,25 +1,26 @@
-{{- if .Values.gwapiMode }}
-{{- $httpRouteApiVersion := "" }}
-{{- if .Capabilities.APIVersions.Has "gateway.networking.k8s.io/v1/HTTPRoute" }}
-{{- $httpRouteApiVersion = "gateway.networking.k8s.io/v1" }}
-{{- else if .Capabilities.APIVersions.Has "gateway.networking.k8s.io/v1beta1/HTTPRoute" }}
-{{- $httpRouteApiVersion = "gateway.networking.k8s.io/v1beta1" }}
-{{- else }}
-{{- fail "gwapiMode=true requires the Gateway API HTTPRoute CRD (gateway.networking.k8s.io/v1 or gateway.networking.k8s.io/v1beta1)" }}
-{{- end }}
-apiVersion: {{ $httpRouteApiVersion }}
+{{- if .Values.gatewayApiMode }}
+apiVersion: gateway.networking.k8s.io/v1
 kind: HTTPRoute
 metadata:
   name: website
+  labels:
+    app: website
+    crownlabs.polito.it/public-route: "true"
+    {{- with .Values.labels }}
+    {{- toYaml . | nindent 4 }}
+    {{- end }}
 spec:
   {{- if .Values.hostName }}
   hostnames:
   - {{ .Values.hostName | quote }}
   {{- end }}
   parentRefs:
-  - name: {{ required "gateway.name must be set when gwapiMode=true" .Values.gateway.name | quote }}
+  - name: {{ required "gateway.name must be set when Gateway API is enabled" .Values.gateway.name | quote }}
     kind: Gateway
     group: gateway.networking.k8s.io
+    {{- if .Values.gateway.sectionName }}
+    sectionName: {{ .Values.gateway.sectionName | quote }}
+    {{- end }}
     {{- if .Values.gateway.namespace }}
     namespace: {{ .Values.gateway.namespace | quote }}
     {{- end }}
@@ -29,6 +30,9 @@ spec:
         type: PathPrefix
         value: /
     backendRefs:
-    - name: website
+    - group: ""
+      kind: Service
+      name: website
       port: 80
+      weight: 1
 {{- end }}
