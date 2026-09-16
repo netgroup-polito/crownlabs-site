@@ -10,10 +10,8 @@ gateway:
   name: "crownlabs-main"
   # Section name of the Gateway listener (defaults to "https" matching CrownLabs Envoy Gateway listener).
   sectionName: "https"
-  # Namespace of the referenced Gateway (defaults to "crownlabs").
-  # Note: if deploying in a different namespace (e.g. website-test), ensure that namespace is allowed by the Gateway's allowedRoutes
-  # (e.g. labeled with crownlabs.polito.it/gw-access: crownlabs-main-production in CrownLabs).
-  namespace: "crownlabs"
+  # Namespace of the referenced Gateway (defaults to "crownlabs-pre-production").
+  namespace: "crownlabs-pre-production"
 
 # Additional labels to attach to the HTTPRoute
 labels: {}
