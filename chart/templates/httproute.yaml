@@ -15,7 +15,7 @@ spec:
   - {{ .Values.hostName | quote }}
   {{- end }}
   parentRefs:
-  - name: {{ required "gateway.name must be set when Gateway API is enabled" .Values.gateway.name | quote }}
+  - name: {{ .Values.gateway.name | default "crownlabs-main" | quote }}
     kind: Gateway
     group: gateway.networking.k8s.io
     {{- if .Values.gateway.sectionName }}

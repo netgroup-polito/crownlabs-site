@@ -6,14 +6,12 @@ gatewayApiMode: true
 hostName: crownlabs.polito.it
 
 gateway:
-  # Required when Gateway API is enabled.
-  name: ""
+  # Name of the referenced Gateway. Defaults to "crownlabs-main".
+  name: "crownlabs-main"
   # Section name of the Gateway listener (defaults to "https" matching CrownLabs Envoy Gateway listener).
   sectionName: "https"
-  # Optional namespace of the referenced Gateway; when empty, the route targets a Gateway in the same namespace.
-  # Note: if deploying in a different namespace, ensure that namespace is allowed by the Gateway's allowedRoutes
-  # (e.g. labeled with crownlabs.polito.it/gw-access: crownlabs-main-production in CrownLabs).
-  namespace: ""
+  # Namespace of the referenced Gateway (defaults to "crownlabs-pre-production").
+  namespace: "crownlabs-pre-production"
 
 # Additional labels to attach to the HTTPRoute
 labels: {}
