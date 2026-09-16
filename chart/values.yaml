@@ -1,7 +1,7 @@
 replicas: 2
 
 # When true, deploy an HTTPRoute instead of an Ingress.
-gatewayApiMode: false
+gatewayApiMode: true
 
 hostName: crownlabs.polito.it
 
