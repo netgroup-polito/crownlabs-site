@@ -13,8 +13,10 @@ gateway:
   # Namespace of the referenced Gateway (defaults to "crownlabs-pre-production").
   namespace: "crownlabs-pre-production"
 
-# Additional labels to attach to the HTTPRoute
-labels: {}
+# SecurityPolicy configuration for Envoy Gateway
+securityPolicy:
+  # When true and gatewayApiMode=true, deploy an overriding SecurityPolicy to exempt the website from central OIDC authentication.
+  enabled: true
 
 image:
   repository: crownlabs/website
