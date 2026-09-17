@@ -1,0 +1,15 @@
+{{- if and .Values.gatewayApiMode .Values.securityPolicy.enabled }}
+apiVersion: gateway.envoyproxy.io/v1alpha1
+kind: SecurityPolicy
+metadata:
+  name: website-public-exclusion
+  labels:
+    app: website
+spec:
+  # Intentionally empty to override the global Gateway-level SecurityPolicy
+  # and exempt the website HTTPRoute from OIDC authentication.
+  targetRefs:
+    - group: gateway.networking.k8s.io
+      kind: HTTPRoute
+      name: website
+{{- end }}
