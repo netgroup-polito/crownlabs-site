@@ -66,7 +66,7 @@ users:
       args:
       - oidc-login
       - get-token
-      - --oidc-issuer-url=https://auth.crownlabs.polito.it/auth/realms/crownlabs
+      - --oidc-issuer-url=https://auth.ng.crownlabs.polito.it/realms/crownlabs
       - --oidc-client-id=k8s
       command: kubectl
 ```
