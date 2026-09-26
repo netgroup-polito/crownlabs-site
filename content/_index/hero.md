@@ -30,13 +30,10 @@ subtitle = "CrownLabs"
   color = "primary"
 
 [[buttons]]
-  text = "Login legacy (old cluster)"
-  url = "https://crownlabs.polito.it/app"
-  color = "success"
-
-[[buttons]]
-  text = "Login NG (new cluster)"
-  url = "https://ng.crownlabs.polito.it/app"
+  text = "Login"
+  url = "/app"
+# url = "https://crownlabs.polito.it/app"
+# primary, secondary, success, danger, warning, info, light, dark, link - default: primary
   color = "success"
 
 [[buttons]]
